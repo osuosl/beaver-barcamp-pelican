@@ -3,9 +3,9 @@
 
 AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Beaver Barcamp 11'
-SITEURL = ''
+SITEURL = 'http://beaverbarcamp.org'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Los Angeles'
 
 DEFAULT_LANG = u'en'
 
@@ -20,3 +20,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 3
+
+# Specify name of a theme installed via the pelican-themes tool
+THEME = "barcamp-theme"
