@@ -27,7 +27,7 @@
         	<div class="container">
         		<div class="row-fluid">
     				<div class="span5" id="logo">
-     		    	   	<a href="http://beaverbarcamp.org"><img src="{{ SITEURL }}/img/logo.png" alt="Beaver Barcamp Logo" border="0" /></a>
+     		    	   	<a href="http://beaverbarcamp.org"><img src="{{ SITEURL }}/theme/img/logo.png" alt="Beaver Barcamp Logo" border="0" /></a>
      	      	  	</div>
      	       
         			<div class="span7" id="navbar">	
@@ -42,10 +42,13 @@
     			</div>
     		</header>
     		
+            {% if loop.first %}
     		<div class="hero-unit" id="hero-centered">
         		<h1 style="color:#fff;">Welcome to Beaver Barcamp 11</h1>
-       			 <a href="#"><img src="/img/DateRibbon.png" id="Date" alt="Save the Date, Beaver Barcamp 11 is on April 20th 2013" /></a>
+       			 <a href="#"><img src="{{ SITEURL }}/theme/img/DateRibbon.png" id="Date" alt="Save the Date, Beaver Barcamp 11 is on April 20th 2013" /></a>
    			</div>
+            {% endif %}
+    		
     		
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
                 <nav><ul>
@@ -92,13 +95,22 @@
         {% endif %}
         </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+        
+    
+      <div id="footer">
+    	<div id="footer-container">
+    		<div class="row">
+    			<div class="span2"><img src="{{ SITEURL }}/theme/img/barcamp-symbol.png" alt="Open Source Lab" /></div>
+    			<div class="span8">MENU</div>
+       			<div class="span2"><h6>Beaver Barcamp</h6> is by <a href="http://osuosl.org">OSU Open Source Lab</a>. 
+       			<hr />
+       			Site built by Mitchell Garcia with Bootstrap and Pelican.</div>
+    		</div>
+    	</div>
+    </div>
+    
+  </body>
+</html>
 
 {% include 'analytics.html' %}
 </body>
