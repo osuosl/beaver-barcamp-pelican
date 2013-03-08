@@ -47,12 +47,15 @@
        			 <a href="#"><img src="{{ SITEURL }}/theme/img/DateRibbon.png" id="Date" alt="Save the Date, Beaver Barcamp 11 is on April 20th 2013" /></a>
    			</div>
     		
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
-                <nav><ul>
-                {% for title, link in MENUITEMS %}
-                    <li><a href="{{ link }}">{{ title }}</a></li>
-                {% endfor %}
-                {% if DISPLAY_PAGES_ON_MENU %}
+    		<div class="white-container">
+    			<div class="container">
+    				<div class="row">fasdfasfs
+    					<div class="span8">
+            			    <nav><ul>
+            				    {% for title, link in MENUITEMS %}
+                			    <li><a href="{{ link }}">{{ title }}</a></li>
+               					 {% endfor %}
+             					   {% if DISPLAY_PAGES_ON_MENU %}
                 {% for page in PAGES %}
                     <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor %}
@@ -64,6 +67,10 @@
         </header><!-- /#banner -->
         {% block content %}
         {% endblock %}
+        
+        			</div> <!--end Span8-->
+        		</div>
+        		
         <section id="extras" class="body">
         {% if LINKS %}
                 <div class="blogroll">
@@ -92,7 +99,7 @@
         {% endif %}
         </section><!-- /#extras -->
 
-        
+        </div>
     
       <div id="footer">
     	<div id="footer-container">
