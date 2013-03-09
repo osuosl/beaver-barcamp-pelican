@@ -33,14 +33,16 @@
         			<div class="span7" id="navbar">	
         				<ul>
    							 <li><a href="{{ SITEURL }}">Home</a></li>
-    			 			<li><a href="{{ SITEURL }}/blog">Blog</a></li>
-   							 <li><a href="{{ SITEURL }}/faq">FAQ</a></li>
-   							 <li><a href="{{ SITEURL }}/contact">Contact</a></li>
+    			 			<li><a href="{{ SITEURL }}/archives.html">Blog</a></li>
+   							 <li><a href="{{ SITEURL }}/pages/faq.html">FAQ</a></li>
+   							 <li><a href="{{ SITEURL }}/pages/contact.html">Contact</a></li>
 						</ul>
     				</div>
     			
     			</div>
     		</header>
+    		
+    		
     		
     		<div class="hero-unit" id="hero-centered">
         		<h1 style="color:#fff;">Welcome to Beaver Barcamp 11</h1>
@@ -49,55 +51,75 @@
     		
     		<div class="white-container">
     			<div class="container">
-    				<div class="row">fasdfasfs
+    				<div class="row">
     					<div class="span8">
-            			    <nav><ul>
-            				    {% for title, link in MENUITEMS %}
-                			    <li><a href="{{ link }}">{{ title }}</a></li>
-               					 {% endfor %}
-             					   {% if DISPLAY_PAGES_ON_MENU %}
-                {% for page in PAGES %}
-                    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-                {% endfor %}
-                {% endif %}
-                {% for cat, null in categories %}
-                    <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}
-                </ul></nav>
-        </header><!-- /#banner -->
+  			
         {% block content %}
         {% endblock %}
         
-        			</div> <!--end Span8-->
-        		</div>
-        		
-        <section id="extras" class="body">
-        {% if LINKS %}
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                        {% for name, link in LINKS %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div><!-- /.blogroll -->
-        {% endif %}
-        {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            {% if FEED_ALL_RSS %}
-                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate">rss feed</a></li>
-                            {% endif %}
+        			</div> <!--end .span8 -->
+        			
+        			<div class="span4">
+        				<h3 class="sidebar-title">Beaver Barcamp 11</h3>
+            			<p><i class="icon-calendar"></i> <strong>April 20, 2013</strong></p>
+            			<p><i class="icon-time"></i> 10:00am - 6:00pm </p>
+            			<p><i class="icon-map-marker"></i> <a href="http://maps.google.com/maps?q=2500+NW+Monroe+Ave,+Corvallis,+OR+97330,+USA&sa=X&oi=map&ct=title"> Kelley Engineering Center at Oregon State University<br /></a> 
+            	 			<small style="padding:0 0 0px 18px;">2500 NW Monroe, Corvallis, OR</small> </p>
+            			<p><i class="icon-star"></i> Register for event on <a href="#">Facebook</a></p>
+            		<hr />
+            		
+            		<h4 class="sidebar-title" id="schedule">Schedule 
+					<a href="https://docs.google.com/a/osuosl.org/spreadsheet/pub?key=0Au0wOPQwuelMdEFFR0wzZHR5a3R3a3JOcDFFaGNjTGc&output=html" class="btn btn-custom" id="sessions">View Sessions</a></h4>
+            	 <a name="#schedule"></a>
+            	 <table class="table table-hover table-bordered" id="schedule-table">
+            	 	<tr>
+            	 		<td>9:30am</td> <td>Setup</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>10:00am</td> <td>Organize Sessions</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>10:30am</td> <td>Session 1</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>11:30am</td> <td>Session 2</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>12:30pm</td> <td>Lunch</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>1:30pm</td> <td>Session 3</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>2:30pm</td> <td>Session 4</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>3:30pm</td> <td>Break</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>4:00pm</td> <td>Session 5</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>5:00pm</td> <td>Session 6</td>
+            	 	</tr>
+            	 	
+            	 	<tr>
+            	 		<td>6:00pm</td> <td>Closing Remarks</td>
+            	 	</tr>
+            	 	
 
-                        {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div><!-- /.social -->
-        {% endif %}
-        </section><!-- /#extras -->
+				</table>
+        			</div><!--end .span4-->
+        		</div><!-- end .row -->
 
         </div>
     
