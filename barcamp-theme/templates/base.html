@@ -12,7 +12,8 @@
         {% if FEED_ALL_RSS %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
-
+        
+        <link rel="shortcut icon" href="theme/img/favicon.png" />
 		<!--Antic Slab font from Google Web Fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
 		
@@ -30,13 +31,20 @@
      		    	   	<a href="http://beaverbarcamp.org"><img src="{{ SITEURL }}/theme/img/logo.png" alt="Beaver Barcamp Logo" border="0" /></a>
      	      	  	</div>
      	       
-        			<div class="span7" id="navbar">	
+        			<div class="span4" id="navbar">	
         				<ul>
    							 <li><a href="{{ SITEURL }}">Home</a></li>
     			 			<li><a href="{{ SITEURL }}/archives.html">Blog</a></li>
+   							 <li><a href="{{ SITEURL }}/pages/sponsers.html">Sponsers</a></li>
    							 <li><a href="{{ SITEURL }}/pages/faq.html">FAQ</a></li>
    							 <li><a href="{{ SITEURL }}/pages/contact.html">Contact</a></li>
 						</ul>
+    				</div>
+    				
+    				<div class="span3">	
+    					<div class="panel callout">
+    					Already Going to Beaver Barcamp 11? <a href="#">Download Information Sheet (.pdf)</a>
+    					</div>
     				</div>
     			
     			</div>
