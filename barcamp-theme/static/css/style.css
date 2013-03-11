@@ -210,6 +210,20 @@ ul.breadcrumbs li {
 	width:100%;
 	max-width:1250px;
 	margin:0px auto;
+	padding:0 20px;
+}
+
+#footer a:link,
+#footer a:active,
+#footer a:visited
+{
+	color:#ddd;
+	text-decoration:underline;
+}
+
+#footer a:hover {
+	text-decoration:none;
+	color:#fff;
 }
 
 #footer-container p {
@@ -246,6 +260,10 @@ ul.breadcrumbs li {
 	list-style:none;
 }
 
+#footer img {
+	max-width:100%;
+}
+
 .byline {
 	margin:0px;
 	padding:0px;
@@ -277,12 +295,17 @@ ul.breadcrumbs li {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #2284a1;
+    border-color: #ec5406;
     margin-bottom: 1.25em;
     padding: 1.25em;
-    background: #2ba6cb;
+    background: #F9712C;
+    color:#fff;
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+    .panel.callout a {
+    	color:#fcb48f;
+    	font-weight:normal;
+    }
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
       color: white; }
     .panel.callout > :first-child {
@@ -320,6 +343,34 @@ ul.breadcrumbs li {
 .span8 img {
 	max-width:100%;
 	margin:0 0 20px 0;
+}
+
+ul.inline {
+	display:inline;
+}
+
+ul.inline li {
+	display:inline;
+}
+
+ul.inline li a:link,
+ul.inline li a:active,
+ul.inline li a:visited {
+	padding:7px;
+	margin:0 10px 0 0;
+	background:#252120;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration:none !important;
+	
+}
+
+ul.inline li a:hover {
+	background:#000;
+}
+
+#footer hr {
+	border-top:1px solid #4e4743;
 }
 
 

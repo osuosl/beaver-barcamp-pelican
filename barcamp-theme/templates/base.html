@@ -38,14 +38,14 @@
    							 <li><a href="{{ SITEURL }}/pages/sponsers.html">Sponsers</a></li>
    							 <li><a href="{{ SITEURL }}/pages/faq.html">FAQ</a></li>
    							 <li><a href="{{ SITEURL }}/pages/contact.html">Contact</a></li>
-						</ul>
+   						</ul>
 						<div class="clrfix"></div>
     				</div>
     				
-    				<div class="span3 large-margin">	
-    					<div class="panel radius">
-    					Already going to Beaver Barcamp 11? <strong><a href="https://docs.google.com/a/osuosl.org/document/pub?id=1Y6DboGpZzw9M8eupCcWFVeplm9z_aWUdUXLIvVFYyqQ">Download Information Sheet</a></strong>
-    					</div>
+    				<div class="span3 large-margin">
+    					<a href="https://twitter.com/beaverbarcamp" class="twitter-follow-button" data-show-count="false">Follow @beaverbarcamp</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+	
     				</div>
     			
     			</div>
@@ -75,6 +75,9 @@
             			<p><i class="icon-map-marker"></i> <a href="http://maps.google.com/maps?q=2500+NW+Monroe+Ave,+Corvallis,+OR+97330,+USA&sa=X&oi=map&ct=title"> Kelley Engineering Center at Oregon State University<br /></a> 
             	 			<small style="padding:0 0 0px 18px;">2500 NW Monroe, Corvallis, OR</small> </p>
             			<p><i class="icon-star"></i> Register for event on <a href="#">Facebook</a></p>
+    					<div class="panel callout radius">
+    					Going to Beaver Barcamp? <a href="https://docs.google.com/a/osuosl.org/document/pub?id=1Y6DboGpZzw9M8eupCcWFVeplm9z_aWUdUXLIvVFYyqQ">Download Info Sheet</a>
+    					</div>
             		<hr />
             		
             		<h4 class="sidebar-title" id="schedule">Schedule 
@@ -144,11 +147,15 @@
     			{% for page in PAGES %}
         			<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
     			{% endfor %}
+    				<li><a href="http://twitter.com/beaverbarcamp">Twitter</a></li>
+    				</ul>
+    			<div class="clrfix"> <hr /></div>
+    			Site built with <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> and <a href="http://docs.getpelican.com/en/3.1.1/">Pelican Static Site Generator</a>. Want to view <a href="https://github.com/osuosl/beaver-barcamp-pelican">the source</a>?
+
     			</div>
-       				<div class="span2"><h6>Beaver Barcamp</h6> is by <a href="http://osuosl.org">OSU Open Source Lab</a>. 
-       			<hr />
-       			Site built by Mitchell Garcia with Bootstrap and Pelican.</div>
-    		</div>
+       				<div class="span2">Event hosted by the <a href="http://osuosl.org"><img src="{{ SITEURL }}/theme/img/osl-smallwhite.png" style="margin:5px 0;" alt="Open Source Lab"> <strong>OSU Open Source Lab</strong></a>
+       				</div>
+       			</div>
     	</div>
     </div>
     
