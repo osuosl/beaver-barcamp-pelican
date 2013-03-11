@@ -71,15 +71,15 @@ h3.sidebar-title {
 }
 
 /*Navigation*/
-#navbar ul {
-	padding:35px 10px;
+#navbar ul {	
+	padding:0px;
 	margin:0px;
 	display:inline;
 }
 
 #navbar ul li {
 	display:inline;
-	padding:25px 0;
+	padding:30px 0;
 	margin:10px 10px 0 0;
 	list-style:none;
 	float:left;
@@ -89,7 +89,7 @@ h3.sidebar-title {
 #navbar ul li a:active,
 #navbar ul li a:visited {
 	text-transform:uppercase;
-	font-size:12px;
+	font-size:13px;
 }
 
 dd {
@@ -262,7 +262,7 @@ ul.breadcrumbs li {
   border-color: #d9d9d9;
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: #f2f2f2; }
+  background: #fff; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
     color: #333333; }
   .panel > :first-child {
@@ -297,6 +297,30 @@ ul.breadcrumbs li {
   .panel.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
+   .panel h3.sidebar-title {
+   	font-family:'Helvetica', Arial, sans-serif;
+   	letter-spacing:none;
+   	padding:0px;
+   	margin:0px 0px 10px 0;
+   	font-weight:normal;
+   	font-size:24px;   }
+
+.clrfix { 
+	clear:both;
+}
+
+.antic {
+	font-family: 'Antic Slab', serif;
+}
+
+.large-margin {
+	margin:10px 0 0 0;
+}
+
+.span8 img {
+	max-width:100%;
+	margin:0 0 20px 0;
+}
 
 
 
@@ -310,11 +334,6 @@ ul.breadcrumbs li {
 }
 
 #navbar ul li {
-	display:inline;
-	padding:10px 5px;
-	margin:10px 10px 0 0;
-	list-style:none;
-	float:left;
 }
 
 .page-header {
@@ -329,9 +348,13 @@ ul.breadcrumbs li {
 #hero-centered {
 	padding:40px 20px;
 }
-.navbar {
-	padding:40px 20px 20px 20px;
+
+#navbar ul li a:link,
+#navbar ul li a:active,
+#navbar ul li a:visited {
+	font-size:16px;
 }
+
 
 
 #footer {
