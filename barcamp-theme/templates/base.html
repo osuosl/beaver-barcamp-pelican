@@ -39,11 +39,12 @@
    							 <li><a href="{{ SITEURL }}/pages/faq.html">FAQ</a></li>
    							 <li><a href="{{ SITEURL }}/pages/contact.html">Contact</a></li>
 						</ul>
+						<div class="clrfix"></div>
     				</div>
     				
-    				<div class="span3">	
-    					<div class="panel callout">
-    					Already Going to Beaver Barcamp 11? <a href="#">Download Information Sheet (.pdf)</a>
+    				<div class="span3 large-margin">	
+    					<div class="panel radius">
+    					Already going to Beaver Barcamp 11? <strong><a href="https://docs.google.com/a/osuosl.org/document/pub?id=1Y6DboGpZzw9M8eupCcWFVeplm9z_aWUdUXLIvVFYyqQ">Download Information Sheet</a></strong>
     					</div>
     				</div>
     			
@@ -134,9 +135,17 @@
       <div id="footer">
     	<div id="footer-container">
     		<div class="row">
-    			<div class="span2"><img src="{{ SITEURL }}/theme/img/barcamp-symbol.png" alt="Open Source Lab" /></div>
-    			<div class="span8">MENU</div>
-       			<div class="span2"><h6>Beaver Barcamp</h6> is by <a href="http://osuosl.org">OSU Open Source Lab</a>. 
+    			<div class="span2"><a href="http://beaverbarcamp.org"><img src="{{ SITEURL }}/theme/img/barcamp-symbol.png" alt="Beaver Barcamp Logo" /></a></div>
+    			
+    			<div class="span8">
+    				<ul class="inline">
+    				<li><a href="{{ SITEURL }}">Home</a>
+    				<li><a href="{{ SITEURL }}/archives.html">Blog</a></li>
+    			{% for page in PAGES %}
+        			<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+    			{% endfor %}
+    			</div>
+       				<div class="span2"><h6>Beaver Barcamp</h6> is by <a href="http://osuosl.org">OSU Open Source Lab</a>. 
        			<hr />
        			Site built by Mitchell Garcia with Bootstrap and Pelican.</div>
     		</div>
