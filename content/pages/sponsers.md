@@ -1,3 +1,3 @@
-Title: Beaver Barcamp Sponsers
-Slug: sponsers
+Title: Beaver Barcamp Sponsors
+Slug: sponsors
 
