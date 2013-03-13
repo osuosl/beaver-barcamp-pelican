@@ -129,6 +129,11 @@ h4#schedule {
 	margin:0px;
 }
 
+.padding-min {
+	padding:15px 0 0 0;
+	margin:0px;
+}
+
 .nav-pills > li > a {
 	color:#ed6800; 
 	margin-right:12px;
@@ -357,7 +362,7 @@ ul.inline li a:link,
 ul.inline li a:active,
 ul.inline li a:visited {
 	padding:7px;
-	margin:0 10px 0 0;
+	margin:0 5px 0 0;
 	background:#252120;
     -webkit-border-radius: 3px;
     border-radius: 3px;
