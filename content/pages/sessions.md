@@ -1,8 +1,7 @@
-Title: Session Ideas
+Title: Beaver BarCamp Session Ideas
 Slug: session-ideas
 
-<h1>Beaver BarCamp 4: Session Ideas</h1>
-<p>Here's a list of Sessions Ideas from Beaver BarCamp 4:</p>
+<h3>Here is a list of session ideas taken from Beaver Barcamp 4:</h3>
 <ul><li> Startup Weekennd
 </li><li> Intro to SELinux
 </li><li> Want to try Yoga
