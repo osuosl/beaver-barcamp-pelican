@@ -23,3 +23,6 @@ DEFAULT_PAGINATION = 3
 
 # Specify name of a theme installed via the pelican-themes tool
 THEME = "./barcamp-theme"
+
+FEED_RSS = 'rss20.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
