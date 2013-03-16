@@ -1,18 +1,40 @@
 Title: FAQ
 Slug: faq
 
-<dl>
-   <dt>Do I Need To RSVP?</dt>
-   <dd>RSVP is not required, but we would love if you registered for the even on our Facebook!</dd>
-   
-  <dt>WiFi?!?</dt>
-  <dd>We are using the OSU public wifi system. Look for OSU_ACCESS, account name you want is BBC10, password is sillyChipmunk (this account will work only for the weekend).</dd>
+**Do I Need To RSVP?**
+
+* RSVP is not required, but we would love if you registered for the even on our Facebook!
+
+**Wifi?**
+
+* Wifi will be available and free to use while at the conference. An account
+  and password will be provided at the event.
+
+<html><!--
+* We are using the OSU public wifi system. Look for `OSU_ACCESS`, account name
+  you want is BBC11, password is sillyChipmunk (this account will work only for
+  the weekend).
+--></html>
   
-  <dt>What rooms at Kelley do we get? </dt>
-  <dd>The classrooms on the West end, plus all the little conference rooms scattered throughout the building. We have a lot of space for discussion.</dd>
+**What rooms at Kelley do we get?**
+
+* The classrooms on the West end, plus all the little conference rooms
+  scattered throughout the building. We have a lot of space for discussion.
+  This year we're planning on only selecting rooms which are relatively close
+  together so that sessions aren't nearly as scattered. If we run out of space
+  well allocate other room spaces.
   
-  <dt>Are food and drinks provided? </dt>
-  <dd>Yes, there will be a modest amount of food and drinks provided.</dd>
-  
-  
-</dl>
+**Are food and drinks provided?**
+
+* Yes, there will be a modest amount of food and drinks provided in the
+  morning, lunch and afternoon break.
+
+**Does Barcamp have something to do with bars and alochol?**
+
+* No it doesn't. Its actually a hacker reference to [FooBar][1] which is
+  typically used as a place holder name when describing something in software
+  code.  Barcamp arose as an *open to the public alternative* to [Foo Camp][2]
+  which is an annual invitation only event.
+
+[1]: http://en.wikipedia.org/wiki/Foobar
+[2]: http://en.wikipedia.org/wiki/Foo_Camp

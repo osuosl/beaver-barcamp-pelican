@@ -5,7 +5,7 @@ AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Beaver Barcamp 11'
 SITEURL = 'http://beaverbarcamp.org'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
