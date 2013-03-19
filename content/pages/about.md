@@ -37,6 +37,8 @@ building rental. Any excess funds will go into supporting the next barcamp.
 ### Sponsor Levels
 
 We accept contributions in any amount but the following levels is suggested.
+Contributions are currently not tax deductible however we can work around that
+if that is a major issue.
 
 All sponsors get recognized in the following ways:
 
