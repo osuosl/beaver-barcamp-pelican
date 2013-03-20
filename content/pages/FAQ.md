@@ -3,7 +3,8 @@ Slug: faq
 
 **Do I Need To RSVP?**
 
-* RSVP is not required, but we would love if you registered for the even on our Facebook!
+* RSVP is not required, but we would love if you registered for the event on 
+  [Facebook][3]!
 
 **Wifi?**
 
@@ -38,3 +39,4 @@ Slug: faq
 
 [1]: http://en.wikipedia.org/wiki/Foobar
 [2]: http://en.wikipedia.org/wiki/Foo_Camp
+[3]: https://www.facebook.com/events/547298625310712/
