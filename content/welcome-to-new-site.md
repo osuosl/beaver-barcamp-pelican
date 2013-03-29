@@ -16,7 +16,7 @@ which are already used in the lab. To ease the development of the site, we used
 
 ----
 ** Tweet us your thoughts on the site at [@BeaverBarCamp][4], or you can even
-send pull requests to the OSU Open Source Lab's [Github profile][3]. **
+send pull requests to the OSU Open Source Lab's [GitHub profile][3]. **
 
 
    [1]: http://blog.getpelican.com/
