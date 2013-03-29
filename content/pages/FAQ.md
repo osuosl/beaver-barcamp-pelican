@@ -17,7 +17,7 @@ Slug: faq
   the weekend).
 --></html>
   
-**What rooms at Kelley do we get?**
+**Which rooms do we get at Kelley?**
 
 * The classrooms on the west end, plus all the little conference rooms
   scattered throughout the building. We have a lot of space for discussion.
