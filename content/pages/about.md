@@ -31,7 +31,7 @@ We invite everyone and anyone in the community and at OSU to enjoy Beaver Barcam
 Want to help sponsor and support Beaver Beaver BarCamp? Please email
 <strong>info &lt; at &gt; beaverbarcamp &lt; dot &gt; org </strong> for more
 information. Our budget is typically between $2,000 and $3,000 to run BarCamp
-each time. Most of the costs cover food, t-shirts, promotional materials and
+each time. Most of the costs cover food, T-shirts, promotional materials and
 building rental. Any excess funds will go into supporting the next BarCamp.
 
 ### Sponsor Levels
