@@ -2,11 +2,11 @@ Title: Beaver BarCamp Session Ideas
 Slug: session-ideas
 
 Most sessions do not require prepared slides and we even encourage you not to
-do so. We also encourage non-tech sessions and open discussion on a variety of
-topics. Barcamp is an excellent way for you to test out your public
+use them. We also encourage non-tech sessions and open discussion on a variety of
+topics. BarCamp is an excellent way for you to test out your public
 speaking skills!
 
-### Here is a sample of session ideas taken from past Beaver Barcamp's:
+### Here are some session ideas taken from past Beaver BarCamps:
 
 * Angel Foundation
 * Blogging because you need to get a job
