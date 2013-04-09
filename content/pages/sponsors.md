@@ -7,6 +7,8 @@ Slug: sponsors
 
 # Gold
 
+[![Dice](../theme/img/dice-logo.png)](http://www.dice.com/)
+
 # Silver
 
 [![Github](../theme/img/github-logo.png)](https://github.com)
