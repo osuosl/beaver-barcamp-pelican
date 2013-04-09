@@ -13,4 +13,6 @@ Slug: sponsors
 
 # Bronze
 
+[![Silicon Mechanics](../theme/img/silicon-mechanics-logo.gif)](http://www.siliconmechanics.com/)
+
    [1]: /pages/about.html#Sponsorship
