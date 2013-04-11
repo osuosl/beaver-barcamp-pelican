@@ -13,6 +13,8 @@ Slug: sponsors
 
 [![Github](../theme/img/github-logo.png)](https://github.com)
 
+[![Jive Software](../theme/img/jive-logo.png)](http://www.jivesoftware.com/)
+
 # Bronze
 
 [![Silicon Mechanics](../theme/img/silicon-mechanics-logo.gif)](http://www.siliconmechanics.com/)
