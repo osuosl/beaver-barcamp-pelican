@@ -368,6 +368,7 @@ ul.inline li a:visited {
     -webkit-border-radius: 3px;
     border-radius: 3px;
     text-decoration:none !important;
+    float:left;
 	
 }
 
