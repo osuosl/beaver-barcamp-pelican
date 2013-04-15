@@ -37,6 +37,15 @@ Slug: faq
   code. BarCamp arose as an *open to the public alternative* to [Foo Camp][2]
   which is an annual invitation-only event.
 
+**What will the session topics be?**
+
+* Nobody knows yet! Attendees at each BarCamp propose their own session ideas 
+  on the day of the event, and the schedules are updated through the day to 
+  make sure the most popular sessions get the largest rooms. Check out the 
+  [list of past sessions][4] for ideas of what people have spoken about in 
+  previous years. 
+
 [1]: http://en.wikipedia.org/wiki/Foobar
 [2]: http://en.wikipedia.org/wiki/Foo_Camp
 [3]: https://www.facebook.com/events/547298625310712/
+[4]: http://beaverbarcamp.org/pages/session-ideas.html
