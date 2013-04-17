@@ -1,4 +1,4 @@
-Title: BBQ at Avery Park hosted by the OSULUG following Beaver Barcamp 11
+Title: BBQ at Avery Park hosted by the OSULUG following Beaver BarCamp 11
 Date: 2013-4-17 12:23
 Category: Announcements
 Slug: bbc11-bbq
