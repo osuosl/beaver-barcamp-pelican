@@ -2,34 +2,35 @@ Title: About Beaver Barcamp
 Slug: about
 
 Beaver BarCamp is a user-generated conference that started in the spring of
-2008 as a biannual event at Oregon State University. It has been primarily organized by the [Open
-Source Education Lab (OSEL)][1], [OSU Linux Users (OSULUG)][2] group, the [OSU
-Open Source Lab (OSUOSL)][3] and Corvallis community members over the years.
-Currently the OSL is the primary organizer, though we still encourage community
-involvement.
+2008 as a biannual event at Oregon State University. It has been primarily
+organized by the [Open Source Education Lab (OSEL)][1], [OSU Linux Users
+(OSULUG)][2] group, the [OSU Open Source Lab (OSUOSL)][3] and Corvallis
+community members over the years.  Currently the OSL is the primary organizer,
+though we still encourage community involvement.
 
 ## What is a BarCamp?
 
 So do BarCamps involve beer? Well, no. [BarCamps are an international
 phenomenon][4] where like-minded people gather to discuss a variety of topics.
 Topics often focus more on the Web and open source technologies and other
-DIY/hacker/open culture themes. Session topics can certainly be non-tech related as well
-and we highly encourage it! 
+DIY/hacker/open culture themes. Session topics can certainly be non-tech related
+as well and we highly encourage it! 
 
 ## Who typically attends?
 
 At BarCamp there are no specators, only paricipants! BarCamps are only as good
-as the people who attend and share their ideas. Attendees are encouraged to
-demo new ideas, hold a group discussion on a specific topic, explain a unique
-hobby or just about anything else. Sometimes sessions even spawn
-other sessions randomly!
+as the people who attend and share their ideas. Attendees are encouraged to demo
+new ideas, hold a group discussion on a specific topic, explain a unique hobby
+or just about anything else. Sometimes sessions even spawn other sessions
+randomly!
 
-We invite everyone and anyone in the community and at OSU to enjoy Beaver Barcamp.
+We invite everyone and anyone in the community and at OSU to enjoy Beaver
+Barcamp.
 
 ## Parking
 
 You are free to park anywhere on campus for free as long as its not a reserved
-or metered stall. There is a [large parking lot][parking] to the north of Kelly
+or metered stall. There is a [large parking lot][5] to the north of Kelly
 Engineering that should have enough room for everyone.
 
 ## Sponsorship
@@ -43,8 +44,8 @@ building rental. Any excess funds will go into supporting the next BarCamp.
 ### Sponsor Levels
 
 We accept contributions in any amount but the following levels are suggested.
-Contributions are currently not tax deductible, but we can work around that
-if it is a major issue.
+Contributions are currently not tax deductible, but we can work around that if
+it is a major issue.
 
 All sponsors get recognized in the following ways:
 
@@ -56,7 +57,8 @@ All sponsors get recognized in the following ways:
 **$1,000 - Gold Sponsor** *(limit 2)*
 
 * Company logo on the T-Shirts
-* Dedicated session(s) for promoting your product, engineering team or recruitment
+* Dedicated session(s) for promoting your product, engineering team or
+  recruitment
 * Recruitment table
 
 **$500 - Silver Sponsor**
@@ -67,8 +69,8 @@ All sponsors get recognized in the following ways:
 
 * All standard recognition
 
-[1]: http://osel.oregonstate.edu
-[2]: http://lug.oregonstate.edu
-[3]: http://osuosl.org
-[4]: http://en.wikipedia.org/wiki/Barcamp
-[parking]: http://goo.gl/maps/AJkvr
+  [1]: http://osel.oregonstate.edu
+  [2]: http://lug.oregonstate.edu
+  [3]: http://osuosl.org
+  [4]: http://en.wikipedia.org/wiki/Barcamp
+  [5]: http://goo.gl/maps/AJkvr
