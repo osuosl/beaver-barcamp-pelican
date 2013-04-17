@@ -26,6 +26,12 @@ other sessions randomly!
 
 We invite everyone and anyone in the community and at OSU to enjoy Beaver Barcamp.
 
+## Parking
+
+You are free to park anywhere on campus for free as long as its not a reserved
+or metered stall. There is a [large parking lot][parking] to the north of Kelly
+Engineering that should have enough room for everyone.
+
 ## Sponsorship
 
 Want to help sponsor and support Beaver Beaver BarCamp? Please email
@@ -65,3 +71,4 @@ All sponsors get recognized in the following ways:
 [2]: http://lug.oregonstate.edu
 [3]: http://osuosl.org
 [4]: http://en.wikipedia.org/wiki/Barcamp
+[parking]: http://goo.gl/maps/AJkvr

@@ -45,7 +45,14 @@ Slug: faq
   [list of past sessions][4] for ideas of what people have spoken about in 
   previous years. 
 
+**Where do I park?**
+
+* You are free to park anywhere on campus for free as long as its not a reserved
+  or metered stall. There is a [large parking lot][5] to the north of Kelly
+  Engineering that should have enough room for everyone.
+
 [1]: http://en.wikipedia.org/wiki/Foobar
 [2]: http://en.wikipedia.org/wiki/Foo_Camp
 [3]: https://www.facebook.com/events/547298625310712/
 [4]: http://beaverbarcamp.org/pages/session-ideas.html
+[5]: http://goo.gl/maps/AJkvr
