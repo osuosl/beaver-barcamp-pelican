@@ -9,6 +9,9 @@
         {% if FEED_RSS %}
         <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
+  
+        <!-- Set the viewport width to device width for mobile -->
+        <meta name="viewport" content="width=device-width" />
         
         <link rel="shortcut icon" href="theme/img/favicon.png" />
 		<!--Antic Slab font from Google Web Fonts-->
@@ -61,12 +64,26 @@
     			<div class="container">
     				<div class="row">
     					<div class="span8">
+
         {% block content %}
         {% endblock %}
         
         			</div> <!--end .span8 -->
         			
         			<div class="span4">
+                        <script>
+  (function() {
+    var cx = '002502301105444247921:iqzisqtszya';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
         				<h3 class="sidebar-title">Beaver Barcamp 11</h3>
             			<p><i class="icon-calendar"></i> <strong>April 20, 2013</strong></p>
             			<p><i class="icon-time"></i> 10:00am - 6:00pm </p>
