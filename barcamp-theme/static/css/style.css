@@ -25,10 +25,6 @@ body {
 	padding:20px;
 	margin:0px;
 	background:#fff;
-	border-bottom:1px solid #ddd;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .4);
-    -webkit-box-shadow: 0 0 45px rgba(0, 0, 0, .4); 
-    -moz-box-shadow: 0 0 45px rgba(0, 0, 0, .4); 
 	background:url('../img/subtle_grunge.png') repeat;
 }
 
