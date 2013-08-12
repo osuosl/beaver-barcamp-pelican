@@ -3,7 +3,7 @@
 
 AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Beaver Barcamp 12'
-SITEURL = 'http://beaverbarcamp.org'
+SITEURL = ''
 
 TIMEZONE = 'US/Pacific'
 
