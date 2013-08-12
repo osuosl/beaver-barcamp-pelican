@@ -163,6 +163,16 @@ nav ul li a:hover {
     padding:emCalc(32px);
 }
 
+#blog-posts a:link,
+#blog-posts a:active,
+#blog-posts a:visited {
+    text-decoration:none;
+}
+
+#blog-posts a:hover {
+    text-decoration:underline;
+}
+
 #register-button {
 	@extend .button, .large, .radius, .success;
 	margin-top:emCalc(20px);
@@ -173,6 +183,7 @@ nav ul li a:hover {
 	padding:emCalc(22px);
     margin:0px;
 	position:relative;
+    text-align:center !important;
 }
 
 #what-is-barcamp h4 {
@@ -180,11 +191,18 @@ nav ul li a:hover {
 	font-size:emCalc(24px);
 }
 
-#collaborative,
-#free,
-#informative {
+.barcamp-information-icon {
 	@extend .large-4, .small-12, .columns;
 }
+
+.barcamp-information-icon h4 {
+    text-align:center;
+}
+
+.barcamp-information-icon p {
+    text-align:center;
+}
+
 
 .column-header {
 	@extend .large-12, .columns;
