@@ -3,10 +3,11 @@
 
 
 {% block content %}
+<section id="article-container">
+    <div class="row">
 <h1>Posts by {{ author }}</h1>
 {% if articles %}
     {% for article in articles_page.object_list %}      
-  				
         {# First item #}
         {% if loop.first and not articles_page.has_previous() %}
             <aside id="featured" class="body">
@@ -37,12 +38,7 @@
             </article>
         {% endif %}
     {% endfor %}
-{% else %}
-<section id="content" class="body">    
-<h2>Pages</h2>
-    {% for page in PAGES %}
-        <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %}
-</section>
 {% endif %}
+</div>
+</section>
 {% endblock content %}

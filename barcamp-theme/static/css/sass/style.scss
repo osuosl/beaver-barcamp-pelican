@@ -130,7 +130,7 @@ nav ul li a:hover {
 	height:emCalc(550px);
 	position:absolute;
 	right:0;
-	top:7%;
+	top:9%;
 	z-index:1;
 }
 
@@ -160,8 +160,7 @@ nav ul li a:hover {
 
 #blog-posts {
 	@extend .large-9, .columns;
-	margin-top:emCalc(98px);
-	margin-bottom:emCalc(98px);
+    padding:emCalc(32px);
 }
 
 #register-button {
@@ -171,7 +170,7 @@ nav ul li a:hover {
 
 #what-is-barcamp {
 	@extend .large-12, .columns;
-	padding:emCacl(32px) 0 0 0;
+	padding:emCalc(22px);
     margin:0px;
 	position:relative;
 }
@@ -195,17 +194,15 @@ nav ul li a:hover {
 
 #sponsors {
 	@extend .large-12, .columns;
-    margin:emCalc(98px) 0;
+    margin:0px;
 }
 
 #contact {
 	@extend .large-6, .columns;
-    margin:emCalc(98px) 0;
 }
 
 #faq {
 	@extend .large-12, .columns;
-    margin:emCalc(98px) 0;
 }
 
 #faq p strong {
