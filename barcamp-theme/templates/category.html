@@ -6,8 +6,7 @@
 <section id="article-container">
 <h1>Posts in {{ category }}</h1>
 {% if articles %}
-    {% for article in articles_page.object_list %}      
-  				
+    {% for article in articles_page.object_list %}
         {# First item #}
         {% if loop.first and not articles_page.has_previous() %}
             <aside id="featured" class="body">
