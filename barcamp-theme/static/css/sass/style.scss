@@ -125,7 +125,7 @@ nav ul li a:hover {
 }
 
 #beaver {
-	background: url('../img/beaver.png');
+	background: url('../img/beaver.gif');
 	width:50%;
 	height:emCalc(550px);
 	position:absolute;
@@ -217,6 +217,7 @@ nav ul li a:hover {
 
 #contact {
 	@extend .large-6, .columns;
+    padding-top:emCalc(64px);
 }
 
 #faq {
@@ -264,7 +265,7 @@ h3.secondary-head {
 #footer {
     width:100%;
     background:#f8faea;
-    padding-top:emCalc(32px);
+    padding-top:emCalc(132px);
 }
 
 #footer-container {
