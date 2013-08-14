@@ -183,7 +183,6 @@ nav ul li a:hover {
 	padding:emCalc(22px);
     margin:0px;
 	position:relative;
-    text-align:center !important;
 }
 
 #what-is-barcamp h4 {
@@ -193,13 +192,6 @@ nav ul li a:hover {
 
 .barcamp-information-icon {
 	@extend .large-4, .small-12, .columns;
-}
-
-.barcamp-information-icon h4 {
-    text-align:center;
-}
-
-.barcamp-information-icon p {
     text-align:center;
 }
 
@@ -208,6 +200,7 @@ nav ul li a:hover {
 	@extend .large-12, .columns;
 	padding-top:0px;
 	padding-bottom:0px;
+    text-align:center;
 }
 
 #sponsors {
@@ -221,7 +214,8 @@ nav ul li a:hover {
 }
 
 #faq {
-	@extend .large-12, .columns;
+	@extend .large-8, .columns;
+    padding-top:emCalc(64px);
 }
 
 #faq p strong {
@@ -274,6 +268,10 @@ h3.secondary-head {
 }
 
 @media screen and (max-width: 840px) {
+    body {
+        text-align:center;
+    }
+                    
 	#feature-text {
 		width:90%;
 		position:relative;
