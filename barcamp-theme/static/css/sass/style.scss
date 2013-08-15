@@ -84,11 +84,11 @@ body {
 
 #beaver {
     background: url('../img/beaver.gif');
-    width:44%;
+    width:45%;
     height:emCalc(587px);
     position:absolute;
     right:0;
-    top:28%;
+    top:24%;
     z-index:1;
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 #register-button {
-    @extend .button, .large, .radius, .success;
+    @extend .button, .large, .round, .alert;
     margin-top:emCalc(20px);
     font-family: $header-font-family;
     font-weight:400;
@@ -195,25 +195,46 @@ body {
     @extend .large-6, .columns;
 }
 
-#footer-navigation {
+#footer-contact {
     @extend .large-3, .columns;
+}
+
+#footer-navigation {
+    @extend .large-9, .columns;
 }
 
 #footer-navigation ul {
     padding:0px;
     margin:0px;
+    display:inline;
 }
 
 #footer-navigation ul li {
-    margin-left:emCalc(16px);
+    display:inline;
+}
+
+#footer-navigation ul li a:link,
+#footer-navigation ul li a:active,
+#footer-navigation ul li a:visited {
+    @extend .button, .small, .round;
+    border:0px;
+    box-shadow:none;
+    margin-right:emCalC(16px) !important;
+    font-weight:normal;
 }
 
 #footer-register-button {
-    @extend .button, .success, .radius;
+    @extend .button, .success, .small, .radius;
     font-family: $header-font-family;
     font-weight:400;
     text-decoration:none !important;
     color:#fff !important;
+    margin-top:emCalc(24px);
+}
+
+#footer-credits {
+    @extend .large-12, .columns;
+    margin-top:emCalc(32px);
 }
 
 .save-the-date {
@@ -233,8 +254,15 @@ p.byline {
     font-family: $header-font-family;
 }
 
-hr {
+#footer-container hr {
     border-color:#444;
+    clear:both;
+}
+
+
+/*** Blog Styles ***/
+.row article {
+    @extend .large-9, .columns;
 }
 
 @media screen and (max-width: 840px) {
