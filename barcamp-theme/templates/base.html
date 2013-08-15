@@ -23,13 +23,14 @@
             <a href="/"><img src="/theme/img/logo.png" alt="{{ SITENAME }} logo" /></a>
         </div>
         
-        <nav>
+        <nav id="main-navigation">
             <ul><li><a href="/">Home</a></li>
                  {% for page in PAGES %}
                     <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor %}
             </ul>
         </nav>
+    </div>
 
         {% block content %}
         {% endblock %}
