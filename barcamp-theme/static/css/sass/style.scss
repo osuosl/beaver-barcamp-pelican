@@ -51,8 +51,7 @@ body {
     @extend .row;
     position:relative;
     z-index:99;
-    margin-top:emCalc(48px);
-    padding:0 emCalc(30px);
+    margin-top:emCalc(16px);
 }
 
 #feature-text h2 {
@@ -84,25 +83,16 @@ body {
 
 #beaver {
     background: url('../img/beaver.gif');
-    width:42%;
+    width:44%;
     height:emCalc(587px);
     position:absolute;
     right:0;
-    top:14%;
+    top:32%;
     z-index:1;
 }
 
 #beaver-small {
     display:none;
-}
-
-#white-border{
-    width:100%;
-    height:emCacl(200px);
-    margin-top:emCalc(0px);
-    background:url('../img/top-border.png') top center;
-    position:relative;
-    z-index:99;
 }
 
 #register-button {
@@ -114,12 +104,6 @@ body {
     @extend .large-12, .columns;
     padding:emCalc(22px);
     margin:0px;
-	position:relative;
-}
-
-#what-is-barcamp h4 {
-	font-weight:normal;
-	font-size:emCalc(24px);
 }
 
 .barcamp-information-icon {
@@ -136,6 +120,7 @@ body {
 
 #logo {
     @extend .large-2, .columns;
+    max-width:107px;
 }
 
 #main-navigation {
@@ -144,11 +129,32 @@ body {
 
 #main-navigation ul {
     display:inline;
+    float:left;
+    margin-top:emCalc(12px);
+}
+
+#main-navigation ul li {
+    display:inline;
+    margin-right:emCalc(8px);
+}
+
+#main-navigation ul li a:link,
+#main-navigation ul li a:active,
+#main-navigation ul li a:visited {
+    font-family:"Raleway", "Helvetica Neue", sans-serif;
+}
+
+#main-navigation ul li a:hover {
+    text-decoration:underline;
 }
 
 @media screen and (max-width: 840px) {
     body {
         text-align:center;
+    }
+                    
+    #logo {
+        max-width:none;
     }
     
     #feature-text h2 {
