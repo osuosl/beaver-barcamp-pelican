@@ -127,7 +127,7 @@ body {
 }
 
 #main-navigation {
-    @extend .large-10, .columns;
+    @extend .large-9, .columns;
 }
 
 #main-navigation ul {
@@ -149,6 +149,10 @@ body {
 
 #main-navigation ul li a:hover {
     text-decoration:underline;
+}
+
+#social-media {
+    @extend .large-1, .columns;
 }
 
 /***Footer***/
