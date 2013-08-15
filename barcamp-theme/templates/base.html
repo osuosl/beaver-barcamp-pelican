@@ -39,13 +39,31 @@
     
       <div id="footer">
         <div id="footer-container">
+            <div id="footer-save-the-date">
+                <h5>{{ SITENAME }}</h5>
+                <span class="save-the-date" id="time">9:00AM - 6:00PM</span>
+                <span class="save-the-date" id="location"> Kelley Engineering Center</span>
+                <span class="save-the-date" id="date"> October 12, 2013</span>
+            </div>
+            
+            <div id="footer-about-barcamp">
+                <h5>About Beaver Barcamp</h5>
+                <p class="lead">Beaver BarCamp is an informal conference where everyone is encouraged to participate, and the sessions are not predetermined. <a href="/pages/about.html"><em>Learn more</em></a></p>
+                <a href="http://www.eventbrite.com/event/7825611615" id="footer-register-button">Register</a>
+            </div>
+            
+            <div id="footer-navigation">
+            <h5>Navigation</h5>
             <ul><li><a href="/">Home</a></li>
                  {% for page in PAGES %}
                     <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor %}
             </ul>
+            </div>
+            
             <hr />
-            <p>{{ SITENAME }} website created using Zurb Foundation and Pelican Static Site Generator. <br /> Source available on <a href="http://github.com/osuosl/beaver-barcamp-pelican">Github</a> under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+            <p class="byline">{{ SITENAME }} website created using Zurb Foundation and Pelican Static Site Generator. <br /> Source available on <a href="http://github.com/osuosl/beaver-barcamp-pelican">Github</a> under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+            
         </div>
     </div>
 

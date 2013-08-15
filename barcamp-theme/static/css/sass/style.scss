@@ -97,8 +97,10 @@ body {
 }
 
 #register-button {
-    @extend .button, .large, .radius, .alert;
+    @extend .button, .large, .radius, .success;
     margin-top:emCalc(20px);
+    font-family: $header-font-family;
+    font-weight:400;
 }
 
 #what-is-barcamp {
@@ -152,7 +154,7 @@ body {
 /***Footer***/
 #footer {
     width:100%;
-    background:#5d87a1;
+    background:url('../img/footer-texture.gif') repeat #385e86;
     position:relative;
     z-index:99;
     margin-top:emCalc(32px);
@@ -161,6 +163,78 @@ body {
 
 #footer-container {
     @extend .row;
+    color:#fff;
+}
+
+#footer-container a:link,
+#footer-container a:active,
+#footer-container a:visited {
+    color:#CCC;
+}
+
+#footer-container a:hover {
+    color:#fff;
+    text-decoration:underline;
+}
+
+#footer-container h5,
+#footer-container p {
+    color:#fff !important;
+}
+
+#footer-container h5 {
+    font-weight:normal;
+    font-size:emCalc(20px);
+}
+
+#footer-save-the-date {
+    @extend .large-3, .columns;
+}
+
+#footer-about-barcamp {
+    @extend .large-6, .columns;
+}
+
+#footer-navigation {
+    @extend .large-3, .columns;
+}
+
+#footer-navigation ul {
+    padding:0px;
+    margin:0px;
+}
+
+#footer-navigation ul li {
+    margin-left:emCalc(16px);
+}
+
+#footer-register-button {
+    @extend .button, .success, .radius;
+    font-family: $header-font-family;
+    font-weight:400;
+    text-decoration:none !important;
+    color:#fff !important;
+}
+
+.save-the-date {
+    font-family: $header-font-family;
+    display:block;
+    font-weight:normal;
+    padding-top:emCalc(12px);
+}
+
+/*** Typography ***/
+p:first-of-type {
+    @extend .lead;
+}
+
+p.byline {
+    font-size:emCalc(14px);
+    font-family: $header-font-family;
+}
+
+hr {
+    border-color:#444;
 }
 
 @media screen and (max-width: 840px) {
