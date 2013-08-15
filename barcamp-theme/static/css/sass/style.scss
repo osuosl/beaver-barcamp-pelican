@@ -52,6 +52,7 @@ body {
     position:relative;
     z-index:99;
     margin-top:emCalc(16px);
+    margin-bottom:emCalc(160px);
 }
 
 #feature-text h2 {
@@ -87,7 +88,7 @@ body {
     height:emCalc(587px);
     position:absolute;
     right:0;
-    top:32%;
+    top:28%;
     z-index:1;
 }
 
@@ -146,6 +147,20 @@ body {
 
 #main-navigation ul li a:hover {
     text-decoration:underline;
+}
+
+/***Footer***/
+#footer {
+    width:100%;
+    background:#5d87a1;
+    position:relative;
+    z-index:99;
+    margin-top:emCalc(32px);
+    padding-top:emCalc(32px);
+}
+
+#footer-container {
+    @extend .row;
 }
 
 @media screen and (max-width: 840px) {
