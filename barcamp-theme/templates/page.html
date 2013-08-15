@@ -1,12 +1,10 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
 {% block content %}
-<section id="article-container">  
-    <div class="row">
-        <div class="large-12 columns">
+<section id="article-container">
+    <div class="large-12 columns">
             <h1 class="entry-title">{{ page.title}}</h1>
             {{ page.content }}
-        </div>
     </div>
 </section>
 {% endblock %}
