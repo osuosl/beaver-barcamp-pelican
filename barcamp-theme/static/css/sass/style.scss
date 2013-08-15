@@ -155,6 +155,11 @@ body {
     @extend .large-1, .columns;
 }
 
+#social-media img {
+    margin-top:emCalc(12px);
+    margin-right:emCalc(12px);
+}
+
 /***Footer***/
 #footer {
     width:100%;
@@ -279,6 +284,10 @@ p.byline {
 /*** Blog Styles ***/
 .row article {
     @extend .large-9, .columns;
+}
+
+#article-container {
+    @extend .row;
 }
 
 @media screen and (max-width: 840px) {
