@@ -93,7 +93,7 @@ body {
 }
 
 #beaver-small {
-	display:none;
+    display:none;
 }
 
 #white-border{
@@ -106,7 +106,7 @@ body {
 }
 
 #register-button {
-    @extend .button, .large, .radius, .success;
+    @extend .button, .large, .radius, .alert;
     margin-top:emCalc(20px);
 }
 
@@ -142,8 +142,33 @@ body {
     @extend .large-10, .columns;
 }
 
+#main-navigation ul {
+    display:inline;
+}
+
 @media screen and (max-width: 840px) {
     body {
         text-align:center;
+    }
+    
+    #feature-text h2 {
+        font-size:emCalc(60px);
+    }
+                    
+    #feature-text h4 {
+        font-size:emCalc(32px);
+    }
+    
+    #feature-text h5 {
+        font-size:emCalc(24px);
+    }
+                    
+    #beaver {
+        display:none;
+    }
+    
+    #beaver-small {
+        display:block;
+        margin:emCalc(32px) 0;
     }
 }
