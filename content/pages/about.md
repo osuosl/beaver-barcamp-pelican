@@ -1,12 +1,36 @@
 Title: About Beaver Barcamp
 Slug: about
 
-Beaver BarCamp is a user-generated conference that started in the spring of
-2008 as a biannual event at Oregon State University. It has been primarily
-organized by the [Open Source Education Lab (OSEL)][1], [OSU Linux Users
-(OSULUG)][2] group, the [OSU Open Source Lab (OSUOSL)][3] and Corvallis
-community members over the years.  Currently the OSL is the primary organizer,
-though we still encourage community involvement.
+<div class="column-header">
+    <h3 class="secondary-head">What Is Barcamp?</h3>
+</div>
+
+<div class="barcamp-information-icon">
+    <img src="/theme/img/open.gif" alt="Icons showing people who can present various people who can participate" />
+    <h4>Open</h4>
+    <p>Everyone is welcome to attend, and everyone can present.</p>
+</div>
+
+<div class="barcamp-information-icon">
+    <img src="/theme/img/diverse.gif" alt="Icons representing possiblities of topics at Beaver BarCamp" />
+    <h4>Diverse</h4>
+    <p>We encourage a wide range of topics. Food, art, technology, science, culture--the choice is yours.</p>
+</div>
+
+<div class="barcamp-information-icon">
+    <img src="/theme/img/interactive.gif" alt="Icon representing BarCamp's interactivity." />
+    <h4>Interactive</h4>
+    <p>Sessions often include demos, discussions or projects, fostering audience participation.</p>
+</div>
+-------
+<div class="large-7 columns">
+### New for Beaver BarCamp 12
+
+As part of the Open Source Lab’s outreach program, we are planning some feature presentations: BarCamp 101, How to Tackle the Patent Process, How to Start-up your Start-up, How to Freelance for Magazines, and Something Cool about Bicycles.
+
+This year we are also featuring sessions for high school students: Robotics, Tour the OSL, Open Source 101, Something Cool about Gaming, and something cool Timmel comes up with.
+
+We will be posting updates @BeaverBarCamp. You can also connect on live chat via IRC — irc.freenode.net, #BeaverBarCamp. Sign-up for the Beaver BarCamp Mailing List to get important notifications about the event. 
 
 ## What is a BarCamp?
 
@@ -74,3 +98,4 @@ All sponsors get recognized in the following ways:
   [3]: http://osuosl.org
   [4]: http://en.wikipedia.org/wiki/Barcamp
   [5]: http://goo.gl/maps/AJkvr
+</div>

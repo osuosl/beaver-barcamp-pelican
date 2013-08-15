@@ -130,7 +130,7 @@ nav ul li a:hover {
 	height:emCalc(550px);
 	position:absolute;
 	right:0;
-	top:9%;
+	top:8%;
 	z-index:1;
 }
 
@@ -156,6 +156,11 @@ nav ul li a:hover {
 	background:#f8faea;
 	margin:emCalc(-20px) 0 0 0;
 	padding-top:emCalc(20px);
+}
+
+#about-barcamp {
+    @extend .large-9, .columns;
+    padding-top:emCalc(32px);
 }
 
 #blog-posts {
@@ -265,6 +270,17 @@ h3.secondary-head {
 #footer-container {
     @extend .row;
     padding:emCalc(32px);
+}
+
+#footer-container ul {
+    display:inline;
+    padding:0 0 emCalc(32px) 0;
+}
+
+#footer-container ul li {
+    display:inline;
+    list-style:none;
+    margin-right:emCalc(7px);
 }
 
 @media screen and (max-width: 840px) {

@@ -4,12 +4,13 @@
 </div>
 <section id="article-container">  
     <div class="row">
-    <h2 class="entry-title">{{ page.title }}</h2>
+        <div class="large-12 columns">
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
     {% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">get
     the pdf</a>{% endif %}
     {{ page.content }}
+        </div>
     </div>
 </section>
 {% endblock %}

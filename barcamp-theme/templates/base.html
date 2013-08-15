@@ -22,6 +22,14 @@
         <div id="logo">
             <a href="/"><img src="/theme/img/logo.png" alt="{{ SITENAME }} logo" /></a>
         </div>
+        
+        <nav>
+            <ul><li><a href="/">Home</a></li>
+                 {% for page in PAGES %}
+                    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
 
         {% block content %}
         {% endblock %}
@@ -30,6 +38,12 @@
     
       <div id="footer">
         <div id="footer-container">
+            <ul><li><a href="/">Home</a></li>
+                 {% for page in PAGES %}
+                    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
+            <hr />
             <p>{{ SITENAME }} website created using Zurb Foundation and Pelican Static Site Generator. <br /> Source available on <a href="http://github.com/osuosl/beaver-barcamp-pelican">Github</a> under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
         </div>
     </div>
