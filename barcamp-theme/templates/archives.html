@@ -3,11 +3,12 @@
 {% block content %}
 <section id="article-container">
     <div class="large-12 columns">
-        <h1>{{ SITENAME }} Blog</h1>
+        <h1 class="entry-title">{{ SITENAME }} Blog</h1>
             <dl>
                 {% for article in dates %}
-                    <dt>{{ article.locale_date }}</dt>
+                    <dt>{{ article.date.strftime("%B %C, %Y") }}</dt>
                     <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+                    <hr />
                 {% endfor %}
             </dl>
     </div>

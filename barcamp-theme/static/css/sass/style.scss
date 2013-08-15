@@ -277,6 +277,14 @@ p.byline {
     font-family: $header-font-family;
 }
 
+span.byline {
+    display:block;
+    width:100%;
+    font-size:emCalc(16px);
+    font-family: $header-font-family;
+    padding-bottom:emCalc(16px);
+}
+
 h1.entry-title {
     font-weight:bold;
 }
