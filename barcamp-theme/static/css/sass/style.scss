@@ -203,6 +203,10 @@ body {
     @extend .large-9, .columns;
 }
 
+#footer-navigation h5 {
+    padding-bottom:0px;
+}
+
 #footer-navigation ul {
     padding:0px;
     margin:0px;
@@ -210,17 +214,24 @@ body {
 }
 
 #footer-navigation ul li {
+    margin:20px 10px 0 0;
     display:inline;
+    float:left;
 }
 
 #footer-navigation ul li a:link,
 #footer-navigation ul li a:active,
 #footer-navigation ul li a:visited {
-    @extend .button, .small, .round;
-    border:0px;
-    box-shadow:none;
-    margin-right:emCalC(16px) !important;
     font-weight:normal;
+    padding:emCalc(7px) emCalc(14px);
+    background:#444;
+    color:#fff;
+    border-radius:10px;
+}
+
+#footer-navigation ul li a:hover {
+    background:#333;
+    text-decoration:none;
 }
 
 #footer-register-button {
