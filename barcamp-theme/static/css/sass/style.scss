@@ -59,6 +59,7 @@ body {
     font-size:emCalc(140px);
     letter-spacing:-.03em;
     text-transform:uppercase;
+    font-weight:bold;
     line-height:1;
     margin:0px;
     padding:0px;
@@ -69,6 +70,7 @@ body {
     color:#685040;
     letter-spacing:-.03em;
     line-height:1;
+    font-weight:bold;
     margin:emCalc(4px) 0 0 0;
     padding:0px;
 }
@@ -273,6 +275,10 @@ p:first-of-type {
 p.byline {
     font-size:emCalc(14px);
     font-family: $header-font-family;
+}
+
+h1.entry-title {
+    font-weight:bold;
 }
 
 #footer-container hr {
