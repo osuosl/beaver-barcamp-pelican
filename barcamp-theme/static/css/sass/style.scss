@@ -44,7 +44,7 @@
 // @import "foundation/components/dropdown";
 
 body {
-    background:#fff;
+    background:#fff url('../img/pattern.jpg') repeat;
 }
 
 #feature-text {
@@ -299,6 +299,10 @@ span.byline {
 
 h1.entry-title {
     font-weight:bold;
+}
+
+hr {
+    border-color:#d0c9a8;
 }
 
 #footer-container hr {
