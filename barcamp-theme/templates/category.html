@@ -4,6 +4,7 @@
 
 {% block content %}
 <section id="article-container">
+    <div class="large-12 columns">
 <h1>Posts in {{ category }}</h1>
 {% if articles %}
     {% for article in articles_page.object_list %}
@@ -38,5 +39,6 @@
         {% endif %}
     {% endfor %}
 {% endif %}
+    </div>
 </section>
 {% endblock content %}

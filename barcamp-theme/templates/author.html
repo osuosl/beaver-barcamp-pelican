@@ -4,8 +4,8 @@
 
 {% block content %}
 <section id="article-container">
-    <div class="row">
-<h1>Posts by {{ author }}</h1>
+    <div class="large-12 column">
+<h1 class="entry-title">Posts by {{ author }}</h1>
 {% if articles %}
     {% for article in articles_page.object_list %}      
         {# First item #}
@@ -39,6 +39,6 @@
         {% endif %}
     {% endfor %}
 {% endif %}
-</div>
+    </div>
 </section>
 {% endblock content %}

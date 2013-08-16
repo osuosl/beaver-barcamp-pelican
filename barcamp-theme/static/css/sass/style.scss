@@ -85,7 +85,7 @@ body {
 }
 
 #beaver {
-    background: url('../img/beaver.gif');
+    background: url('../img/beaver.gif') no-repeat left;
     width:45%;
     height:emCalc(479px);
     position:absolute;
@@ -140,7 +140,8 @@ body {
 
 #main-navigation ul li {
     display:inline;
-    margin-right:emCalc(8px);
+    padding:0px;
+    margin:0px emCalc(8px) 0 0;
 }
 
 #main-navigation ul li a:link,
@@ -268,6 +269,17 @@ body {
 }
 
 /*** Typography ***/
+ul {
+    padding:0px;
+    margin:0px;
+}
+
+ul li {
+    margin:emCalc(3px) 0 emCalc(3px) emCalc(18px);
+    padding:0px;
+    list-style:square;
+}
+
 p:first-of-type {
     @extend .lead;
 }
