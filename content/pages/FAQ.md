@@ -1,36 +1,46 @@
 Title: FAQ
 Slug: faq
 
+### Who should attend BarCamp? ###
+Everyone -- Beaver BarCamp is open to the community and is free of charge.
+
+-------
+
+### How are topics chosen? ###
+Most session topics are scheduled the morning of the event and are provided by the attendees.
+
+-------
+### Who should present? ###
+We welcome presentations of all kinds, and expertise is not required. Come prepared to share something you are passionate about, whether its your job, hobby or interests. And formal Powerpoint presentations are not necessary: lead a discussion, demo a project, play a game, or teach a skill. One of the best aspects of BarCamp is that attendees both provide the sessions and choose the schedule, allowing for greater flexibility and fun. Please pitch your idea here.
+
+-------
+### Do I have to present? ###
+Nope. You are welcome to participate however you are most comfortable. Come and meet new people, learn something new, or participate in a discussion.
+
+-------
+### What should I bring? ###
+Nothing is required, but you may find it convenient to bring a laptop or mobile device (Wi-Fi is provided), notebook and pen, reusable water bottle, and a camera.
+
+-------
 ### Do I Need To RSVP? ###
+RSVP is not required, but we would love if you registered for the event on EventBrite. This helps us plan for enough food, accommodate dietary restrictions, and purchase enough t-shirts.
 
-RSVP is not required, but we would love if you registered for the event on [Facebook][3]!
+-------
+### Wi-Fi? ###
+Wi-Fi will be available and free to use while at the conference. An account and password will be provided at the event.
 
-----------
-### Wifi? ###
-Wifi will be available and free to use while at the conference. An account and password will be provided at the event.
-
-----------
-### Which rooms do we get at Kelley? ###
-The classrooms on the west end, plus all the little conference rooms scattered throughout the building. We have a lot of space for discussion. This year we're planning on only selecting rooms which are relatively close together so that sessions aren't nearly as scattered. If we run out of space we'll allocate other room spaces.
-
-----------
+-------
 ### Are food and drinks provided? ###
-Yes, there will be a modest amount of food and drinks provided in the morning, lunch and afternoon break.
+Yes, there will be continental breakfast, lunch and afternoon snack.
 
-----------
-### Does BarCamp have something to do with bars and alochol? ###
-No, it doesn't. Its actually a hacker reference to [FooBar][1] which istypically used as a place holder name when describing something in software code. BarCamp arose as an *open to the public alternative* to [Foo Camp][2] which is an annual invitation-only event.
-
-----------
-### What will the session topics be? ###
-Nobody knows yet! Attendees at each BarCamp propose their own session ideas on the day of the event, and the schedules are updated through the day to make sure the most popular sessions get the largest rooms. Check out the [list of past sessions][4] for ideas of what people have spoken about in previous years. 
-
-----------
+-------
 ### Where do I park? ###
-You are free to park anywhere on campus for free as long as its not a reserved or metered stall. There is a [large parking lot][5] to the north of Kelley Engineering that should have enough room for everyone.
+Free parking is widely available on campus on Saturdays, with the exception of reserved and metered stalls. There is a large parking lot to the north of Kelly Engineering that should have enough room for everyone.
 
-[1]: http://en.wikipedia.org/wiki/Foobar
-[2]: http://en.wikipedia.org/wiki/Foo_Camp
-[3]: https://www.facebook.com/events/547298625310712/
-[4]: http://beaverbarcamp.org/pages/session-ideas.html
-[5]: http://goo.gl/maps/AJkvr
+-------
+### What will the session topics be? ###
+At Beaver BarCamp, the majority of sessions are not prearranged. Attendees at each BarCamp propose their own session ideas on the day of the event, and the schedules are updated throughout  the day to make sure the most popular sessions get the largest rooms.
+
+-------
+### Does BarCamp have something to do with bars and alcohol? ###
+No, it doesn't. Its actually a hacker reference to FooBar which is typically used as a placeholder name when describing something in software code. BarCamp arose as an open to the public alternative to Foo Camp, which is an invitation-only conference.
