@@ -1,0 +1,348 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+ @import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+ @import "foundation/components/global"; // *always required
+ @import "foundation/components/grid";
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+@import "foundation/components/type";
+@import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+body {
+    background:#fff;
+}
+
+#feature-text {
+    @extend .row;
+    position:relative;
+    z-index:99;
+    margin-top:emCalc(16px);
+    margin-bottom:emCalc(72px);
+}
+
+#feature-text h2 {
+    font-size:emCalc(140px);
+    letter-spacing:-.03em;
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:1;
+    margin:0px;
+    padding:0px;
+}
+
+#feature-text h4 {
+    font-size:emCalc(57px);
+    color:#685040;
+    letter-spacing:-.03em;
+    line-height:1;
+    font-weight:bold;
+    margin:emCalc(4px) 0 0 0;
+    padding:0px;
+}
+
+#feature-text h5 {
+    font-size:emCalc(40px);
+    color:#685040;
+    line-height:1.2;
+    font-weight:500;
+    margin:emCalc(4px) 0 0 0;
+    padding:0px;
+}
+
+#beaver {
+    background: url('../img/beaver.gif') no-repeat left;
+    width:45%;
+    height:emCalc(479px);
+    position:absolute;
+    right:0;
+    top:24%;
+    z-index:1;
+}
+
+#beaver-small {
+    display:none;
+}
+
+#register-button {
+    @extend .button, .large, .round, .alert;
+    margin-top:emCalc(20px);
+    font-family: $header-font-family;
+    font-weight:400;
+}
+
+#what-is-barcamp {
+    @extend .large-12, .columns;
+    padding:emCalc(22px);
+    margin:0px;
+}
+
+.barcamp-information-icon {
+    @extend .large-4, .small-12, .columns;
+    text-align:center;
+}
+
+/*** Header ***/
+#header {
+    @extend .row;
+    padding-top:emCalc(32px);
+    padding-bottom:emCalc(32px);
+}
+
+#logo {
+    @extend .large-2, .columns;
+    max-width:107px;
+}
+
+#main-navigation {
+    @extend .large-9, .columns;
+}
+
+#main-navigation ul {
+    display:inline;
+    float:left;
+    margin-top:emCalc(12px);
+}
+
+#main-navigation ul li {
+    display:inline;
+    padding:0px;
+    margin:0px emCalc(8px) 0 0;
+}
+
+#main-navigation ul li a:link,
+#main-navigation ul li a:active,
+#main-navigation ul li a:visited {
+    font-family:"Raleway", "Helvetica Neue", sans-serif;
+}
+
+#main-navigation ul li a:hover {
+    text-decoration:underline;
+}
+
+#social-media {
+    @extend .large-1, .columns;
+}
+
+#social-media img {
+    margin-top:emCalc(12px);
+    margin-right:emCalc(12px);
+}
+
+/***Footer***/
+#footer {
+    width:100%;
+    background:url('../img/footer-texture.gif') repeat #385e86;
+    position:relative;
+    z-index:99;
+    margin-top:emCalc(32px);
+    padding-top:emCalc(32px);
+}
+
+#footer-container {
+    @extend .row;
+    color:#fff;
+}
+
+#footer-container a:link,
+#footer-container a:active,
+#footer-container a:visited {
+    color:#CCC;
+}
+
+#footer-container a:hover {
+    color:#fff;
+    text-decoration:underline;
+}
+
+#footer-container h5,
+#footer-container p {
+    color:#fff !important;
+}
+
+#footer-container h5 {
+    font-weight:normal;
+    font-size:emCalc(20px);
+}
+
+#footer-save-the-date {
+    @extend .large-3, .columns;
+}
+
+#footer-about-barcamp {
+    @extend .large-6, .columns;
+}
+
+#footer-contact {
+    @extend .large-3, .columns;
+}
+
+#footer-navigation {
+    @extend .large-9, .columns;
+}
+
+#footer-navigation h5 {
+    margin-bottom:0px;
+    padding-top:0px;
+}
+
+#footer-navigation ul {
+    padding:0px;
+    margin:0px;
+    display:inline;
+}
+
+#footer-navigation ul li {
+    margin:20px 10px 0 0;
+    display:inline;
+    float:left;
+}
+
+#footer-navigation ul li a:link,
+#footer-navigation ul li a:active,
+#footer-navigation ul li a:visited {
+    font-weight:normal;
+    padding:emCalc(7px) emCalc(14px);
+    background:#444;
+    color:#fff;
+    border-radius:10px;
+}
+
+#footer-navigation ul li a:hover {
+    background:#333;
+    text-decoration:none;
+}
+
+#footer-register-button {
+    @extend .button, .success, .small, .radius;
+    font-family: $header-font-family;
+    font-weight:400;
+    text-decoration:none !important;
+    color:#fff !important;
+    margin-top:emCalc(24px);
+}
+
+#footer-credits {
+    @extend .large-12, .columns;
+    margin-top:emCalc(32px);
+}
+
+.save-the-date {
+    font-family: $header-font-family;
+    display:block;
+    font-weight:normal;
+    padding-top:emCalc(12px);
+}
+
+/*** Typography ***/
+ul {
+    padding:0px;
+    margin:0px;
+}
+
+ul li {
+    margin:emCalc(3px) 0 emCalc(3px) emCalc(18px);
+    padding:0px;
+    list-style:square;
+}
+
+p:first-of-type {
+    @extend .lead;
+}
+
+p.byline {
+    font-size:emCalc(14px);
+    font-family: $header-font-family;
+}
+
+span.byline {
+    display:block;
+    width:100%;
+    font-size:emCalc(16px);
+    font-family: $header-font-family;
+    padding-bottom:emCalc(16px);
+}
+
+h1.entry-title {
+    font-weight:bold;
+}
+
+#footer-container hr {
+    border-color:#444;
+    clear:both;
+}
+
+
+/*** Blog Styles ***/
+.row article {
+    @extend .large-9, .columns;
+}
+
+#article-container {
+    @extend .row;
+}
+
+@media screen and (max-width: 840px) {
+    body {
+        text-align:center;
+    }
+                    
+    #logo {
+        max-width:none;
+    }
+    
+    #feature-text h2 {
+        font-size:emCalc(60px);
+    }
+                    
+    #feature-text h4 {
+        font-size:emCalc(32px);
+    }
+    
+    #feature-text h5 {
+        font-size:emCalc(24px);
+    }
+                    
+    #beaver {
+        display:none;
+    }
+    
+    #beaver-small {
+        display:block;
+        margin:emCalc(32px) 0;
+    }
+}

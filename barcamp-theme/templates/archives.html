@@ -1,14 +1,13 @@
 {% extends "base.html" %}
 {% block title %}Blog | {{ SITENAME }}{%endblock%}
 {% block content %}
-<section id="content" class="body">
-<h1>{{ SITENAME }} Blog</h1>
-
-<dl>
-{% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-{% endfor %}
-</dl>
+<section id="article-container">
+    <div class="large-12 columns">
+        <h1 class="entry-title">{{ SITENAME }} Blog</h1>
+                {% for article in dates %}
+                    <p>{{ article.date.strftime("%B %C, %Y") }}: <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></p>
+                    <hr />
+                {% endfor %}
+    </div>
 </section>
 {% endblock %}

@@ -3,197 +3,111 @@
 <head>
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.css" type="text/css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-responsive.css" type="text/css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="/theme/css/style.css" type="text/css" />
         {% if FEED_RSS %}
         <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
   
         <!-- Set the viewport width to device width for mobile -->
         <meta name="viewport" content="width=device-width" />
-        
-        <link rel="shortcut icon" href="theme/img/favicon.png" />
-		<!--Antic Slab font from Google Web Fonts-->
-		<link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
-		
-        <!--[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
-        -->
-        
+    
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+    
+        <link rel="shortcut icon" href="/theme/img/favicon.png" />
                 
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="page-header">
-        	<div class="container">
-        		<div class="row-fluid">
-    				<div class="span5" id="logo">
-     		    	   	<a href="http://beaverbarcamp.org"><img src="{{ SITEURL }}/theme/img/logo.png" alt="Beaver Barcamp Logo" border="0" /></a>
-     	      	  	</div>
-     	       
-        			<div class="span4" id="navbar">	
-        				<ul>
-    			 			 <li><a href="{{ SITEURL }}/pages/about.html">About</a></li>
-    			 			 <li><a href="{{ SITEURL }}/archives.html">Blog</a></li>
-   							 <li><a href="{{ SITEURL }}/pages/sponsors.html">Sponsors</a></li>
-   							 <li><a href="{{ SITEURL }}/pages/faq.html">FAQ</a></li>
-   							 <li><a href="{{ SITEURL }}/pages/contact.html">Contact</a></li>
-   						</ul>
-						<div class="clrfix"></div>
-    				</div>
-    				
-    				<div class="span3 large-margin">
-    				
-    					<a href="https://twitter.com/beaverbarcamp" class="twitter-follow-button" data-show-count="true">Follow @beaverbarcamp</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
-	
-    				</div>
-    			
-    			</div>
-    		</header>
-    		
-    		
-    		
-    		<!-- <div class="hero-unit" id="hero-centered">
-        		<h1 style="color:#fff;">Welcome to Beaver Barcamp 11</h1>
-       			 <a href="#"><img src="{{ SITEURL }}/theme/img/DateRibbon.png" id="Date" alt="Save the Date, Beaver Barcamp 11 is on April 20th 2013" /></a>
-   			</div>-->
-    		
-    		<div class="white-container">
-    			<div class="container">
-    				<div class="row">
-    					<div class="span8">
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="/"><img src="/theme/img/logo.png" alt="{{ SITENAME }} logo" /></a>
+        </div>
+        
+        <nav id="main-navigation">
+            <ul><li><a href="/">Home</a></li>
+                <li><a href="/archives.html">Blog</a></li>
+                 {% for page in PAGES %}
+                    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        
+        <div id="social-media">
+            <a href="http://twitter.com/beaverbarcamp"><img src="/theme/img/twitter-icon.gif" alt="Twitter Icon"></a>
+        </div>
+    </div>
 
         {% block content %}
         {% endblock %}
-        
-        			</div> <!--end .span8 -->
-        			
-        			<div class="span4">
-                        <script>
-  (function() {
-    var cx = '002502301105444247921:iqzisqtszya';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-        				<h3 class="sidebar-title">Beaver Barcamp 12</h3>
-            			<p><i class="icon-calendar"></i> <strong>October 12, 2013</strong></p>
-            			<p><i class="icon-time"></i> 10:00am - 6:00pm </p>
-            			<p><i class="icon-map-marker"></i> <a href="http://goo.gl/maps/C0sQe"> Kelley Engineering Center at Oregon State University<br /></a>
-            	 			<small style="padding:0 0 0px 18px;">2500 NW Monroe, Corvallis, OR</small> </p>
-            			<!--<p><i class="icon-star"></i> Register for event on <a href="https://www.facebook.com/events/547298625310712/">Facebook</a></p>-->
-
-            		<hr />
-            		
-            		<h4 class="sidebar-title" id="schedule">Schedule 
-					<a href="https://docs.google.com/a/osuosl.org/spreadsheet/pub?key=0Au0wOPQwuelMdEFFR0wzZHR5a3R3a3JOcDFFaGNjTGc&output=html" class="btn btn-custom" id="sessions">View Sessions</a></h4>
-            	 <a name="#schedule"></a>
-            	 <table class="table table-hover table-bordered" id="schedule-table">
-            	 	<tr>
-            	 		<td>9:30am</td> <td>Setup</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>10:00am</td> <td>Organize Sessions</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>10:30am</td> <td>Session 1</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>11:30am</td> <td>Session 2</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>12:30pm</td> <td>Lunch</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>1:30pm</td> <td>Session 3</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>2:30pm</td> <td>Session 4</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>3:30pm</td> <td>Break</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>4:00pm</td> <td>Session 5</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>5:00pm</td> <td>Session 6</td>
-            	 	</tr>
-            	 	
-            	 	<tr>
-            	 		<td>6:00pm</td> <td>Closing Remarks</td>
-            	 	</tr>
-            	 	
-
-				</table>
-        			</div><!--end .span4-->
-        		</div><!-- end .row -->
-
-        </div>
+    
+    
     
       <div id="footer">
-    	<div id="footer-container">
-    		<div class="row">
-    		<a href="https://github.com/osuosl/beaver-barcamp-pelican"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-    		<div class="span2 fireball"><a href="http://beaverbarcamp.org"><img src="{{ SITEURL }}/theme/img/barcamp-symbol.png" alt="Beaver Barcamp Logo" /></a></div>
-    			
-    			<div class="span8">
-    				<ul class="inline">
-    				<li><a href="{{ SITEURL }}">Home</a>
-    				<li><a href="{{ SITEURL }}/archives.html">Blog</a></li>
-    			{% for page in PAGES %}
-        			<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-    			{% endfor %}
-    				</ul>
-    				
-    				<div class="clrfix padding-min"></div>
-    				<ul class="inline">
-    					<li>Other Links:</li>
-                        <div class="clrfix"></div>
-    					<li><a href="https://docs.google.com/a/osuosl.org/document/pub?id=1Y6DboGpZzw9M8eupCcWFVeplm9z_aWUdUXLIvVFYyqQ">Information Sheet</a></li>
-    					<li><a href="https://docs.google.com/a/osuosl.org/spreadsheet/pub?key=0Au0wOPQwuelMdEFFR0wzZHR5a3R3a3JOcDFFaGNjTGc&output=html">Session Schedule</a></li>
-    					<li><a href="https://groups.google.com/d/forum/beaverbarcamp">Mailing List</a></li>
-
-    					<li><a href="https://www.facebook.com/events/547298625310712/">Facebook Event Page</a></li>
-    					<li><a href="http://twitter.com/beaverbarcamp">Twitter</a></li>
-    				</ul>
-    				
-    			<div class="clrfix"></div> <hr />
-    			Site built with <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> and <a href="http://docs.getpelican.com/en/3.1.1/">Pelican Static Site Generator</a>. Want to view <a href="https://github.com/osuosl/beaver-barcamp-pelican">the source</a>?
-
-    			</div>
-       				<div class="span2 fireball" style="margin-top:15px;">Event hosted by the <a href="http://osuosl.org"><img src="{{ SITEURL }}/theme/img/osl-smallwhite.png" style="margin:5px 0;" alt="Open Source Lab"></a>
-       				</div>
-       			</div>
-    	</div>
+        <div id="footer-container">
+            <div id="footer-save-the-date">
+                <h5>{{ SITENAME }}</h5>
+                <span class="save-the-date" id="time">9:00AM - 6:00PM</span>
+                <span class="save-the-date" id="location"> Kelley Engineering Center</span>
+                <span class="save-the-date" id="date"> October 12, 2013</span>
+                <span class="save-the-date" id="price"> Free</span>
+                <a href="http://www.eventbrite.com/event/7825611615" id="footer-register-button">Register</a>
+            </div>
+            
+            <div id="footer-about-barcamp">
+                <h5>About Beaver Barcamp</h5>
+                <p class="lead">Beaver BarCamp is an informal conference where everyone is encouraged to participate and the sessions are not predetermined. <a href="/pages/about.html"><em>Learn more</em></a></p>
+            </div>
+            
+            <div id="footer-contact">
+            <h5>Contact</h5>
+                <p><script type="text/javascript">
+                    emailE=('info@' + 'beaverbarcamp.org')
+                    document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
+                </script>
+                
+                <noscript>
+                    <img src="/theme/img/nojsemail.png" alt="Contact Me at this e-mail. P.S. enable javascript">
+                </noscript>
+                </p>
+            </div>
+            
+            <div id="footer-navigation">
+                <hr />
+                    <h5>Navigation</h5>
+                        <ul><li><a href="/">Home</a></li>
+                            <li><a href="/archives.html">Blog</a></li>
+                            {% for page in PAGES %}
+                                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+            </div>
+            
+            <div id="footer-credits">
+            <hr />
+                <p class="byline">{{ SITENAME }} website created using Zurb Foundation and Pelican Static Site Generator. Source available on <a href="http://github.com/osuosl/beaver-barcamp-pelican">Github</a>.</p>
+            </div>
+            
+        </div>
     </div>
-    
-  </body>
-</html>
+
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script type="text/javascript">
+     $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
+     </script>
 
 {% include 'analytics.html' %}
-
-<script src="{{ SITEURL }}/theme/js/jquery.js"></script>
-<script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
-<script type="javascript">
-$(".alert").alert()
-</script>
 </body>
 </html>

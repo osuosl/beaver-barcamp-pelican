@@ -1,12 +1,10 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
-{% block content %}        
-<section id="content" class="body">    
-    <h2 class="entry-title">{{ page.title }}</h2>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
-    {% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">get
-    the pdf</a>{% endif %}
-    {{ page.content }}
+{% block content %}
+<section id="article-container">
+    <div class="large-12 columns">
+            <h1 class="entry-title">{{ page.title}}</h1>
+            {{ page.content }}
+    </div>
 </section>
 {% endblock %}
