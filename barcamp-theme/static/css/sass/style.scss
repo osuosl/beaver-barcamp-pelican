@@ -99,7 +99,7 @@ body {
 }
 
 #register-button {
-    @extend .button, .large, .round, .alert;
+    @extend .button, .large, .radius;
     margin-top:emCalc(20px);
     font-family: $header-font-family;
     font-weight:400;
@@ -248,7 +248,7 @@ body {
 }
 
 #footer-register-button {
-    @extend .button, .success, .small, .radius;
+    @extend .button, .small, .radius;
     font-family: $header-font-family;
     font-weight:400;
     text-decoration:none !important;
