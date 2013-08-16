@@ -23,7 +23,7 @@ Nothing is required, but you may find it convenient to bring a laptop or mobile 
 
 -------
 ### Do I Need To RSVP? ###
-RSVP is not required, but we would love if you registered for the event on EventBrite. This helps us plan for enough food, accommodate dietary restrictions, and purchase enough t-shirts.
+RSVP is not required, but we would love if you registered for the event on [EventBrite][1]. This helps us plan for enough food, accommodate dietary restrictions, and purchase enough t-shirts.
 
 -------
 ### Wi-Fi? ###
@@ -44,3 +44,5 @@ At Beaver BarCamp, the majority of sessions are not prearranged. Attendees at ea
 -------
 ### Does BarCamp have something to do with bars and alcohol? ###
 No, it doesn't. Its actually a hacker reference to FooBar which is typically used as a placeholder name when describing something in software code. BarCamp arose as an open to the public alternative to Foo Camp, which is an invitation-only conference.
+
+[1]: http://www.eventbrite.com/event/7825611615
