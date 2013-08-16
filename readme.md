@@ -1,2 +1,4 @@
-# Beaver Barcamp 11 Site
-Built with Twitter Bootstrap and Pelican Static Site Generator
+# Beaver Barcamp Site
+Version 2.0 built with Zurb Foundation and Pelican Static Site Generator. See it live at [beaverbarcamp.org][1]
+
+[1]: http://beaverbarcamp.org
