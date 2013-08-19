@@ -22,7 +22,11 @@ Slug: about
 </div>
 
 ---------------
-Beaver BarCamp is a user-generated conference that started in the spring of 2008 as a semiannual event in the Kelley Engineering Center at Oregon State University. The [OSL][2] is the primary organizer, and we encourage community involvement.
+Beaver BarCamp is an informal conference where everyone is encouraged to participate and the sessions are not predetermined. It provides a collaborative environment that promotes the sharing of ideas and projects and is a fun, casual event filled with discussions, demos and interaction with attendees. One of the best aspects of BarCamp is that attendees both provide the sessions and choose the schedule, allowing for greater flexibility and freedom.            
+
+
+### What kind of sessions happen at Beaver BarCamp? 
+All kinds--from the recreational to the technical.  While many are tech oriented, we encourage any DIY, educational or interactive session. You can see a list of previous Beaver BarCamp sessions to get an idea of what may be offered--or pitch your own idea here (link to presentation proposals.)    
 
 ### Who typically attends?
 At BarCamp there are no spectators, only participants. BarCamps are only as good as the people who attend and share their ideas. Attendees are encouraged to demo new ideas, hold a group discussion on a specific topic, explain a unique hobby or just about anything else. Sometimes sessions even spawn other sessions randomly. We invite everyone and anyone in the community and at OSU to enjoy Beaver Barcamp.
