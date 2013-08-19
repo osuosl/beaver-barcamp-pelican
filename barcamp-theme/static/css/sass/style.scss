@@ -38,7 +38,7 @@
 // @import "foundation/components/sub-nav";
 // @import "foundation/components/switch";
 // @import "foundation/components/magellan";
-// @import "foundation/components/tables";
+@import "foundation/components/tables";
 // @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
@@ -327,6 +327,14 @@ hr {
                     
     #logo {
         max-width:none;
+    }
+                    
+    #main-navigation {
+        padding:16px 0;
+                    }
+                    
+    #main-navigation ul {
+        float:none;
     }
     
     #feature-text h2 {

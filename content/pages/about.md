@@ -28,7 +28,8 @@ Beaver BarCamp is a user-generated conference that started in the spring of 2008
 At BarCamp there are no spectators, only participants. BarCamps are only as good as the people who attend and share their ideas. Attendees are encouraged to demo new ideas, hold a group discussion on a specific topic, explain a unique hobby or just about anything else. Sometimes sessions even spawn other sessions randomly. We invite everyone and anyone in the community and at OSU to enjoy Beaver Barcamp.
 
 ### Parking
-Free parking is widely available on campus on Saturdays, with the exception of reserved and metered stalls. There is a large parking lot to the north of Kelly Engineering that should have enough room for everyone.
+Free parking is widely available on campus on Saturdays, with the exception of reserved and metered stalls. There is a large parking lot to the north of [Kelley Engineering Center][3] that should have enough room for everyone.
 
 
 [2]: http://osuosl.org
+[3]: https://maps.google.com/maps?q=kelley+engineering+center&oe=utf-8&aq=t&client=firefox-a&ie=UTF8&hl=en&hq=&hnear=Kelley+Engineering+Center,+2500+NW+Monroe+Ave,+Corvallis,+Benton,+Oregon+97331&t=h&z=16&vpsrc=0&iwloc=A
