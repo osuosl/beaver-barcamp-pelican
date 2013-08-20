@@ -4,14 +4,14 @@ Slug: session-ideas
 Most sessions do not require prepared slides and we even encourage you not to
 use them. We also encourage non-tech sessions and open discussion on a variety of
 topics. BarCamp is an excellent way for you to test out your public
-speaking skills!
+speaking skills.
 
 If you know of a session idea you would like to present, please feel free to
 submit your idea on the [session idea page][1].
 
 ### Here are some session ideas taken from past Beaver BarCamps:
 
-* Mean Brewing
+* Mead Brewing
 * Google App Engine
 * Coffee Q & A: Learn to Roast and brew from scratch!
 * Discuss Embedded Linux
