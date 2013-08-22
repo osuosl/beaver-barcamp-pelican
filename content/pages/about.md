@@ -26,10 +26,10 @@ Beaver BarCamp is an informal conference where everyone is encouraged to partici
 
 
 ### What kind of sessions happen at Beaver BarCamp? 
-All kinds--from the recreational to the technical.  While many are tech oriented, we encourage any DIY, educational or interactive session. You can see a list of previous Beaver BarCamp sessions to get an idea of what may be offered--or pitch your own idea here (link to presentation proposals.)    
+All kinds--from the recreational to the technical.  While many are tech oriented, we encourage any DIY, educational or interactive session.  
 
 ### Who typically attends?
-At BarCamp there are no spectators, only participants. BarCamps are only as good as the people who attend and share their ideas. Attendees are encouraged to demo new ideas, hold a group discussion on a specific topic, explain a unique hobby or just about anything else. Sometimes sessions even spawn other sessions randomly. We invite everyone and anyone in the community and at OSU to enjoy Beaver Barcamp.
+We invite everyone and anyone in the community and at OSU to enjoy Beaver Barcamp. At BarCamp there are no spectators, only participants. Attendees are encouraged to demo new ideas, hold a group discussion on a specific topic, explain a unique hobby or just about anything else. Sometimes sessions even spawn other sessions randomly. 
 
 ### Parking
 Free parking is widely available on campus on Saturdays, with the exception of reserved and metered stalls. There is a large parking lot to the north of [Kelley Engineering Center][3] that should have enough room for everyone.
