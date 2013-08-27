@@ -12,7 +12,7 @@ Slug: about
 <div class="barcamp-information-icon">
     <img src="/theme/img/diverse.gif" alt="Icons representing possiblities of topics at Beaver BarCamp" />
     <h4>Diverse</h4>
-    <p>We encourage a wide range of topics. Food, art, technology, science, culture--the choice is yours.</p>
+    <p>We encourage a wide range of topics. Food, art, technology, science, culture &#8212; the choice is yours.</p>
 </div>
 
 <div class="barcamp-information-icon">
