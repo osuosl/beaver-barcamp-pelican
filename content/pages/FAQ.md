@@ -11,7 +11,7 @@ Most session topics are scheduled the morning of the event and are provided by t
 
 -------
 ### Who should present? ###
-We welcome presentations of all kinds, and expertise is not required. Come prepared to share something you are passionate about, whether its your job, hobby or interests. And formal Powerpoint presentations are not necessary: lead a discussion, demo a project, play a game, or teach a skill. One of the best aspects of BarCamp is that attendees both provide the sessions and choose the schedule, allowing for greater flexibility and fun. Please pitch your idea here.
+We welcome presentations of all kinds, and expertise is not required. Come prepared to share something you are passionate about, whether its your job, hobby or interests. And formal Powerpoint presentations are not necessary: lead a discussion, demo a project, play a game, or teach a skill. One of the best aspects of BarCamp is that attendees both provide the sessions and choose the schedule, allowing for greater flexibility and fun.
 
 -------
 ### Do I have to present? ###
@@ -23,7 +23,11 @@ Nothing is required, but you may find it convenient to bring a laptop or mobile 
 
 -------
 ### Do I Need To RSVP? ###
-RSVP is not required, but we would love if you registered for the event on [EventBrite][1]. This helps us plan for enough food, accommodate dietary restrictions, and purchase enough t-shirts.
+RSVP is not required, but we would love if you registered for the event on [EventBrite][1]. This helps us plan for enough food and accommodate dietary restrictions.
+
+-------
+### Who should I contact to receive accomadations related to a disability? ###
+Please contact the Open Source Lab at info@beaverbarcamp.org.
 
 -------
 ### Wi-Fi? ###
