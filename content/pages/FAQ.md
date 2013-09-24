@@ -26,7 +26,7 @@ Nothing is required, but you may find it convenient to bring a laptop or mobile 
 RSVP is not required, but we would love if you registered for the event on [EventBrite][1]. This helps us plan for enough food and accommodate dietary restrictions.
 
 -------
-### Who should I contact to receive accomadations related to a disability? ###
+### Who should I contact to receive accommodations related to a disability? ###
 Please contact the Open Source Lab at info@beaverbarcamp.org.
 
 -------
