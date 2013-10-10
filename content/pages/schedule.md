@@ -15,3 +15,6 @@ Slug: schedule
 |3:30pm - 4:00pm | Snack Break |
 |4:00pm - 4:50pm | Session 5 |
 |5:00pm - 5:50pm | Session 6 |
+
+<div class="barcamp-scheduled-speakers">
+    <img src="/theme/img/speakers-bbc12.png"/>
