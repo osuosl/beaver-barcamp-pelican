@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'OSU Open Source Lab'
-SITENAME = u'Beaver Barcamp 13'
+SITENAME = u'Beaver Barcamp 14'
 SITEURL = ''
 
 TIMEZONE = 'US/Pacific'
