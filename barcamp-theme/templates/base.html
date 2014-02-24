@@ -1,9 +1,9 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
 	<title>{% block title %}{{ SITENAME }}{%endblock%}</title>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="/theme/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="./theme/css/style.css" type="text/css" />
 	{% if FEED_RSS %}
 	<link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
 	{% endif %}
@@ -13,14 +13,14 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 
-	<link rel="shortcut icon" href="/theme/img/favicon.png" />
+	<link rel="shortcut icon" href="./theme/img/favicon.png" />
 
     </head>
 
     <body>
 	<div id="header">
 	    <div id="logo">
-		<a href="/"><img src="/theme/img/logo.png" alt="{{ SITENAME }} logo" /></a>
+		<a href="/"><img src="./theme/img/logo.png" alt="{{ SITENAME }} logo" /></a>
 	    </div>
 
 	    <nav id="main-navigation">
@@ -68,7 +68,7 @@
 			document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 			</script> 
 			<noscript>
-			    <img src="/theme/img/nojsemail.png" alt="Contact Me at this e-mail. P.S. enable javascript">
+			    <img src="./theme/img/nojsemail.png" alt="Contact Me at this e-mail. P.S. enable javascript">
 			</noscript>
 			<!--<hr />-->
 		    </div>
