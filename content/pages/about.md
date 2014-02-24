@@ -1,4 +1,4 @@
-Title: About
+Title: About Beaver Barcamp
 Slug: about
 
 ## What is a BarCamp?
