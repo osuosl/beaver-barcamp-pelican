@@ -1,11 +1,8 @@
 Title: Schedule
 Slug: schedule
 
-## Beaver Barcamp 12
+## Beaver Barcamp 14
   
-<div class="barcamp-scheduled-speakers">
-    <img src="/theme/img/speakers-bbc12.png"/>
-    
 | Time | Event | 
 |9:00am - 9:30am | Morning break | 
 |9:30am - 10:20am | Session Planning |
