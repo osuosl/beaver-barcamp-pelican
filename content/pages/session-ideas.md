@@ -9,12 +9,18 @@ speaking skills.
 
 ### Here are some session ideas taken from past Beaver BarCamps:
 
- Mead Brewing                                                   | Let's build a NING website
- Google App Engine                                              | Compressed Air Vehicles
- Coffee Q & A: Learn to roast and brew from scratch!            | OSU Robotics
- Discuss Embedded Linux                                         | Poker Theory & Hold em' Strategy
- Green Computing: How to go about using thin clients            | Raspberry Pi: the items, the reasons, the possibilities!
- Introduction to the study of Martial Arts                      | USB microscope
- Intro to SELinux                                               | Want to try Yoga?
-
+* Mead Brewing 
+* Google App Engine 
+* Coffee Q & A: Learn to roast and brew from scratch!
+* Discuss Embedded Linux 
+* Green Computing: How to go about using thin clients 
+* Introduction to the study of Martial Arts 
+* Intro to SELinux  
+* Let's build a NING website
+* Compression Air Vehicles
+* OSU Robotics
+* Poker Theory & Hold 'em Strategy
+* Raspberry Pi: the items, the reasons, the possibilities
+* USB Microscope
+* Want to try yoga?
 
