@@ -214,6 +214,11 @@ h1, h2 {
     @extend .large-6, .columns;
 }
 
+#footer-about-barcamp img{
+    height: 100px;
+    width: auto;
+}
+
 #footer-contact {
     @extend .large-3, .columns;
 }
