@@ -47,6 +47,10 @@ body {
     background:#fff url('../img/pattern.gif') repeat;
 }
 
+h1, h2 {
+    color: #000;
+}
+
 #feature-text {
     @extend .row;
     position:relative;
@@ -63,6 +67,8 @@ body {
     line-height:1;
     margin:0px;
     padding:0px;
+    color: #ee5d1a;
+    font-style: italic;
 }
 
 #feature-text h4 {
@@ -148,6 +154,7 @@ body {
 #main-navigation ul li a:active,
 #main-navigation ul li a:visited {
     font-family:"Raleway", "Helvetica Neue", sans-serif;
+    color: #413128;
 }
 
 #main-navigation ul li a:hover {
@@ -320,7 +327,7 @@ hr {
     @extend .row;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1000px) {
     body {
         text-align:center;
     }
