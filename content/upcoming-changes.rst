@@ -4,7 +4,6 @@ Upcoming changes to Beaver Barcamp
 :date: 2014-03-26 15:15
 :author: OSU Open Source Lab
 :slug: upcoming-changes
-:status: draft
 
 The Open Source Lab loves Beaver Barcamp, and we know the community does too.
 The event plays an important role in fostering relationships between the tech
