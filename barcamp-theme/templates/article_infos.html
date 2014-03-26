@@ -1,5 +1,5 @@
 <div class="post-info">
-        <span class="byline">Posted on {{ article.date.strftime("%B %C, %Y") }}{% if article.author %} By <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+        <span class="byline">Posted on {{ article.locale_date }}{% if article.author %} By <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
         {% endif %}.
         </span>
         
