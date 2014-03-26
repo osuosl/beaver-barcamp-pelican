@@ -3,7 +3,7 @@
 
 AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Beaver Barcamp 14'
-SITEURL = ''
+SITEURL = 'http://beaverbarcamp.org'
 
 TIMEZONE = 'US/Pacific'
 
@@ -26,3 +26,5 @@ THEME = "barcamp-theme"
 
 FEED_RSS = 'rss20.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+
+RELATIVE_URLS = True
