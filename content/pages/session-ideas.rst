@@ -17,4 +17,4 @@ Here are some session ideas taken from past Beaver BarCamps:
  -Green Computing: How to go about using thin clients     -Raspberry Pi: the items, the reasons, the possibilities 
  -Introduction to the study of Martial Arts               -USB Microscope                    
  -Intro to SELinux                                        -Want to try yoga?    
-========================================================= ========================================================== 
+========================================================= ======================================================== 
