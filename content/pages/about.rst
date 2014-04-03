@@ -2,8 +2,15 @@ About Beaver Barcamp
 ####################
 :slug: about
 
-.. image:: /theme/img/barcampcomic.png
-	:name: barcampcomic
+.. raw:: html
+
+	<a class="lightbox" href="#goofy">
+	   <img src="theme/img/barcampcomic.png">
+	</a>
+	<div class="lightbox-target" id="goofy">
+	   <img src="theme/img/barcampcomic.png"/>
+	   <a class="lightbox-close" href="#"></a>
+	</div>
 
 What is a BarCamp?
 ------------------
