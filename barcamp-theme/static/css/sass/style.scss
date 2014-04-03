@@ -470,13 +470,13 @@ a.lightbox-close:after {
 
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
 
-/*#pic:target {
+#pic:target {
     opacity: 1;
     top: 0;
     bottom: 0;
 }
 
-#pic:target img {
+/*#pic:target img {
     max-height: 100%;
     max-width: 100%;
 }
