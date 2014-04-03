@@ -2,7 +2,7 @@ About Beaver Barcamp
 ####################
 :slug: about
 
-.. image:: barcampcomic.png
+.. image:: /barcamp-theme/static/img/barcampcomic.png
 	:name: barcampcomic
 
 What is a BarCamp?
