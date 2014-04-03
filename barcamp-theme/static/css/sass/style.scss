@@ -375,6 +375,7 @@ hr {
 /* Styles the thumbnail */
 
 a.lightbox img {
+
     border: 3px solid white;
     margin: 20px;
 }
@@ -470,17 +471,17 @@ a.lightbox-close:after {
 
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
 
-.lightbox-target:target {
+#pic:target {
     opacity: 1;
     top: 0;
     bottom: 0;
 }
 
-.lightbox-target:target img {
+#pic:target img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.lightbox-target:target a.lightbox-close {
+#pic:target a.lightbox-close {
     top: 0px;
 }
