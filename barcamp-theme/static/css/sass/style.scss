@@ -375,7 +375,6 @@ hr {
 /* Styles the thumbnail */
 
 a.lightbox img {
-
     border: 3px solid white;
     margin: 20px;
 }
@@ -393,7 +392,7 @@ a.lightbox img {
     -moz-transition: opacity .5s ease-in-out;
     -o-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */

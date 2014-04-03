@@ -7,10 +7,10 @@ About Beaver Barcamp
 	<a class="lightbox" href="#pic">
 	   <img src="/theme/img/barcampcomic.png">
 	</a>
-	<!--<div class="lightbox-target" id="pic">
+	<div class="lightbox-target" id="pic">
 	   <img src="/theme/img/barcampcomic.png">
 	   <a class="lightbox-close" href="#"></a>
-	</div>-->
+	</div>
 
 What is a BarCamp?
 ------------------
