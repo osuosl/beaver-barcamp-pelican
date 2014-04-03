@@ -4,11 +4,11 @@ About Beaver Barcamp
 
 .. raw:: html
 
-	<a class="lightbox" href="#goofy">
-	   <img src="theme/img/barcampcomic.png">
+	<a class="lightbox" href="#pic">
+	   <img src="/theme/img/barcampcomic.png">
 	</a>
-	<div class="lightbox-target" id="goofy">
-	   <img src="theme/img/barcampcomic.png"/>
+	<div class="lightbox-target" id="pic">
+	   <img src="/theme/img/barcampcomic.png">
 	   <a class="lightbox-close" href="#"></a>
 	</div>
 
