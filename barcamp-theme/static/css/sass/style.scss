@@ -388,6 +388,7 @@ a.lightbox img {
     background: rgba(0,0,0,.7);
     width: 100%;
     opacity: 0;
+    display: none;
     -webkit-transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -o-transition: opacity .5s ease-in-out;
@@ -400,6 +401,7 @@ a.lightbox img {
 .lightbox-target img {
     margin: auto;
     position: absolute;
+    display: none;
     top: 0;
     left:0;
     right:0;
@@ -470,21 +472,24 @@ a.lightbox-close:after {
 
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
 
-/*#pic:target {
+#pic:target {
     opacity: 1;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 9999;
+    display: block;
     overflow: hidden;
 }
 
 #pic:target img {
     max-height: 100%;
     max-width: 100%;
+    display: block;
 }
 
 #pic:target a.lightbox-close {
     top: 0px;
-}*/
+    display: block;
+}
