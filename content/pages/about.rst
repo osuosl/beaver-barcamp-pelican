@@ -4,7 +4,7 @@ About Beaver Barcamp
 
 .. raw:: html
 
-	<a href="/theme/img/barcampcomic.png" data-lightbox="barcampcomic.png" data-title="Artwork by">
+	<a href="/theme/img/barcampcomic.png" data-lightbox="barcampcomic.png" data-title="Artwork by Mark Harris">
 	<img src="/theme/img/barcampcomic.png">
 	</a>
 
