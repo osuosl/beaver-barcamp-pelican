@@ -292,12 +292,12 @@ ul li {
     list-style:square;
 }
 
-p:first-of-type {
+p:first-of-type{
     @extend .lead;
-}
+} 
 
-p.byline {
-    font-size:emCalc(14px);
+p.byline, ol{
+    font-size:emCalc(18px);
     font-family: $header-font-family;
 }
 

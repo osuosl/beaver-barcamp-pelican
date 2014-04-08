@@ -4,13 +4,9 @@ About Beaver Barcamp
 
 .. raw:: html
 
-	<a class="lightbox" href="#pic">
-	   <img src="/theme/img/barcampcomic.png">
+	<a href="/theme/img/barcampcomic.png" data-lightbox="barcampcomic.png" data-title="Artwork by">
+	<img src="/theme/img/barcampcomic.png">
 	</a>
-	<div class="lightbox-target" id="pic">
-	   <img src="/theme/img/barcampcomic.png">
-	   <a class="lightbox-close" href="#"></a>
-	</div>
 
 What is a BarCamp?
 ------------------
@@ -60,11 +56,39 @@ encouraged to demo new ideas, hold a group discussion on a specific topic,
 explain a unique hobby or just about anything else.  Sometimes sessions even
 spawn other sessions randomly.
 
+Directions
+~~~~~~~~~~
+`Coming from I5 south`_
+
+1. Take exit 228 for OR-34 towards Lebanon/Corvallis.
+2. At the end of the off-ramp, turn right onto OR-34 W/Corvallis-Lebanon Hwy 210.
+   
+`Coming from I5 north`_
+
+1. Take exit 228 for OR-34 toward Lebanon/Corvallis.
+2. At the end of the off-ramp, turn left onto OR-34 W/Corvallis-Lebanon Hwy 210.
+
+**From there:**
+
+3. Drive for 9.6 miles, then turn left onto OR-34 Bypass W/Corvallis-Newport Hwy.
+4. Drive for 1.3 miles, then turn right onto SW 15th st.
+5. Turn left onto SW Washington Way
+6. Turn right onto SW 26th.
+7. Turn right onto SW Campus Way.
+
+Arrive at Kelley Engineering Center! Hope you enjoy your visit. 
+
+
 Parking
 ~~~~~~~
 
 Free parking is widely available on campus on Saturdays, with the exception of
 reserved and metered stalls. There is a large parking lot to the north of
 `Kelley Engineering Center`_ that should have enough room for everyone.
+
+
+.. _Coming from I5 south: https://maps.google.com/maps?saddr=I-5+S&daddr=Kelly+engineering+center+corvallis&hl=en&sll=44.587533,-123.09082&sspn=0.428377,0.614548&geocode=FTZBqAIduDiq-A%3BFZsKqAIdv-qm-Cm5qI1uvEDAVDFGFVZKeT-O4Q&oq=Portland&mra=dme&mrsp=0&sz=11&t=m&z=11
+
+.. _Coming from I5 north: https://maps.google.com/maps?saddr=I-5+N&daddr=Kelly+engineering+center+corvallis&hl=en&sll=44.587533,-123.09082&sspn=0.428377,0.614548&geocode=FfFZpwId8zqq-A%3BFZsKqAIdv-qm-Cm5qI1uvEDAVDFGFVZKeT-O4Q&oq=Portland&mra=dme&mrsp=0&sz=11&t=m&z=11
 
 .. _Kelley Engineering Center: https://maps.google.com/maps?q=kelley+engineering+center&oe=utf-8&aq=t&client=firefox-a&ie=UTF8&hl=en&hq=&hnear=Kelley+Engineering+Center,+2500+NW+Monroe+Ave,+Corvallis,+Benton,+Oregon+97331&t=h&z=16&vpsrc=0&iwloc=A
