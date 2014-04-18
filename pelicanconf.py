@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+PATH = 'content'
 AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Beaver Barcamp 14'
 SITEURL = 'http://beaverbarcamp.org'
