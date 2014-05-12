@@ -470,6 +470,13 @@ a.lightbox-close:after {
     transform:rotate(-45deg);
 }
 
+
+/*Some stylings for pictures on BBC14 blog post*/
+
+.bbc14{
+	float: left;
+	margin: 10px;
+}
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
 
 /*#pic:target {

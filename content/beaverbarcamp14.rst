@@ -22,7 +22,8 @@ First time presenter Daniel Reichert ran a session on Theoretical Cryptography. 
 
 .. image:: /theme/img/group.jpg
 	:align: left
-	:scale: 50%
+	:width: 60%
+	:class: bbc14
 
 “I decided to come with one of my friends that came last year, and thought I could get experience presenting to people,” Brewster says. “I happen to know about Google Glass, and thought that it could be interesting.”
 
@@ -34,7 +35,8 @@ Rackspace sponsored Beaver BarCamp 14, and attendees were able to enjoy a full, 
 
 .. image:: /theme/img/board.jpg
 	:align: right
-	:scale: 50%
+	:width: 60%
+	:class: bbc14
 
 In the past, Beaver BarCamp has been a biannual event, however the Open Source Lab has decided to switch to an annual format going forward. 
 
