@@ -7,6 +7,9 @@ A Succesful Beaver BarCamp 14
 :author: OSU Open Source Lab
 :summary: BBC 14 recap
 
+.. image:: /theme/img/jdugger.jpg
+	:align: center
+
 Over 115 students, educators and community members joined together on Saturday, April 12, in the Kelley Engineering Center at Oregon State University in order to attend the Open Source Lab’s Beaver BarCamp 14. 
 
 Continuing on with the spirit of previous BarCamps, Beaver BarCamp 14 had a diverse group of tech based and non-tech based sessions; this year topics ranged from Heartbleed to Vagrant to How to Podcast to Magic the Gathering (with free sample decks).
@@ -17,6 +20,10 @@ Everyone is welcome to present at barcamp, regardless of their experience level.
 
 First time presenter Daniel Reichert ran a session on Theoretical Cryptography. “I wanted to get more experience speaking in public,” Reichert states. This was a consensus he shared with many of the other presenters, including Gregory Brewster, who ran a session on Google Glass.
 
+.. image:: /theme/img/group.jpg
+	:align: left
+	:scale: 50%
+
 “I decided to come with one of my friends that came last year, and thought I could get experience presenting to people,” Brewster says. “I happen to know about Google Glass, and thought that it could be interesting.”
 
 The interactive element is always strong at the unconference, and Beaver BarCamp 14 was no exception. Those who attended the Google Glass session where given the opportunity to try it out. Some played games, some took photos and some simply explored the different features. 
@@ -24,6 +31,10 @@ The interactive element is always strong at the unconference, and Beaver BarCamp
 “Google Glass Tennis was absolutely exhilarating,” reports barcamp newcomer Maren Vick. “Your head is the racket and it’s so lifelike. Be careful, though, you need to focus on where you’re walking as well.”
 
 Rackspace sponsored Beaver BarCamp 14, and attendees were able to enjoy a full, free Beaver BarCamp experience along with food, refreshments and t-shirts. 
+
+.. image:: /theme/img/board.jpg
+	:align: right
+	:scale: 50%
 
 In the past, Beaver BarCamp has been a biannual event, however the Open Source Lab has decided to switch to an annual format going forward. 
 
