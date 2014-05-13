@@ -37,7 +37,6 @@ Rackspace sponsored Beaver BarCamp 14, and attendees were able to enjoy a full, 
 	:align: right
 	:width: 60%
 	:class: bbc14
-
 In the past, Beaver BarCamp has been a biannual event, however the Open Source Lab has decided to switch to an annual format going forward. 
 
 “This year we decided that it was best to switch to a once a year format and focus on making Beaver BarCamp better," says Lance Albertson, director of the Open Source Lab. “We also look forward to developing new education programs such as a Hackathon focused on DevOps and FOSS, getting students interested in it early on in their school year. This would also enable us to kickstart DevOps Bootcamp.”

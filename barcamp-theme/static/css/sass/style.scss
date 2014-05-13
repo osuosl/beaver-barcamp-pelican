@@ -136,6 +136,7 @@ h1, h2 {
 
 #main-navigation {
     @extend .large-9, .columns;
+	width: 80% !important;
 }
 
 #main-navigation ul {
@@ -477,30 +478,3 @@ a.lightbox-close:after {
 	float: left;
 	margin: 10px;
 }
-/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
-
-/*#pic:target {
-    opacity: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    display: block;
-    overflow: hidden;
-}
-
-#pic:target img {
-    width: 100%;
-    height: auto;
-    margin-left: 0px;
-    margin-right: 0px
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
-
-#pic:target a.lightbox-close {
-    top: 0px;
-    display: block;
-}*/
