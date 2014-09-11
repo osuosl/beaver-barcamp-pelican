@@ -1,5 +1,5 @@
-About Beaver Barcamp
-####################
+About Barcamp
+#############
 :slug: about
 
 .. raw:: html
