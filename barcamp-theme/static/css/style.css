@@ -2681,6 +2681,11 @@ h1, h2 {
   z-index: 99;
   margin-top: 2rem;
   padding-top: 2rem; }
+  #footer img {
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+    padding: 10px; }
 
 #footer-container {
   color: #fff; }
@@ -2702,9 +2707,14 @@ h1, h2 {
   font-weight: normal;
   font-size: 1.25rem; }
 
-#footer-about-barcamp img {
-  height: 100px;
-  width: auto; }
+#footer-about-barcamp {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top; }
+
+#footer-contact {
+  display: inline-block;
+  vertical-align: top; }
 
 #footer-navigation h5 {
   margin-bottom: 0px;

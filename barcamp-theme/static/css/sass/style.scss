@@ -179,6 +179,13 @@ h1, h2 {
     z-index:99;
     margin-top:emCalc(32px);
     padding-top:emCalc(32px);
+
+    img{
+        max-width: 200px;
+        height: auto;
+        display: inline-block;
+        padding: 10px;
+    }
 }
 
 #footer-container {
@@ -213,15 +220,15 @@ h1, h2 {
 
 #footer-about-barcamp {
     @extend .large-6, .columns;
-}
-
-#footer-about-barcamp img{
-    height: 100px;
-    width: auto;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #footer-contact {
     @extend .large-3, .columns;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #footer-navigation {
