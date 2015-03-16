@@ -2582,13 +2582,10 @@ h1, h2 {
   color: #000; }
 
 #feature-text {
-  position: relative;
-  z-index: 99;
-  margin-top: 1rem;
-  margin-bottom: 4.5rem; }
+  position: relative; }
 
 #feature-text h2 {
-  font-size: 5rem;
+  font-size: 2.125rem;
   letter-spacing: -.03em;
   text-transform: uppercase;
   font-weight: bold;
@@ -2599,7 +2596,7 @@ h1, h2 {
   font-style: italic; }
 
 #feature-text h4 {
-  font-size: 3.125rem;
+  font-size: 1.5rem;
   color: #685040;
   letter-spacing: -.03em;
   line-height: 1;
@@ -2608,7 +2605,7 @@ h1, h2 {
   padding: 0px; }
 
 #feature-text h5 {
-  font-size: 2.1875rem;
+  font-size: 1.25rem;
   color: #685040;
   line-height: 1.2;
   font-weight: 500;
@@ -2619,10 +2616,7 @@ h1, h2 {
   background: url("../img/beaver.gif") no-repeat left;
   width: 45%;
   height: 29.9375rem;
-  position: absolute;
-  right: 0;
-  top: 40%;
-  z-index: 1; }
+  display: inline-block; }
 
 #beaver-small {
   display: none; }

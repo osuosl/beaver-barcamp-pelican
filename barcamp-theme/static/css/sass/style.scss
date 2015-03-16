@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 #feature-text h2 {
-    font-size:emCalc(140px);
+    font-size:emCalc(80px);
     letter-spacing:-.03em;
     text-transform:uppercase;
     font-weight:bold;
@@ -72,7 +72,7 @@ h1, h2 {
 }
 
 #feature-text h4 {
-    font-size:emCalc(57px);
+    font-size:emCalc(50px);
     color:#685040;
     letter-spacing:-.03em;
     line-height:1;
@@ -82,7 +82,7 @@ h1, h2 {
 }
 
 #feature-text h5 {
-    font-size:emCalc(40px);
+    font-size:emCalc(35px);
     color:#685040;
     line-height:1.2;
     font-weight:500;
@@ -96,7 +96,7 @@ h1, h2 {
     height:emCalc(479px);
     position:absolute;
     right:0;
-    top:26%;
+    top: 40%;
     z-index:1;
 }
 
