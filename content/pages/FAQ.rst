@@ -18,9 +18,11 @@ What are Lightning Talks?
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lightning talks are five minute presentations on any topic. At barcamp,
-the first session will be just lightning talks in the barcamp style;
+the first session will include lightning talks in the barcamp style;
 anyone can sign up beforehand and present on any topic for up to 
-five minutes. 
+five minutes instead of the full hour. We will still have full-length
+barcamp talks available during that session, but lightning talks will
+be an option.
 
 Who should present?
 ~~~~~~~~~~~~~~~~~~~
