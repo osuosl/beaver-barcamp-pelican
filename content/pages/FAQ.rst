@@ -55,7 +55,7 @@ RSVP is not required, but we would love if you registered for the event on
 `EventBrite`_. This helps us plan for enough food and accommodate dietary
 restrictions.
 
-.. _EventBrite: http://www.eventbrite.com/e/beaver-barcamp-15-tickets-15983994558
+.. _EventBrite: http://beaverbarcamp15.eventbrite.com 
 
 
 Who should I contact to receive accommodations related to a disability?
