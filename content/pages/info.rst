@@ -5,9 +5,10 @@ Information
 WiFi
 ----
 
-We are using the OSU public wifi system. Look for **OSU_ACCESS** (choose local
-DB), account name is **BBC11**, password is **bossyPeccary** (this account
-will work only for the weekend).
+We are using the OSU public wifi system. If you're an OSU student, we 
+suggest using OSU Secure and signing in with your ONID. If you're not
+a student you can use the Visitor network.  Make sure you accept the 
+terms and condition.
 
 Restrooms
 ---------
