@@ -9,6 +9,7 @@ A Succesful Beaver BarCamp 14
 
 .. image:: /theme/img/jdugger.jpg
 	:align: center
+    :alt: Justin Dugger giving a talk
 
 Over 115 students, educators and community members joined together on Saturday, April 12, in the Kelley Engineering Center at Oregon State University in order to attend the Open Source Lab’s Beaver BarCamp 14. 
 
@@ -24,6 +25,7 @@ First time presenter Daniel Reichert ran a session on Theoretical Cryptography. 
 	:align: left
 	:width: 60%
 	:class: bbc14
+    :alt: Students discuss which talks to attend
 
 “I decided to come with one of my friends that came last year, and thought I could get experience presenting to people,” Brewster says. “I happen to know about Google Glass, and thought that it could be interesting.”
 
@@ -37,6 +39,7 @@ Rackspace sponsored Beaver BarCamp 14, and attendees were able to enjoy a full, 
 	:align: right
 	:width: 60%
 	:class: bbc14
+    :alt: The Board
 
 In the past, Beaver BarCamp has been a biannual event, however the Open Source Lab has decided to switch to an annual format going forward. 
 

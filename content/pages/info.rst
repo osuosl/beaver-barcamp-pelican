@@ -61,9 +61,11 @@ Floor Plans
 .. image:: /theme/img/kec1.png
   :width: 90%
   :align: center
+  :alt: Kelley Engineering Center
 
 ----
 
 .. image:: /theme/img/kec2.png
   :width: 90%
   :align: center
+  :alt: Kelley Engineering Center
