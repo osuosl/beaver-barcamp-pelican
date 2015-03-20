@@ -6,9 +6,8 @@ WiFi
 ----
 
 We are using the OSU public wifi system. If you're an OSU student, we 
-suggest using OSU Secure and signing in with your ONID. If you're not
-a student you can use the Visitor network.  Make sure you accept the 
-terms and condition.
+suggest using **OSU Secure** and signing in with your ONID. 
+If you're not a student you can use the **Visitor** network.  Make sure you accept the terms and condition.
 
 Restrooms
 ---------

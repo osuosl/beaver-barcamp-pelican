@@ -12,5 +12,5 @@ Instead of a keynote, our first session will be all lightning talks.
 You can come early and propose a topic to give a lightning talk on,
 or vote on other topics that you want to hear about. The most popular
 proposals will be chosen to give their presentations.  If you have
-any questions about this format, please email us at info<at>osuosl.org!
+any questions about this format, please email us at info<at>beaverbarcamp.org
 We look forward to seeing you at Beaver Barcamp 15!
