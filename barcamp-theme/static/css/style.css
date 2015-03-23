@@ -2584,11 +2584,11 @@ h1, h2 {
 #feature-text {
   position: relative;
   z-index: 99;
-  margin-top: 1rem;
-  margin-bottom: 4.5rem; }
+  margin-top: 16px;
+  margin-bottom: 72px; }
 
 #feature-text h2 {
-  font-size: 5rem;
+  font-size: 80px;
   letter-spacing: -.03em;
   text-transform: uppercase;
   font-weight: bold;
@@ -2599,26 +2599,26 @@ h1, h2 {
   font-style: italic; }
 
 #feature-text h4 {
-  font-size: 3.125rem;
+  font-size: 50px;
   color: #685040;
   letter-spacing: -.03em;
   line-height: 1;
   font-weight: bold;
-  margin: 0.25rem 0 0 0;
+  margin: 4px 0 0 0;
   padding: 0px; }
 
 #feature-text h5 {
-  font-size: 2.1875rem;
+  font-size: 35px;
   color: #685040;
   line-height: 1.2;
   font-weight: 500;
-  margin: 0.25rem 0 0 0;
+  margin: 4px 0 0 0;
   padding: 0px; }
 
 #beaver {
   background: url("../img/beaver.gif") no-repeat left;
   width: 45%;
-  height: 29.9375rem;
+  height: 480px;
   position: absolute;
   right: 0;
   top: 40%;
@@ -2628,12 +2628,11 @@ h1, h2 {
   display: none; }
 
 #register-button {
-  margin-top: 1.25rem;
   font-family: "Raleway", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400; }
 
 #what-is-barcamp {
-  padding: 1.375rem;
+  padding: 22px;
   margin: 0px; }
 
 .barcamp-information-icon {
@@ -2641,8 +2640,8 @@ h1, h2 {
 
 /*** Header ***/
 #header {
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding-top: 32px;
+  padding-bottom: 32px; }
 
 #logo {
   max-width: 107px; }
@@ -2653,12 +2652,12 @@ h1, h2 {
 #main-navigation ul {
   display: inline;
   float: left;
-  margin-top: 0.75rem; }
+  margin-top: 12px; }
 
 #main-navigation ul li {
   display: inline;
   padding: 0px;
-  margin: 0px 1rem 0 0; }
+  margin: 0px 16px 0 0; }
 
 #main-navigation ul li a:link,
 #main-navigation ul li a:active,
@@ -2670,8 +2669,8 @@ h1, h2 {
   text-decoration: underline; }
 
 #social-media img {
-  margin-top: 0.75rem;
-  margin-right: 0.75rem; }
+  margin-top: 12px;
+  margin-right: 12px; }
 
 /***Footer***/
 #footer {
@@ -2679,7 +2678,7 @@ h1, h2 {
   background: url("../img/footer-texture.gif") repeat #385e86;
   position: relative;
   z-index: 99;
-  margin-top: 2rem;
+  margin-top: 32px;
   padding-top: 2rem; }
   #footer img {
     max-width: 200px;
