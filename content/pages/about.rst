@@ -4,8 +4,8 @@ About Barcamp
 
 .. raw:: html
 
-	<a href="/theme/img/barcampcomic.png" data-lightbox="barcampcomic.png" data-title="Artwork by Mark Harris">
-	<img src="/theme/img/barcampcomic.png">
+	<a href="../theme/img/barcampcomic.png" data-lightbox="barcampcomic.png" data-title="Artwork by Mark Harris">
+	<img src="../theme/img/barcampcomic.png">
 	</a>
 
 What is a BarCamp?
@@ -14,19 +14,19 @@ What is a BarCamp?
 .. raw:: html
 
   <div class="barcamp-information-icon">
-      <img src="/theme/img/open.gif" alt="Icons showing people who can present various people who can participate" />
+      <img src="../theme/img/open.gif" alt="Icons showing people who can present various people who can participate" />
       <h4>Open</h4>
       <p>Everyone is welcome to attend, and everyone can present.</p>
   </div>
 
   <div class="barcamp-information-icon">
-      <img src="/theme/img/diverse.gif" alt="Icons representing possiblities of topics at Beaver BarCamp" />
+      <img src="../theme/img/diverse.gif" alt="Icons representing possiblities of topics at Beaver BarCamp" />
       <h4>Diverse</h4>
       <p>We encourage a wide range of topics. Food, art, technology, science, culture &#8212; the choice is yours.</p>
   </div>
 
   <div class="barcamp-information-icon">
-      <img src="/theme/img/interactive.gif" alt="Icon representing BarCamp's interactivity." />
+      <img src="../theme/img/interactive.gif" alt="Icon representing BarCamp's interactivity." />
       <h4>Interactive</h4>
       <p>Sessions often include demos, discussions or projects, fostering audience participation.</p>
   </div>
