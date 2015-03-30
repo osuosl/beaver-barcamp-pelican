@@ -5,9 +5,9 @@ Information
 WiFi
 ----
 
-We are using the OSU public wifi system. Look for **OSU_ACCESS** (choose local
-DB), account name is **BBC14**, password is **sleepyMandrill** (this account
-will work only for the weekend).
+We are using the OSU public wifi system. If you're an OSU student, we 
+suggest using **OSU Secure** and signing in with your ONID. 
+If you're not a student you can use the **Visitor** network.  Make sure you accept the terms and condition.
 
 Restrooms
 ---------
@@ -23,13 +23,14 @@ classrooms.  Rooms come in three sizes:
 Large (1001, 1003, 1005, 1007):
   Classrooms. Please reserve for very large gatherings. All have projectors.
 
-Medium (1087, 3114, 2057, 3057, 2087, 3087, 4107):
+Medium (1114, 3114, 2057, 3057)
   About 10-20 people.
 
-Small
-  Smaller groups (5 or 6 people) can meet in the seats at the end of each hall
-  (2nd or 3rd floor) or in the lounge by the south door or in the atrium. We
-  have a few student volunteers who can help direct you to rooms.
+Even smaller groups (5 or 6 people) can meet in the seats at the end 
+of each hall (2nd or 3rd floor) or in the lounge by the south door 
+or in the atrium. We have a few student volunteers who can help 
+direct you to rooms.
+
 
 Sessions
 --------
@@ -60,9 +61,11 @@ Floor Plans
 .. image:: /theme/img/kec1.png
   :width: 90%
   :align: center
+  :alt: Kelley Engineering Center
 
 ----
 
 .. image:: /theme/img/kec2.png
   :width: 90%
   :align: center
+  :alt: Kelley Engineering Center

@@ -55,12 +55,12 @@ h1, h2 {
     @extend .row;
     position:relative;
     z-index:99;
-    margin-top:emCalc(16px);
-    margin-bottom:emCalc(72px);
+    margin-top: 16px;
+    margin-bottom: 72px;
 }
 
 #feature-text h2 {
-    font-size:emCalc(140px);
+    font-size: 80px;
     letter-spacing:-.03em;
     text-transform:uppercase;
     font-weight:bold;
@@ -72,31 +72,31 @@ h1, h2 {
 }
 
 #feature-text h4 {
-    font-size:emCalc(57px);
+    font-size: 50px;
     color:#685040;
     letter-spacing:-.03em;
     line-height:1;
     font-weight:bold;
-    margin:emCalc(4px) 0 0 0;
+    margin: 4px 0 0 0;
     padding:0px;
 }
 
 #feature-text h5 {
-    font-size:emCalc(40px);
+    font-size: 35px;
     color:#685040;
     line-height:1.2;
     font-weight:500;
-    margin:emCalc(4px) 0 0 0;
+    margin: 4px 0 0 0;
     padding:0px;
 }
 
 #beaver {
     background: url('../img/beaver.gif') no-repeat left;
     width:45%;
-    height:emCalc(479px);
+    height: 480px;
     position:absolute;
     right:0;
-    top:26%;
+    top: 40%;
     z-index:1;
 }
 
@@ -106,14 +106,13 @@ h1, h2 {
 
 #register-button {
     @extend .button, .large, .radius;
-    margin-top:emCalc(20px);
     font-family: $header-font-family;
     font-weight:400;
 }
 
 #what-is-barcamp {
     @extend .large-12, .columns;
-    padding:emCalc(22px);
+    padding: 22px;
     margin:0px;
 }
 
@@ -125,8 +124,8 @@ h1, h2 {
 /*** Header ***/
 #header {
     @extend .row;
-    padding-top:emCalc(32px);
-    padding-bottom:emCalc(32px);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 #logo {
@@ -142,13 +141,13 @@ h1, h2 {
 #main-navigation ul {
     display:inline;
     float:left;
-    margin-top:emCalc(12px);
+    margin-top: 12px;
 }
 
 #main-navigation ul li {
     display:inline;
     padding:0px;
-    margin:0px emCalc(16px) 0 0;
+    margin:0px 16px 0 0;
 }
 
 #main-navigation ul li a:link,
@@ -167,8 +166,8 @@ h1, h2 {
 }
 
 #social-media img {
-    margin-top:emCalc(12px);
-    margin-right:emCalc(12px);
+    margin-top: 12px;
+    margin-right: 12px;
 }
 
 /***Footer***/
@@ -177,8 +176,15 @@ h1, h2 {
     background:url('../img/footer-texture.gif') repeat #385e86;
     position:relative;
     z-index:99;
-    margin-top:emCalc(32px);
+    margin-top: 32px;
     padding-top:emCalc(32px);
+
+    img{
+        max-width: 200px;
+        height: auto;
+        display: inline-block;
+        padding: 10px;
+    }
 }
 
 #footer-container {
@@ -213,15 +219,15 @@ h1, h2 {
 
 #footer-about-barcamp {
     @extend .large-6, .columns;
-}
-
-#footer-about-barcamp img{
-    height: 100px;
-    width: auto;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #footer-contact {
     @extend .large-3, .columns;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #footer-navigation {

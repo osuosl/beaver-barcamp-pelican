@@ -2,7 +2,7 @@ Schedule
 ########
 :slug: schedule
 
------------------
+(NOTE: each session is either 25 or 50 minutes long – please don’t run over)
 
 ================= ==================
 Time              Event
@@ -23,5 +23,6 @@ Sessions
 --------
 
 .. raw:: html
+    
+     <iframe width='800' height='450' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0Au0wOPQwuelMdEFFR0wzZHR5a3R3a3JOcDFFaGNjTGc&single=true&gid=10&output=html&widget=true'></iframe>
 
-  <iframe width='800' height='450' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0Au0wOPQwuelMdEFFR0wzZHR5a3R3a3JOcDFFaGNjTGc&single=true&gid=9&output=html&widget=true'></iframe>
