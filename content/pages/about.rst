@@ -82,10 +82,14 @@ Arrive at Kelley Engineering Center! Hope you enjoy your visit.
 Parking
 ~~~~~~~
 
-Free parking is widely available on campus on Saturdays, with the exception of
-reserved and metered stalls. There is a large parking lot to the north of
-`Kelley Engineering Center`_ that should have enough room for everyone.
+Parking may be a little bit tricky this year, as the parking lot 
+just north of Kelley is closed, and there is a footbal scrimmage
+on the same day as Barcamp.  We recommend you park in the 
+highlighted parking lots close to Kelley on the map below! Parking
+is free everywhere, so if you find a space go ahead and take it.
 
+.. figure:: ../theme/img/parking2.png
+    :align: center
 
 .. _Coming from I5 south: https://maps.google.com/maps?saddr=I-5+S&daddr=Kelly+engineering+center+corvallis&hl=en&sll=44.587533,-123.09082&sspn=0.428377,0.614548&geocode=FTZBqAIduDiq-A%3BFZsKqAIdv-qm-Cm5qI1uvEDAVDFGFVZKeT-O4Q&oq=Portland&mra=dme&mrsp=0&sz=11&t=m&z=11
 
