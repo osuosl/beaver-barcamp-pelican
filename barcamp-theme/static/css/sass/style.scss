@@ -56,7 +56,7 @@ h1, h2 {
     position:relative;
     z-index:99;
     margin-top: 16px;
-    margin-bottom: 72px;
+    margin-bottom: 330px;
 }
 
 #feature-text h2 {
@@ -90,13 +90,26 @@ h1, h2 {
     padding:0px;
 }
 
+.tab--tiny {
+    display:inline-block;
+    color:#333;
+    font-family: $header-font-family;
+    font-weight: bold;
+    font-size:14px;
+}
+
+.tab--tiny a {
+    text-decoration: underline;
+    color:#d34e10;
+}
+
 #beaver {
     background: url('../img/beaver.gif') no-repeat left;
     width:45%;
     height: 480px;
     position:absolute;
     right:0;
-    top: 40%;
+    top: 260px;
     z-index:1;
 }
 
