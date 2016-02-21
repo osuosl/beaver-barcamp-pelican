@@ -1,0 +1,25 @@
+{
+  "name": "beaver-barcamp-pelican",
+  "version": "1.0.0",
+  "description": "Beaver Barcamp website ",
+  "main": "output/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osuosl/beaver-barcamp-pelican.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osuosl/beaver-barcamp-pelican/issues"
+  },
+  "homepage": "https://github.com/osuosl/beaver-barcamp-pelican#readme",
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "scripts": {
+    "build-css": "./node_modules/.bin/node-sass barcamp-theme/static/css/sass/style.scss > barcamp-theme/static/css/style.css"
+  }
+}
