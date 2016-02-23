@@ -7,3 +7,4 @@ venv/
 .sass-cache
 v/
 cache/
+node_modules/
