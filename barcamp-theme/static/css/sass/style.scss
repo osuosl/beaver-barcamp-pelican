@@ -9,6 +9,13 @@
 
 body {
 	background:#fff url('../img/pattern.gif') repeat;
+	display:flex;
+	min-height:100vh;
+	flex-direction: column;
+}
+
+main {
+	flex:1;
 }
 
 h1, h2 {

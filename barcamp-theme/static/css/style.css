@@ -2182,7 +2182,13 @@ table {
     line-height: 1.125rem; }
 
 body {
-  background: #fff url("../img/pattern.gif") repeat; }
+  background: #fff url("../img/pattern.gif") repeat;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1; }
 
 h1, h2 {
   color: #000; }
