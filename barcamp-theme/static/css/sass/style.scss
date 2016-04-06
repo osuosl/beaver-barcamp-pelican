@@ -1,493 +1,387 @@
 // Global Foundation Settings
 @import "settings";
-
-// Comment out this import if you are customizing you imports below
-// @import "foundation";
-
-// Import specific parts of Foundation by commenting the import "foundation"
-// and uncommenting what you want below. You must uncomment the following if customizing
-
- @import "foundation/components/global"; // *always required
- @import "foundation/components/grid";
-// @import "foundation/components/visibility";
-// @import "foundation/components/block-grid";
+// Custom imports
+@import "foundation/components/global"; // *always required
+@import "foundation/components/grid";
 @import "foundation/components/type";
 @import "foundation/components/buttons";
-// @import "foundation/components/forms"; // *requires components/buttons
-// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
-// @import "foundation/components/button-groups"; // *requires components/buttons
-// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
-// @import "foundation/components/split-buttons"; // *requires components/buttons
-// @import "foundation/components/flex-video";
-// @import "foundation/components/section";
-// @import "foundation/components/top-bar";  // *requires components/grid
-// @import "foundation/components/orbit";
-// @import "foundation/components/reveal";
-// @import "foundation/components/joyride";
-// @import "foundation/components/clearing";
-// @import "foundation/components/alert-boxes";
-// @import "foundation/components/breadcrumbs";
-// @import "foundation/components/keystrokes";
-// @import "foundation/components/labels";
-// @import "foundation/components/inline-lists";
-// @import "foundation/components/pagination";
-// @import "foundation/components/panels";
-// @import "foundation/components/pricing-tables";
-// @import "foundation/components/progress-bars";
-// @import "foundation/components/side-nav";
-// @import "foundation/components/sub-nav";
-// @import "foundation/components/switch";
-// @import "foundation/components/magellan";
 @import "foundation/components/tables";
-// @import "foundation/components/thumbs";
-// @import "foundation/components/tooltips";
-// @import "foundation/components/dropdown";
 
 body {
-    background:#fff url('../img/pattern.gif') repeat;
+	background:#fff url('../img/pattern.gif') repeat;
 }
 
 h1, h2 {
-    color: #000;
+	color: #000;
 }
 
 #feature-text {
-    @extend .row;
-    position:relative;
-    z-index:99;
-    margin-top: 16px;
-    margin-bottom: 330px;
-}
+	@extend .row;
+	position:relative;
+	z-index:99;
+	margin-top: 16px;
 
-#feature-text h2 {
-    font-size: 80px;
-    letter-spacing:-.03em;
-    text-transform:uppercase;
-    font-weight:bold;
-    line-height:1;
-    margin:0px;
-    padding:0px;
-    color: #ee5d1a;
-    font-style: italic;
-}
+	h2 {
+		font-size: 80px;
+		letter-spacing:-.03em;
+		text-transform:uppercase;
+		font-weight:bold;
+		line-height:1;
+		margin:0px;
+		padding:0px;
+		color: #ee5d1a;
+		font-style: italic;
+	}
 
-#feature-text h4 {
-    font-size: 50px;
-    color:#685040;
-    letter-spacing:-.03em;
-    line-height:1;
-    font-weight:bold;
-    margin: 4px 0 0 0;
-    padding:0px;
-}
+	h4 {
+		font-size: 50px;
+		color:#685040;
+		letter-spacing:-.03em;
+		line-height:1;
+		font-weight:bold;
+		margin: 4px 0 0 0;
+		padding:0px;
+	}
 
-#feature-text h5 {
-    font-size: 35px;
-    color:#685040;
-    line-height:1.2;
-    font-weight:500;
-    margin: 4px 0 0 0;
-    padding:0px;
+	h5 {
+		font-size: 35px;
+		color:#685040;
+		line-height:1.2;
+		font-weight:500;
+		margin: 4px 0 0 0;
+		padding:0px;
+	}
+
+	p {
+		font-family:"Raleway","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	}
 }
 
 .tab--tiny {
-    display:inline-block;
-    color:#333;
-    font-family: $header-font-family;
-    font-weight: bold;
-    font-size:14px;
+	display:inline-block;
+	color:#333;
+	font-family: $header-font-family;
+	font-weight: bold;
+	font-size:14px;
 }
 
 .tab--tiny a {
-    text-decoration: underline;
-    color:#d34e10;
+	text-decoration: underline;
+	color:#d34e10;
 }
 
 #beaver {
-    background: url('../img/beaver.gif') no-repeat left;
-    width:45%;
-    height: 480px;
-    position:absolute;
-    right:0;
-    top: 260px;
-    z-index:1;
+	background: url('../img/beaver.gif') no-repeat left;
+	width:45%;
+	height: 480px;
+	position:absolute;
+	right:0;
+	top: 260px;
+	z-index:1;
 }
 
 #beaver-small {
-    display:none;
+	display:none;
 }
 
 #register-button {
-    @extend .button, .large, .radius;
-    font-family: $header-font-family;
-    font-weight:400;
+	@extend .button, .large, .radius;
+	font-family: $header-font-family;
+	font-weight:400;
 }
 
 #what-is-barcamp {
-    @extend .large-12, .columns;
-    padding: 22px;
-    margin:0px;
+	@extend .large-12, .columns;
+	padding: 22px;
+	margin:0px;
 }
 
 .barcamp-information-icon {
-    @extend .large-4, .small-12, .columns;
-    text-align:center;
+	@extend .large-4, .small-12, .columns;
+	text-align:center;
 }
 
 /*** Header ***/
 #header {
-    @extend .row;
-    padding-top: 32px;
-    padding-bottom: 32px;
+	@extend .row;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 #logo {
-    @extend .large-2, .columns;
-    max-width:107px;
+	@extend .large-2, .columns;
+	max-width:107px;
 }
 
 #main-navigation {
-    @extend .large-9, .columns;
+	@extend .large-9, .columns;
 	width: 80% !important;
 }
 
 #main-navigation ul {
-    display:inline;
-    float:left;
-    margin-top: 12px;
+	display:inline;
+	float:left;
+	margin-top: 12px;
 }
 
 #main-navigation ul li {
-    display:inline;
-    padding:0px;
-    margin:0px 16px 0 0;
+	display:inline;
+	padding:0px;
+	margin:0px 16px 0 0;
 }
 
 #main-navigation ul li a:link,
 #main-navigation ul li a:active,
 #main-navigation ul li a:visited {
-    font-family:"Raleway", "Helvetica Neue", sans-serif;
-    color: #413128;
+	font-family:"Raleway", "Helvetica Neue", sans-serif;
+	color: #413128;
 }
 
 #main-navigation ul li a:hover {
-    text-decoration:underline;
+	text-decoration:underline;
 }
 
 #social-media {
-    @extend .large-1, .columns;
+	@extend .large-1, .columns;
 }
 
 #social-media img {
-    margin-top: 12px;
-    margin-right: 12px;
+	margin-top: 12px;
+	margin-right: 12px;
 }
 
 /***Footer***/
 #footer {
-    width:100%;
-    background:url('../img/footer-texture.gif') repeat #385e86;
-    position:relative;
-    z-index:99;
-    margin-top: 32px;
-    padding-top:emCalc(32px);
+	width:100%;
+	background: url('../img/footer-texture.gif') repeat #385e86;
+	position:relative;
+	z-index:99;
+	padding: 30px;
 
-    img{
-        max-width: 200px;
-        height: auto;
-        display: inline-block;
-        padding: 10px;
-    }
+	h3, h4, h5, p, a {
+		color:#fff;
+	}
+	a:link,
+	a:active,
+	a:visited {
+		color:#EE5D1A;
+	}
+	a:hover {
+		color:#fff;
+		text-decoration:underline;
+	}
 }
 
-#footer-container {
-    @extend .row;
-    color:#fff;
-}
+#footer-sponsors {
+	max-width: 70%;
+	display: inline-block;
 
-#footer-container a:link,
-#footer-container a:active,
-#footer-container a:visited {
-    color:#EE5D1A;
-}
-
-#footer-container a:hover {
-    color:#fff;
-    text-decoration:underline;
-}
-
-#footer-container h5,
-#footer-container p {
-    color:#fff !important;
-}
-
-#footer-container h5 {
-    font-weight:normal;
-    font-size:emCalc(20px);
-}
-
-#footer-save-the-date {
-    @extend .large-3, .columns;
-}
-
-#footer-about-barcamp {
-    @extend .large-6, .columns;
-    width: 70%;
-    display: inline-block;
-    vertical-align: top;
+	img{
+		display: inline-block;
+		max-width: 400px;
+		width: 70%;
+		background: white;
+	}
 }
 
 #footer-contact {
-    @extend .large-3, .columns;
-    display: inline-block;
-    vertical-align: top;
-}
-
-#footer-navigation {
-    @extend .large-9, .columns;
-}
-
-#footer-navigation h5 {
-    margin-bottom:0px;
-    padding-top:0px;
-}
-
-#footer-navigation ul {
-    padding:0px;
-    margin:0px;
-    display:inline;
-}
-
-#footer-navigation ul li {
-    margin:20px 10px 0 0;
-    display:inline;
-    float:left;
-}
-
-#footer-navigation ul li a:link,
-#footer-navigation ul li a:active,
-#footer-navigation ul li a:visited {
-    font-weight:normal;
-    padding:emCalc(7px) emCalc(14px);
-    background:#444;
-    color:#fff;
-    border-radius:10px;
-}
-
-#footer-navigation ul li a:hover {
-    background:#333;
-    text-decoration:none;
-}
-
-#footer-register-button {
-    @extend .button, .small, .radius;
-    font-family: $header-font-family;
-    font-weight:400;
-    text-decoration:none !important;
-    color:#fff !important;
-    margin-top:emCalc(24px);
-}
-
-#footer-credits {
-    @extend .large-12, .columns;
-    margin-top:emCalc(32px);
-}
-
-.save-the-date {
-    font-family: $header-font-family;
-    display:block;
-    font-weight:normal;
-    padding-top:emCalc(12px);
+	display: inline-block;
+	img{
+		max-width: 80px;
+		height: auto;
+		display: inline-block;
+		padding: 5px;
+	}
 }
 
 /*** Typography ***/
 ul {
-    padding:0px;
-    margin:0px;
+	padding:0px;
+	margin:0px;
 }
 
 ul li {
-    margin:emCalc(3px) 0 emCalc(3px) emCalc(18px);
-    padding:0px;
-    list-style:square;
+	margin:emCalc(3px) 0 emCalc(3px) emCalc(18px);
+	padding:0px;
+	list-style:square;
 }
 
 p:first-of-type{
-    @extend .lead;
+	@extend .lead;
 } 
 
 p.byline, ol{
-    font-size:emCalc(18px);
-    font-family: $header-font-family;
+	font-size:emCalc(18px);
+	font-family: $header-font-family;
 }
 
 span.byline {
-    display:block;
-    width:100%;
-    font-size:emCalc(16px);
-    font-family: $header-font-family;
-    padding-bottom:emCalc(16px);
+	display:block;
+	width:100%;
+	font-size:emCalc(16px);
+	font-family: $header-font-family;
+	padding-bottom:emCalc(16px);
 }
 
 h1.entry-title {
-    font-weight:bold;
+	font-weight:bold;
 }
 
 hr {
-    border-color:#d0c9a8;
+	border-color:#d0c9a8;
 }
 
 #footer-container hr {
-    border-color:#444;
-    clear:both;
+	border-color:#444;
+	clear:both;
 }
 
 
 /*** Blog Styles ***/
 .row article {
-    @extend .large-9, .columns;
+	@extend .large-9, .columns;
 }
 
 #article-container {
-    @extend .row;
+	@extend .row;
 }
 
 @media screen and (max-width: 1000px) {
-    body {
-        text-align:center;
-    }
-                    
-    #logo {
-        max-width:none;
-    }
-                    
-    #main-navigation {
-        padding:16px 0;
-                    }
-                    
-    #main-navigation ul {
-        float:none;
-    }
-    
-    #feature-text h2 {
-        font-size:emCalc(60px);
-    }
-                    
-    #feature-text h4 {
-        font-size:emCalc(32px);
-    }
-    
-    #feature-text h5 {
-        font-size:emCalc(24px);
-    }
-                    
-    #beaver {
-        display:none;
-    }
-    
-    #beaver-small {
-        display:block;
-        margin:emCalc(32px) 0;
-    }
+	body {
+		text-align:center;
+	}
+
+	#logo {
+		max-width:none;
+	}
+
+	#main-navigation {
+		padding:16px 0;
+	}
+
+	#main-navigation ul {
+		float:none;
+	}
+
+	#feature-text h2 {
+		font-size:emCalc(60px);
+	}
+
+	#feature-text h4 {
+		font-size:emCalc(32px);
+	}
+
+	#feature-text h5 {
+		font-size:emCalc(24px);
+	}
+
+	#beaver {
+		display:none;
+	}
+
+	#beaver-small {
+		display:block;
+		margin:emCalc(32px) 0;
+	}
 }
 
 /*Stylings for lightbox for comic on about page*/
 /* Styles the thumbnail */
 
 a.lightbox img {
-    border: 3px solid white;
-    margin: 20px;
+	border: 3px solid white;
+	margin: 20px;
 }
 
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
 
 .lightbox-target {
-    position: fixed;
-    top: -100%;
-    width: 100%;
-    background: rgba(0,0,0,.7);
-    width: 100%;
-    opacity: 0;
-    display: none;
-    -webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-    //overflow: hidden;
+	position: fixed;
+	top: -100%;
+	width: 100%;
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	opacity: 0;
+	display: none;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+	//overflow: hidden;
 }
 
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
 
 .lightbox-target img {
-    margin: auto;
-    position: absolute;
-    display: none;
-    top: 0;
-    left:0;
-    right:0;
-    bottom: 0;
-    max-height: 0%;
-    max-width: 0%;
-    border: 3px solid white;
-    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
-    box-sizing: border-box;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+	margin: auto;
+	position: absolute;
+	display: none;
+	top: 0;
+	left:0;
+	right:0;
+	bottom: 0;
+	max-height: 0%;
+	max-width: 0%;
+	border: 3px solid white;
+	box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+	box-sizing: border-box;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
 /* Styles the close link, adds the slide down transition */
 
 a.lightbox-close {
-    display: block;
-    width:50px;
-    height:50px;
-    box-sizing: border-box;
-    background: white;
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    top: -80px;
-    right: 0;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+	display: block;
+	width:50px;
+	height:50px;
+	box-sizing: border-box;
+	background: white;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	top: -80px;
+	right: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
 /* Provides part of the "X" to eliminate an image from the close link */
 
 a.lightbox-close:before {
-    content: "";
-    display: block;
-    height: 30px;
-    width: 1px;
-    background: black;
-    position: absolute;
-    left: 26px;
-    top:10px;
-    -webkit-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
-    transform:rotate(45deg);
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
 }
 
 /* Provides part of the "X" to eliminate an image from the close link */
 
 a.lightbox-close:after {
-    content: "";
-    display: block;
-    height: 30px;
-    width: 1px;
-    background: black;
-    position: absolute;
-    left: 26px;
-    top:10px;
-    -webkit-transform:rotate(-45deg);
-    -moz-transform:rotate(-45deg);
-    -o-transform:rotate(-45deg);
-    transform:rotate(-45deg);
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
 }
 
 
