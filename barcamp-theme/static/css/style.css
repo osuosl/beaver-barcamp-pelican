@@ -96,7 +96,6 @@ img {
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
-
 .clearfix:after {
   clear: both; }
 
@@ -121,54 +120,78 @@ textarea {
 select {
   width: 100%; }
 
-.row, #feature-text, #header, #footer-container, #article-container {
+.row, #feature-text, #header, #article-container {
   width: 100%;
   margin: 0 auto;
   max-width: 62.5rem; }
-  .row:before, #feature-text:before, #header:before, #footer-container:before, #article-container:before, .row:after, #feature-text:after, #header:after, #footer-container:after, #article-container:after {
+  .row:before, #feature-text:before, #header:before, #article-container:before, .row:after, #feature-text:after, #header:after, #article-container:after {
     content: " ";
     display: table; }
-  .row:after, #feature-text:after, #header:after, #footer-container:after, #article-container:after {
+  .row:after, #feature-text:after, #header:after, #article-container:after {
     clear: both; }
-  .row.collapse > .column, .collapse#feature-text > .column, .collapse#header > .column, .collapse#footer-container > .column, .collapse#article-container > .column,
-  .row.collapse > .columns, .collapse#feature-text > .columns, .collapse#header > .columns, .collapse#footer-container > .columns, .collapse#article-container > .columns,
-  .row.collapse > #what-is-barcamp, .collapse#feature-text > #what-is-barcamp, .collapse#header > #what-is-barcamp, .collapse#footer-container > #what-is-barcamp, .collapse#article-container > #what-is-barcamp,
-  .row.collapse > .barcamp-information-icon, .collapse#feature-text > .barcamp-information-icon, .collapse#header > .barcamp-information-icon, .collapse#footer-container > .barcamp-information-icon, .collapse#article-container > .barcamp-information-icon,
-  .row.collapse > #logo, .collapse#feature-text > #logo, .collapse#header > #logo, .collapse#footer-container > #logo, .collapse#article-container > #logo,
-  .row.collapse > #main-navigation, .collapse#feature-text > #main-navigation, .collapse#header > #main-navigation, .collapse#footer-container > #main-navigation, .collapse#article-container > #main-navigation,
-  .row.collapse > #social-media, .collapse#feature-text > #social-media, .collapse#header > #social-media, .collapse#footer-container > #social-media, .collapse#article-container > #social-media,
-  .row.collapse > #footer-save-the-date, .collapse#feature-text > #footer-save-the-date, .collapse#header > #footer-save-the-date, .collapse#footer-container > #footer-save-the-date, .collapse#article-container > #footer-save-the-date,
-  .row.collapse > #footer-about-barcamp, .collapse#feature-text > #footer-about-barcamp, .collapse#header > #footer-about-barcamp, .collapse#footer-container > #footer-about-barcamp, .collapse#article-container > #footer-about-barcamp,
-  .row.collapse > #footer-contact, .collapse#feature-text > #footer-contact, .collapse#header > #footer-contact, .collapse#footer-container > #footer-contact, .collapse#article-container > #footer-contact,
-  .row.collapse > #footer-navigation, .collapse#feature-text > #footer-navigation, .collapse#header > #footer-navigation, .collapse#footer-container > #footer-navigation, .collapse#article-container > #footer-navigation,
-  .row.collapse > #footer-credits, .collapse#feature-text > #footer-credits, .collapse#header > #footer-credits, .collapse#footer-container > #footer-credits, .collapse#article-container > #footer-credits,
-  .row.collapse > article, .row .collapse#feature-text > article, .row .collapse#header > article, .row .collapse#footer-container > article, .row .collapse#article-container > article, #feature-text
-  .row.collapse > article, .collapse#feature-text > article, #feature-text .collapse#header > article, #feature-text .collapse#footer-container > article, #feature-text .collapse#article-container > article, #header
-  .row.collapse > article, #header .collapse#feature-text > article, .collapse#header > article, #header .collapse#footer-container > article, #header .collapse#article-container > article, #footer-container
-  .row.collapse > article, #footer-container .collapse#feature-text > article, #footer-container .collapse#header > article, .collapse#footer-container > article, #footer-container .collapse#article-container > article, #article-container
-  .row.collapse > article, #article-container .collapse#feature-text > article, #article-container .collapse#header > article, #article-container .collapse#footer-container > article, .collapse#article-container > article {
+  .row.collapse > .column, .collapse#feature-text > .column, .collapse#header > .column, .collapse#article-container > .column,
+  .row.collapse > .columns,
+  .collapse#feature-text > .columns,
+  .collapse#header > .columns,
+  .collapse#article-container > .columns,
+  .row.collapse > #what-is-barcamp,
+  .collapse#feature-text > #what-is-barcamp,
+  .collapse#header > #what-is-barcamp,
+  .collapse#article-container > #what-is-barcamp,
+  .row.collapse > .barcamp-information-icon,
+  .collapse#feature-text > .barcamp-information-icon,
+  .collapse#header > .barcamp-information-icon,
+  .collapse#article-container > .barcamp-information-icon,
+  .row.collapse > #logo,
+  .collapse#feature-text > #logo,
+  .collapse#header > #logo,
+  .collapse#article-container > #logo,
+  .row.collapse > #main-navigation,
+  .collapse#feature-text > #main-navigation,
+  .collapse#header > #main-navigation,
+  .collapse#article-container > #main-navigation,
+  .row.collapse > #social-media,
+  .collapse#feature-text > #social-media,
+  .collapse#header > #social-media,
+  .collapse#article-container > #social-media,
+  .row.collapse > article,
+  .row .collapse#feature-text > article,
+  .row .collapse#header > article,
+  .row .collapse#article-container > article,
+  #feature-text .row.collapse > article,
+  .collapse#feature-text > article,
+  #feature-text .collapse#header > article,
+  #feature-text .collapse#article-container > article,
+  #header .row.collapse > article,
+  #header .collapse#feature-text > article,
+  .collapse#header > article,
+  #header .collapse#article-container > article,
+  #article-container .row.collapse > article,
+  #article-container .collapse#feature-text > article,
+  #article-container .collapse#header > article,
+  .collapse#article-container > article {
     padding-left: 0;
     padding-right: 0; }
-  .row.collapse .row, .collapse#feature-text .row, .collapse#header .row, .collapse#footer-container .row, .collapse#article-container .row, .row.collapse #feature-text, .collapse#feature-text #feature-text, .collapse#header #feature-text, .collapse#footer-container #feature-text, .collapse#article-container #feature-text, .row.collapse #header, .collapse#feature-text #header, .collapse#header #header, .collapse#footer-container #header, .collapse#article-container #header, .row.collapse #footer-container, .collapse#feature-text #footer-container, .collapse#header #footer-container, .collapse#footer-container #footer-container, .collapse#article-container #footer-container, .row.collapse #article-container, .collapse#feature-text #article-container, .collapse#header #article-container, .collapse#footer-container #article-container, .collapse#article-container #article-container {
+  .row.collapse .row, .collapse#feature-text .row, .collapse#header .row, .collapse#article-container .row, .row.collapse #feature-text, .collapse#feature-text #feature-text, .collapse#header #feature-text, .collapse#article-container #feature-text, .row.collapse #header, .collapse#feature-text #header, .collapse#header #header, .collapse#article-container #header, .row.collapse #article-container, .collapse#feature-text #article-container, .collapse#header #article-container, .collapse#article-container #article-container {
     margin-left: 0;
     margin-right: 0; }
-  .row .row, #feature-text .row, #header .row, #footer-container .row, #article-container .row, .row #feature-text, #feature-text #feature-text, #header #feature-text, #footer-container #feature-text, #article-container #feature-text, .row #header, #feature-text #header, #header #header, #footer-container #header, #article-container #header, .row #footer-container, #feature-text #footer-container, #header #footer-container, #footer-container #footer-container, #article-container #footer-container, .row #article-container, #feature-text #article-container, #header #article-container, #footer-container #article-container, #article-container #article-container {
+  .row .row, #feature-text .row, #header .row, #article-container .row, .row #feature-text, #feature-text #feature-text, #header #feature-text, #article-container #feature-text, .row #header, #feature-text #header, #header #header, #article-container #header, .row #article-container, #feature-text #article-container, #header #article-container, #article-container #article-container {
     width: auto;
     margin: 0 -1em;
     max-width: none; }
-    .row .row:before, #feature-text .row:before, #header .row:before, #footer-container .row:before, #article-container .row:before, .row #feature-text:before, #feature-text #feature-text:before, #header #feature-text:before, #footer-container #feature-text:before, #article-container #feature-text:before, .row #header:before, #feature-text #header:before, #header #header:before, #footer-container #header:before, #article-container #header:before, .row #footer-container:before, #feature-text #footer-container:before, #header #footer-container:before, #footer-container #footer-container:before, #article-container #footer-container:before, .row #article-container:before, #feature-text #article-container:before, #header #article-container:before, #footer-container #article-container:before, #article-container #article-container:before, .row .row:after, #feature-text .row:after, #header .row:after, #footer-container .row:after, #article-container .row:after, .row #feature-text:after, #feature-text #feature-text:after, #header #feature-text:after, #footer-container #feature-text:after, #article-container #feature-text:after, .row #header:after, #feature-text #header:after, #header #header:after, #footer-container #header:after, #article-container #header:after, .row #footer-container:after, #feature-text #footer-container:after, #header #footer-container:after, #footer-container #footer-container:after, #article-container #footer-container:after, .row #article-container:after, #feature-text #article-container:after, #header #article-container:after, #footer-container #article-container:after, #article-container #article-container:after {
+    .row .row:before, #feature-text .row:before, #header .row:before, #article-container .row:before, .row #feature-text:before, #feature-text #feature-text:before, #header #feature-text:before, #article-container #feature-text:before, .row #header:before, #feature-text #header:before, #header #header:before, #article-container #header:before, .row #article-container:before, #feature-text #article-container:before, #header #article-container:before, #article-container #article-container:before, .row .row:after, #feature-text .row:after, #header .row:after, #article-container .row:after, .row #feature-text:after, #feature-text #feature-text:after, #header #feature-text:after, #article-container #feature-text:after, .row #header:after, #feature-text #header:after, #header #header:after, #article-container #header:after, .row #article-container:after, #feature-text #article-container:after, #header #article-container:after, #article-container #article-container:after {
       content: " ";
       display: table; }
-    .row .row:after, #feature-text .row:after, #header .row:after, #footer-container .row:after, #article-container .row:after, .row #feature-text:after, #feature-text #feature-text:after, #header #feature-text:after, #footer-container #feature-text:after, #article-container #feature-text:after, .row #header:after, #feature-text #header:after, #header #header:after, #footer-container #header:after, #article-container #header:after, .row #footer-container:after, #feature-text #footer-container:after, #header #footer-container:after, #footer-container #footer-container:after, #article-container #footer-container:after, .row #article-container:after, #feature-text #article-container:after, #header #article-container:after, #footer-container #article-container:after, #article-container #article-container:after {
+    .row .row:after, #feature-text .row:after, #header .row:after, #article-container .row:after, .row #feature-text:after, #feature-text #feature-text:after, #header #feature-text:after, #article-container #feature-text:after, .row #header:after, #feature-text #header:after, #header #header:after, #article-container #header:after, .row #article-container:after, #feature-text #article-container:after, #header #article-container:after, #article-container #article-container:after {
       clear: both; }
-    .row .row.collapse, #feature-text .row.collapse, #header .row.collapse, #footer-container .row.collapse, #article-container .row.collapse, .row .collapse#feature-text, #feature-text .collapse#feature-text, #header .collapse#feature-text, #footer-container .collapse#feature-text, #article-container .collapse#feature-text, .row .collapse#header, #feature-text .collapse#header, #header .collapse#header, #footer-container .collapse#header, #article-container .collapse#header, .row .collapse#footer-container, #feature-text .collapse#footer-container, #header .collapse#footer-container, #footer-container .collapse#footer-container, #article-container .collapse#footer-container, .row .collapse#article-container, #feature-text .collapse#article-container, #header .collapse#article-container, #footer-container .collapse#article-container, #article-container .collapse#article-container {
+    .row .row.collapse, #feature-text .row.collapse, #header .row.collapse, #article-container .row.collapse, .row .collapse#feature-text, #feature-text .collapse#feature-text, #header .collapse#feature-text, #article-container .collapse#feature-text, .row .collapse#header, #feature-text .collapse#header, #header .collapse#header, #article-container .collapse#header, .row .collapse#article-container, #feature-text .collapse#article-container, #header .collapse#article-container, #article-container .collapse#article-container {
       width: auto;
       margin: 0;
       max-width: none; }
-      .row .row.collapse:before, #feature-text .row.collapse:before, #header .row.collapse:before, #footer-container .row.collapse:before, #article-container .row.collapse:before, .row .collapse#feature-text:before, #feature-text .collapse#feature-text:before, #header .collapse#feature-text:before, #footer-container .collapse#feature-text:before, #article-container .collapse#feature-text:before, .row .collapse#header:before, #feature-text .collapse#header:before, #header .collapse#header:before, #footer-container .collapse#header:before, #article-container .collapse#header:before, .row .collapse#footer-container:before, #feature-text .collapse#footer-container:before, #header .collapse#footer-container:before, #footer-container .collapse#footer-container:before, #article-container .collapse#footer-container:before, .row .collapse#article-container:before, #feature-text .collapse#article-container:before, #header .collapse#article-container:before, #footer-container .collapse#article-container:before, #article-container .collapse#article-container:before, .row .row.collapse:after, #feature-text .row.collapse:after, #header .row.collapse:after, #footer-container .row.collapse:after, #article-container .row.collapse:after, .row .collapse#feature-text:after, #feature-text .collapse#feature-text:after, #header .collapse#feature-text:after, #footer-container .collapse#feature-text:after, #article-container .collapse#feature-text:after, .row .collapse#header:after, #feature-text .collapse#header:after, #header .collapse#header:after, #footer-container .collapse#header:after, #article-container .collapse#header:after, .row .collapse#footer-container:after, #feature-text .collapse#footer-container:after, #header .collapse#footer-container:after, #footer-container .collapse#footer-container:after, #article-container .collapse#footer-container:after, .row .collapse#article-container:after, #feature-text .collapse#article-container:after, #header .collapse#article-container:after, #footer-container .collapse#article-container:after, #article-container .collapse#article-container:after {
+      .row .row.collapse:before, #feature-text .row.collapse:before, #header .row.collapse:before, #article-container .row.collapse:before, .row .collapse#feature-text:before, #feature-text .collapse#feature-text:before, #header .collapse#feature-text:before, #article-container .collapse#feature-text:before, .row .collapse#header:before, #feature-text .collapse#header:before, #header .collapse#header:before, #article-container .collapse#header:before, .row .collapse#article-container:before, #feature-text .collapse#article-container:before, #header .collapse#article-container:before, #article-container .collapse#article-container:before, .row .row.collapse:after, #feature-text .row.collapse:after, #header .row.collapse:after, #article-container .row.collapse:after, .row .collapse#feature-text:after, #feature-text .collapse#feature-text:after, #header .collapse#feature-text:after, #article-container .collapse#feature-text:after, .row .collapse#header:after, #feature-text .collapse#header:after, #header .collapse#header:after, #article-container .collapse#header:after, .row .collapse#article-container:after, #feature-text .collapse#article-container:after, #header .collapse#article-container:after, #article-container .collapse#article-container:after {
         content: " ";
         display: table; }
-      .row .row.collapse:after, #feature-text .row.collapse:after, #header .row.collapse:after, #footer-container .row.collapse:after, #article-container .row.collapse:after, .row .collapse#feature-text:after, #feature-text .collapse#feature-text:after, #header .collapse#feature-text:after, #footer-container .collapse#feature-text:after, #article-container .collapse#feature-text:after, .row .collapse#header:after, #feature-text .collapse#header:after, #header .collapse#header:after, #footer-container .collapse#header:after, #article-container .collapse#header:after, .row .collapse#footer-container:after, #feature-text .collapse#footer-container:after, #header .collapse#footer-container:after, #footer-container .collapse#footer-container:after, #article-container .collapse#footer-container:after, .row .collapse#article-container:after, #feature-text .collapse#article-container:after, #header .collapse#article-container:after, #footer-container .collapse#article-container:after, #article-container .collapse#article-container:after {
+      .row .row.collapse:after, #feature-text .row.collapse:after, #header .row.collapse:after, #article-container .row.collapse:after, .row .collapse#feature-text:after, #feature-text .collapse#feature-text:after, #header .collapse#feature-text:after, #article-container .collapse#feature-text:after, .row .collapse#header:after, #feature-text .collapse#header:after, #header .collapse#header:after, #article-container .collapse#header:after, .row .collapse#article-container:after, #feature-text .collapse#article-container:after, #header .collapse#article-container:after, #article-container .collapse#article-container:after {
         clear: both; }
 
 .column,
@@ -178,15 +201,9 @@ select {
 #logo,
 #main-navigation,
 #social-media,
-#footer-save-the-date,
-#footer-about-barcamp,
-#footer-contact,
-#footer-navigation,
-#footer-credits,
 .row article,
 #feature-text article,
 #header article,
-#footer-container article,
 #article-container article {
   padding-left: 1em;
   padding-right: 1em;
@@ -204,98 +221,122 @@ select {
     position: relative;
     left: 0;
     right: auto; }
+
   .small-pull-0 {
     position: relative;
     right: 0;
     left: auto; }
+
   .small-push-1 {
     position: relative;
     left: 8.33333%;
     right: auto; }
+
   .small-pull-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
+
   .small-push-2 {
     position: relative;
     left: 16.66667%;
     right: auto; }
+
   .small-pull-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
+
   .small-push-3 {
     position: relative;
     left: 25%;
     right: auto; }
+
   .small-pull-3 {
     position: relative;
     right: 25%;
     left: auto; }
+
   .small-push-4 {
     position: relative;
     left: 33.33333%;
     right: auto; }
+
   .small-pull-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
+
   .small-push-5 {
     position: relative;
     left: 41.66667%;
     right: auto; }
+
   .small-pull-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
+
   .small-push-6 {
     position: relative;
     left: 50%;
     right: auto; }
+
   .small-pull-6 {
     position: relative;
     right: 50%;
     left: auto; }
+
   .small-push-7 {
     position: relative;
     left: 58.33333%;
     right: auto; }
+
   .small-pull-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
+
   .small-push-8 {
     position: relative;
     left: 66.66667%;
     right: auto; }
+
   .small-pull-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
+
   .small-push-9 {
     position: relative;
     left: 75%;
     right: auto; }
+
   .small-pull-9 {
     position: relative;
     right: 75%;
     left: auto; }
+
   .small-push-10 {
     position: relative;
     left: 83.33333%;
     right: auto; }
+
   .small-pull-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
+
   .small-push-11 {
     position: relative;
     left: 91.66667%;
     right: auto; }
+
   .small-pull-11 {
     position: relative;
     right: 91.66667%;
     left: auto; }
+
   .column,
   .columns,
   #what-is-barcamp,
@@ -303,74 +344,94 @@ select {
   #logo,
   #main-navigation,
   #social-media,
-  #footer-save-the-date,
-  #footer-about-barcamp,
-  #footer-contact,
-  #footer-navigation,
-  #footer-credits,
   .row article,
   #feature-text article,
   #header article,
-  #footer-container article,
   #article-container article {
     position: relative;
     padding-left: 1em;
     padding-right: 1em;
     float: left; }
+
   .small-1 {
     width: 8.33333%; }
+
   .small-2 {
     width: 16.66667%; }
+
   .small-3 {
     width: 25%; }
+
   .small-4 {
     width: 33.33333%; }
+
   .small-5 {
     width: 41.66667%; }
+
   .small-6 {
     width: 50%; }
+
   .small-7 {
     width: 58.33333%; }
+
   .small-8 {
     width: 66.66667%; }
+
   .small-9 {
     width: 75%; }
+
   .small-10 {
     width: 83.33333%; }
+
   .small-11 {
     width: 91.66667%; }
+
   .small-12, .barcamp-information-icon {
     width: 100%; }
+
   .small-offset-0 {
     margin-left: 0 !important; }
+
   .small-offset-1 {
     margin-left: 8.33333% !important; }
+
   .small-offset-2 {
     margin-left: 16.66667% !important; }
+
   .small-offset-3 {
     margin-left: 25% !important; }
+
   .small-offset-4 {
     margin-left: 33.33333% !important; }
+
   .small-offset-5 {
     margin-left: 41.66667% !important; }
+
   .small-offset-6 {
     margin-left: 50% !important; }
+
   .small-offset-7 {
     margin-left: 58.33333% !important; }
+
   .small-offset-8 {
     margin-left: 66.66667% !important; }
+
   .small-offset-9 {
     margin-left: 75% !important; }
+
   .small-offset-10 {
     margin-left: 83.33333% !important; }
+
   .small-offset-11 {
     margin-left: 91.66667% !important; }
+
   .small-reset-order {
     margin-left: 0;
     margin-right: 0;
     left: auto;
     right: auto;
     float: left; }
+
   .column.small-centered,
   .columns.small-centered,
   .small-centered#what-is-barcamp,
@@ -378,19 +439,14 @@ select {
   .small-centered#logo,
   .small-centered#main-navigation,
   .small-centered#social-media,
-  .small-centered#footer-save-the-date,
-  .small-centered#footer-about-barcamp,
-  .small-centered#footer-contact,
-  .small-centered#footer-navigation,
-  .small-centered#footer-credits,
   .row article.small-centered,
   #feature-text article.small-centered,
   #header article.small-centered,
-  #footer-container article.small-centered,
   #article-container article.small-centered {
     margin-left: auto;
     margin-right: auto;
     float: none; }
+
   .column.small-uncentered,
   .columns.small-uncentered,
   .small-uncentered#what-is-barcamp,
@@ -398,19 +454,14 @@ select {
   .small-uncentered#logo,
   .small-uncentered#main-navigation,
   .small-uncentered#social-media,
-  .small-uncentered#footer-save-the-date,
-  .small-uncentered#footer-about-barcamp,
-  .small-uncentered#footer-contact,
-  .small-uncentered#footer-navigation,
-  .small-uncentered#footer-credits,
   .row article.small-uncentered,
   #feature-text article.small-uncentered,
   #header article.small-uncentered,
-  #footer-container article.small-uncentered,
   #article-container article.small-uncentered {
     margin-left: 0;
     margin-right: 0;
     float: left; }
+
   .column.small-centered:last-child,
   .columns.small-centered:last-child,
   .small-centered#what-is-barcamp:last-child,
@@ -418,17 +469,12 @@ select {
   .small-centered#logo:last-child,
   .small-centered#main-navigation:last-child,
   .small-centered#social-media:last-child,
-  .small-centered#footer-save-the-date:last-child,
-  .small-centered#footer-about-barcamp:last-child,
-  .small-centered#footer-contact:last-child,
-  .small-centered#footer-navigation:last-child,
-  .small-centered#footer-credits:last-child,
   .row article.small-centered:last-child,
   #feature-text article.small-centered:last-child,
   #header article.small-centered:last-child,
-  #footer-container article.small-centered:last-child,
   #article-container article.small-centered:last-child {
     float: none; }
+
   .column.small-uncentered:last-child,
   .columns.small-uncentered:last-child,
   .small-uncentered#what-is-barcamp:last-child,
@@ -436,17 +482,12 @@ select {
   .small-uncentered#logo:last-child,
   .small-uncentered#main-navigation:last-child,
   .small-uncentered#social-media:last-child,
-  .small-uncentered#footer-save-the-date:last-child,
-  .small-uncentered#footer-about-barcamp:last-child,
-  .small-uncentered#footer-contact:last-child,
-  .small-uncentered#footer-navigation:last-child,
-  .small-uncentered#footer-credits:last-child,
   .row article.small-uncentered:last-child,
   #feature-text article.small-uncentered:last-child,
   #header article.small-uncentered:last-child,
-  #footer-container article.small-uncentered:last-child,
   #article-container article.small-uncentered:last-child {
     float: left; }
+
   .column.small-uncentered.opposite,
   .columns.small-uncentered.opposite,
   .small-uncentered.opposite#what-is-barcamp,
@@ -454,157 +495,223 @@ select {
   .small-uncentered.opposite#logo,
   .small-uncentered.opposite#main-navigation,
   .small-uncentered.opposite#social-media,
-  .small-uncentered.opposite#footer-save-the-date,
-  .small-uncentered.opposite#footer-about-barcamp,
-  .small-uncentered.opposite#footer-contact,
-  .small-uncentered.opposite#footer-navigation,
-  .small-uncentered.opposite#footer-credits,
   .row article.small-uncentered.opposite,
   #feature-text article.small-uncentered.opposite,
   #header article.small-uncentered.opposite,
-  #footer-container article.small-uncentered.opposite,
   #article-container article.small-uncentered.opposite {
     float: right; }
-  .row.small-collapse > .column, .small-collapse#feature-text > .column, .small-collapse#header > .column, .small-collapse#footer-container > .column, .small-collapse#article-container > .column,
-  .row.small-collapse > .columns, .small-collapse#feature-text > .columns, .small-collapse#header > .columns, .small-collapse#footer-container > .columns, .small-collapse#article-container > .columns,
-  .row.small-collapse > #what-is-barcamp, .small-collapse#feature-text > #what-is-barcamp, .small-collapse#header > #what-is-barcamp, .small-collapse#footer-container > #what-is-barcamp, .small-collapse#article-container > #what-is-barcamp,
-  .row.small-collapse > .barcamp-information-icon, .small-collapse#feature-text > .barcamp-information-icon, .small-collapse#header > .barcamp-information-icon, .small-collapse#footer-container > .barcamp-information-icon, .small-collapse#article-container > .barcamp-information-icon,
-  .row.small-collapse > #logo, .small-collapse#feature-text > #logo, .small-collapse#header > #logo, .small-collapse#footer-container > #logo, .small-collapse#article-container > #logo,
-  .row.small-collapse > #main-navigation, .small-collapse#feature-text > #main-navigation, .small-collapse#header > #main-navigation, .small-collapse#footer-container > #main-navigation, .small-collapse#article-container > #main-navigation,
-  .row.small-collapse > #social-media, .small-collapse#feature-text > #social-media, .small-collapse#header > #social-media, .small-collapse#footer-container > #social-media, .small-collapse#article-container > #social-media,
-  .row.small-collapse > #footer-save-the-date, .small-collapse#feature-text > #footer-save-the-date, .small-collapse#header > #footer-save-the-date, .small-collapse#footer-container > #footer-save-the-date, .small-collapse#article-container > #footer-save-the-date,
-  .row.small-collapse > #footer-about-barcamp, .small-collapse#feature-text > #footer-about-barcamp, .small-collapse#header > #footer-about-barcamp, .small-collapse#footer-container > #footer-about-barcamp, .small-collapse#article-container > #footer-about-barcamp,
-  .row.small-collapse > #footer-contact, .small-collapse#feature-text > #footer-contact, .small-collapse#header > #footer-contact, .small-collapse#footer-container > #footer-contact, .small-collapse#article-container > #footer-contact,
-  .row.small-collapse > #footer-navigation, .small-collapse#feature-text > #footer-navigation, .small-collapse#header > #footer-navigation, .small-collapse#footer-container > #footer-navigation, .small-collapse#article-container > #footer-navigation,
-  .row.small-collapse > #footer-credits, .small-collapse#feature-text > #footer-credits, .small-collapse#header > #footer-credits, .small-collapse#footer-container > #footer-credits, .small-collapse#article-container > #footer-credits,
-  .row.small-collapse > article, .row .small-collapse#feature-text > article, .row .small-collapse#header > article, .row .small-collapse#footer-container > article, .row .small-collapse#article-container > article, #feature-text
-  .row.small-collapse > article, .small-collapse#feature-text > article, #feature-text .small-collapse#header > article, #feature-text .small-collapse#footer-container > article, #feature-text .small-collapse#article-container > article, #header
-  .row.small-collapse > article, #header .small-collapse#feature-text > article, .small-collapse#header > article, #header .small-collapse#footer-container > article, #header .small-collapse#article-container > article, #footer-container
-  .row.small-collapse > article, #footer-container .small-collapse#feature-text > article, #footer-container .small-collapse#header > article, .small-collapse#footer-container > article, #footer-container .small-collapse#article-container > article, #article-container
-  .row.small-collapse > article, #article-container .small-collapse#feature-text > article, #article-container .small-collapse#header > article, #article-container .small-collapse#footer-container > article, .small-collapse#article-container > article {
+
+  .row.small-collapse > .column, .small-collapse#feature-text > .column, .small-collapse#header > .column, .small-collapse#article-container > .column,
+  .row.small-collapse > .columns,
+  .small-collapse#feature-text > .columns,
+  .small-collapse#header > .columns,
+  .small-collapse#article-container > .columns,
+  .row.small-collapse > #what-is-barcamp,
+  .small-collapse#feature-text > #what-is-barcamp,
+  .small-collapse#header > #what-is-barcamp,
+  .small-collapse#article-container > #what-is-barcamp,
+  .row.small-collapse > .barcamp-information-icon,
+  .small-collapse#feature-text > .barcamp-information-icon,
+  .small-collapse#header > .barcamp-information-icon,
+  .small-collapse#article-container > .barcamp-information-icon,
+  .row.small-collapse > #logo,
+  .small-collapse#feature-text > #logo,
+  .small-collapse#header > #logo,
+  .small-collapse#article-container > #logo,
+  .row.small-collapse > #main-navigation,
+  .small-collapse#feature-text > #main-navigation,
+  .small-collapse#header > #main-navigation,
+  .small-collapse#article-container > #main-navigation,
+  .row.small-collapse > #social-media,
+  .small-collapse#feature-text > #social-media,
+  .small-collapse#header > #social-media,
+  .small-collapse#article-container > #social-media,
+  .row.small-collapse > article,
+  .row .small-collapse#feature-text > article,
+  .row .small-collapse#header > article,
+  .row .small-collapse#article-container > article,
+  #feature-text .row.small-collapse > article,
+  .small-collapse#feature-text > article,
+  #feature-text .small-collapse#header > article,
+  #feature-text .small-collapse#article-container > article,
+  #header .row.small-collapse > article,
+  #header .small-collapse#feature-text > article,
+  .small-collapse#header > article,
+  #header .small-collapse#article-container > article,
+  #article-container .row.small-collapse > article,
+  #article-container .small-collapse#feature-text > article,
+  #article-container .small-collapse#header > article,
+  .small-collapse#article-container > article {
     padding-left: 0;
     padding-right: 0; }
-  .row.small-collapse .row, .small-collapse#feature-text .row, .small-collapse#header .row, .small-collapse#footer-container .row, .small-collapse#article-container .row, .row.small-collapse #feature-text, .small-collapse#feature-text #feature-text, .small-collapse#header #feature-text, .small-collapse#footer-container #feature-text, .small-collapse#article-container #feature-text, .row.small-collapse #header, .small-collapse#feature-text #header, .small-collapse#header #header, .small-collapse#footer-container #header, .small-collapse#article-container #header, .row.small-collapse #footer-container, .small-collapse#feature-text #footer-container, .small-collapse#header #footer-container, .small-collapse#footer-container #footer-container, .small-collapse#article-container #footer-container, .row.small-collapse #article-container, .small-collapse#feature-text #article-container, .small-collapse#header #article-container, .small-collapse#footer-container #article-container, .small-collapse#article-container #article-container {
+  .row.small-collapse .row, .small-collapse#feature-text .row, .small-collapse#header .row, .small-collapse#article-container .row, .row.small-collapse #feature-text, .small-collapse#feature-text #feature-text, .small-collapse#header #feature-text, .small-collapse#article-container #feature-text, .row.small-collapse #header, .small-collapse#feature-text #header, .small-collapse#header #header, .small-collapse#article-container #header, .row.small-collapse #article-container, .small-collapse#feature-text #article-container, .small-collapse#header #article-container, .small-collapse#article-container #article-container {
     margin-left: 0;
     margin-right: 0; }
-  .row.small-uncollapse > .column, .small-uncollapse#feature-text > .column, .small-uncollapse#header > .column, .small-uncollapse#footer-container > .column, .small-uncollapse#article-container > .column,
-  .row.small-uncollapse > .columns, .small-uncollapse#feature-text > .columns, .small-uncollapse#header > .columns, .small-uncollapse#footer-container > .columns, .small-uncollapse#article-container > .columns,
-  .row.small-uncollapse > #what-is-barcamp, .small-uncollapse#feature-text > #what-is-barcamp, .small-uncollapse#header > #what-is-barcamp, .small-uncollapse#footer-container > #what-is-barcamp, .small-uncollapse#article-container > #what-is-barcamp,
-  .row.small-uncollapse > .barcamp-information-icon, .small-uncollapse#feature-text > .barcamp-information-icon, .small-uncollapse#header > .barcamp-information-icon, .small-uncollapse#footer-container > .barcamp-information-icon, .small-uncollapse#article-container > .barcamp-information-icon,
-  .row.small-uncollapse > #logo, .small-uncollapse#feature-text > #logo, .small-uncollapse#header > #logo, .small-uncollapse#footer-container > #logo, .small-uncollapse#article-container > #logo,
-  .row.small-uncollapse > #main-navigation, .small-uncollapse#feature-text > #main-navigation, .small-uncollapse#header > #main-navigation, .small-uncollapse#footer-container > #main-navigation, .small-uncollapse#article-container > #main-navigation,
-  .row.small-uncollapse > #social-media, .small-uncollapse#feature-text > #social-media, .small-uncollapse#header > #social-media, .small-uncollapse#footer-container > #social-media, .small-uncollapse#article-container > #social-media,
-  .row.small-uncollapse > #footer-save-the-date, .small-uncollapse#feature-text > #footer-save-the-date, .small-uncollapse#header > #footer-save-the-date, .small-uncollapse#footer-container > #footer-save-the-date, .small-uncollapse#article-container > #footer-save-the-date,
-  .row.small-uncollapse > #footer-about-barcamp, .small-uncollapse#feature-text > #footer-about-barcamp, .small-uncollapse#header > #footer-about-barcamp, .small-uncollapse#footer-container > #footer-about-barcamp, .small-uncollapse#article-container > #footer-about-barcamp,
-  .row.small-uncollapse > #footer-contact, .small-uncollapse#feature-text > #footer-contact, .small-uncollapse#header > #footer-contact, .small-uncollapse#footer-container > #footer-contact, .small-uncollapse#article-container > #footer-contact,
-  .row.small-uncollapse > #footer-navigation, .small-uncollapse#feature-text > #footer-navigation, .small-uncollapse#header > #footer-navigation, .small-uncollapse#footer-container > #footer-navigation, .small-uncollapse#article-container > #footer-navigation,
-  .row.small-uncollapse > #footer-credits, .small-uncollapse#feature-text > #footer-credits, .small-uncollapse#header > #footer-credits, .small-uncollapse#footer-container > #footer-credits, .small-uncollapse#article-container > #footer-credits,
-  .row.small-uncollapse > article, .row .small-uncollapse#feature-text > article, .row .small-uncollapse#header > article, .row .small-uncollapse#footer-container > article, .row .small-uncollapse#article-container > article, #feature-text
-  .row.small-uncollapse > article, .small-uncollapse#feature-text > article, #feature-text .small-uncollapse#header > article, #feature-text .small-uncollapse#footer-container > article, #feature-text .small-uncollapse#article-container > article, #header
-  .row.small-uncollapse > article, #header .small-uncollapse#feature-text > article, .small-uncollapse#header > article, #header .small-uncollapse#footer-container > article, #header .small-uncollapse#article-container > article, #footer-container
-  .row.small-uncollapse > article, #footer-container .small-uncollapse#feature-text > article, #footer-container .small-uncollapse#header > article, .small-uncollapse#footer-container > article, #footer-container .small-uncollapse#article-container > article, #article-container
-  .row.small-uncollapse > article, #article-container .small-uncollapse#feature-text > article, #article-container .small-uncollapse#header > article, #article-container .small-uncollapse#footer-container > article, .small-uncollapse#article-container > article {
+  .row.small-uncollapse > .column, .small-uncollapse#feature-text > .column, .small-uncollapse#header > .column, .small-uncollapse#article-container > .column,
+  .row.small-uncollapse > .columns,
+  .small-uncollapse#feature-text > .columns,
+  .small-uncollapse#header > .columns,
+  .small-uncollapse#article-container > .columns,
+  .row.small-uncollapse > #what-is-barcamp,
+  .small-uncollapse#feature-text > #what-is-barcamp,
+  .small-uncollapse#header > #what-is-barcamp,
+  .small-uncollapse#article-container > #what-is-barcamp,
+  .row.small-uncollapse > .barcamp-information-icon,
+  .small-uncollapse#feature-text > .barcamp-information-icon,
+  .small-uncollapse#header > .barcamp-information-icon,
+  .small-uncollapse#article-container > .barcamp-information-icon,
+  .row.small-uncollapse > #logo,
+  .small-uncollapse#feature-text > #logo,
+  .small-uncollapse#header > #logo,
+  .small-uncollapse#article-container > #logo,
+  .row.small-uncollapse > #main-navigation,
+  .small-uncollapse#feature-text > #main-navigation,
+  .small-uncollapse#header > #main-navigation,
+  .small-uncollapse#article-container > #main-navigation,
+  .row.small-uncollapse > #social-media,
+  .small-uncollapse#feature-text > #social-media,
+  .small-uncollapse#header > #social-media,
+  .small-uncollapse#article-container > #social-media,
+  .row.small-uncollapse > article,
+  .row .small-uncollapse#feature-text > article,
+  .row .small-uncollapse#header > article,
+  .row .small-uncollapse#article-container > article,
+  #feature-text .row.small-uncollapse > article,
+  .small-uncollapse#feature-text > article,
+  #feature-text .small-uncollapse#header > article,
+  #feature-text .small-uncollapse#article-container > article,
+  #header .row.small-uncollapse > article,
+  #header .small-uncollapse#feature-text > article,
+  .small-uncollapse#header > article,
+  #header .small-uncollapse#article-container > article,
+  #article-container .row.small-uncollapse > article,
+  #article-container .small-uncollapse#feature-text > article,
+  #article-container .small-uncollapse#header > article,
+  .small-uncollapse#article-container > article {
     padding-left: 1em;
     padding-right: 1em;
     float: left; } }
-
 @media only screen and (min-width: 40.0625em) {
   .medium-push-0 {
     position: relative;
     left: 0;
     right: auto; }
+
   .medium-pull-0 {
     position: relative;
     right: 0;
     left: auto; }
+
   .medium-push-1 {
     position: relative;
     left: 8.33333%;
     right: auto; }
+
   .medium-pull-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
+
   .medium-push-2 {
     position: relative;
     left: 16.66667%;
     right: auto; }
+
   .medium-pull-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
+
   .medium-push-3 {
     position: relative;
     left: 25%;
     right: auto; }
+
   .medium-pull-3 {
     position: relative;
     right: 25%;
     left: auto; }
+
   .medium-push-4 {
     position: relative;
     left: 33.33333%;
     right: auto; }
+
   .medium-pull-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
+
   .medium-push-5 {
     position: relative;
     left: 41.66667%;
     right: auto; }
+
   .medium-pull-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
+
   .medium-push-6 {
     position: relative;
     left: 50%;
     right: auto; }
+
   .medium-pull-6 {
     position: relative;
     right: 50%;
     left: auto; }
+
   .medium-push-7 {
     position: relative;
     left: 58.33333%;
     right: auto; }
+
   .medium-pull-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
+
   .medium-push-8 {
     position: relative;
     left: 66.66667%;
     right: auto; }
+
   .medium-pull-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
+
   .medium-push-9 {
     position: relative;
     left: 75%;
     right: auto; }
+
   .medium-pull-9 {
     position: relative;
     right: 75%;
     left: auto; }
+
   .medium-push-10 {
     position: relative;
     left: 83.33333%;
     right: auto; }
+
   .medium-pull-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
+
   .medium-push-11 {
     position: relative;
     left: 91.66667%;
     right: auto; }
+
   .medium-pull-11 {
     position: relative;
     right: 91.66667%;
     left: auto; }
+
   .column,
   .columns,
   #what-is-barcamp,
@@ -612,74 +719,94 @@ select {
   #logo,
   #main-navigation,
   #social-media,
-  #footer-save-the-date,
-  #footer-about-barcamp,
-  #footer-contact,
-  #footer-navigation,
-  #footer-credits,
   .row article,
   #feature-text article,
   #header article,
-  #footer-container article,
   #article-container article {
     position: relative;
     padding-left: 1em;
     padding-right: 1em;
     float: left; }
+
   .medium-1 {
     width: 8.33333%; }
+
   .medium-2 {
     width: 16.66667%; }
+
   .medium-3 {
     width: 25%; }
+
   .medium-4 {
     width: 33.33333%; }
+
   .medium-5 {
     width: 41.66667%; }
+
   .medium-6 {
     width: 50%; }
+
   .medium-7 {
     width: 58.33333%; }
+
   .medium-8 {
     width: 66.66667%; }
+
   .medium-9 {
     width: 75%; }
+
   .medium-10 {
     width: 83.33333%; }
+
   .medium-11 {
     width: 91.66667%; }
+
   .medium-12 {
     width: 100%; }
+
   .medium-offset-0 {
     margin-left: 0 !important; }
+
   .medium-offset-1 {
     margin-left: 8.33333% !important; }
+
   .medium-offset-2 {
     margin-left: 16.66667% !important; }
+
   .medium-offset-3 {
     margin-left: 25% !important; }
+
   .medium-offset-4 {
     margin-left: 33.33333% !important; }
+
   .medium-offset-5 {
     margin-left: 41.66667% !important; }
+
   .medium-offset-6 {
     margin-left: 50% !important; }
+
   .medium-offset-7 {
     margin-left: 58.33333% !important; }
+
   .medium-offset-8 {
     margin-left: 66.66667% !important; }
+
   .medium-offset-9 {
     margin-left: 75% !important; }
+
   .medium-offset-10 {
     margin-left: 83.33333% !important; }
+
   .medium-offset-11 {
     margin-left: 91.66667% !important; }
+
   .medium-reset-order {
     margin-left: 0;
     margin-right: 0;
     left: auto;
     right: auto;
     float: left; }
+
   .column.medium-centered,
   .columns.medium-centered,
   .medium-centered#what-is-barcamp,
@@ -687,19 +814,14 @@ select {
   .medium-centered#logo,
   .medium-centered#main-navigation,
   .medium-centered#social-media,
-  .medium-centered#footer-save-the-date,
-  .medium-centered#footer-about-barcamp,
-  .medium-centered#footer-contact,
-  .medium-centered#footer-navigation,
-  .medium-centered#footer-credits,
   .row article.medium-centered,
   #feature-text article.medium-centered,
   #header article.medium-centered,
-  #footer-container article.medium-centered,
   #article-container article.medium-centered {
     margin-left: auto;
     margin-right: auto;
     float: none; }
+
   .column.medium-uncentered,
   .columns.medium-uncentered,
   .medium-uncentered#what-is-barcamp,
@@ -707,19 +829,14 @@ select {
   .medium-uncentered#logo,
   .medium-uncentered#main-navigation,
   .medium-uncentered#social-media,
-  .medium-uncentered#footer-save-the-date,
-  .medium-uncentered#footer-about-barcamp,
-  .medium-uncentered#footer-contact,
-  .medium-uncentered#footer-navigation,
-  .medium-uncentered#footer-credits,
   .row article.medium-uncentered,
   #feature-text article.medium-uncentered,
   #header article.medium-uncentered,
-  #footer-container article.medium-uncentered,
   #article-container article.medium-uncentered {
     margin-left: 0;
     margin-right: 0;
     float: left; }
+
   .column.medium-centered:last-child,
   .columns.medium-centered:last-child,
   .medium-centered#what-is-barcamp:last-child,
@@ -727,17 +844,12 @@ select {
   .medium-centered#logo:last-child,
   .medium-centered#main-navigation:last-child,
   .medium-centered#social-media:last-child,
-  .medium-centered#footer-save-the-date:last-child,
-  .medium-centered#footer-about-barcamp:last-child,
-  .medium-centered#footer-contact:last-child,
-  .medium-centered#footer-navigation:last-child,
-  .medium-centered#footer-credits:last-child,
   .row article.medium-centered:last-child,
   #feature-text article.medium-centered:last-child,
   #header article.medium-centered:last-child,
-  #footer-container article.medium-centered:last-child,
   #article-container article.medium-centered:last-child {
     float: none; }
+
   .column.medium-uncentered:last-child,
   .columns.medium-uncentered:last-child,
   .medium-uncentered#what-is-barcamp:last-child,
@@ -745,17 +857,12 @@ select {
   .medium-uncentered#logo:last-child,
   .medium-uncentered#main-navigation:last-child,
   .medium-uncentered#social-media:last-child,
-  .medium-uncentered#footer-save-the-date:last-child,
-  .medium-uncentered#footer-about-barcamp:last-child,
-  .medium-uncentered#footer-contact:last-child,
-  .medium-uncentered#footer-navigation:last-child,
-  .medium-uncentered#footer-credits:last-child,
   .row article.medium-uncentered:last-child,
   #feature-text article.medium-uncentered:last-child,
   #header article.medium-uncentered:last-child,
-  #footer-container article.medium-uncentered:last-child,
   #article-container article.medium-uncentered:last-child {
     float: left; }
+
   .column.medium-uncentered.opposite,
   .columns.medium-uncentered.opposite,
   .medium-uncentered.opposite#what-is-barcamp,
@@ -763,253 +870,343 @@ select {
   .medium-uncentered.opposite#logo,
   .medium-uncentered.opposite#main-navigation,
   .medium-uncentered.opposite#social-media,
-  .medium-uncentered.opposite#footer-save-the-date,
-  .medium-uncentered.opposite#footer-about-barcamp,
-  .medium-uncentered.opposite#footer-contact,
-  .medium-uncentered.opposite#footer-navigation,
-  .medium-uncentered.opposite#footer-credits,
   .row article.medium-uncentered.opposite,
   #feature-text article.medium-uncentered.opposite,
   #header article.medium-uncentered.opposite,
-  #footer-container article.medium-uncentered.opposite,
   #article-container article.medium-uncentered.opposite {
     float: right; }
-  .row.medium-collapse > .column, .medium-collapse#feature-text > .column, .medium-collapse#header > .column, .medium-collapse#footer-container > .column, .medium-collapse#article-container > .column,
-  .row.medium-collapse > .columns, .medium-collapse#feature-text > .columns, .medium-collapse#header > .columns, .medium-collapse#footer-container > .columns, .medium-collapse#article-container > .columns,
-  .row.medium-collapse > #what-is-barcamp, .medium-collapse#feature-text > #what-is-barcamp, .medium-collapse#header > #what-is-barcamp, .medium-collapse#footer-container > #what-is-barcamp, .medium-collapse#article-container > #what-is-barcamp,
-  .row.medium-collapse > .barcamp-information-icon, .medium-collapse#feature-text > .barcamp-information-icon, .medium-collapse#header > .barcamp-information-icon, .medium-collapse#footer-container > .barcamp-information-icon, .medium-collapse#article-container > .barcamp-information-icon,
-  .row.medium-collapse > #logo, .medium-collapse#feature-text > #logo, .medium-collapse#header > #logo, .medium-collapse#footer-container > #logo, .medium-collapse#article-container > #logo,
-  .row.medium-collapse > #main-navigation, .medium-collapse#feature-text > #main-navigation, .medium-collapse#header > #main-navigation, .medium-collapse#footer-container > #main-navigation, .medium-collapse#article-container > #main-navigation,
-  .row.medium-collapse > #social-media, .medium-collapse#feature-text > #social-media, .medium-collapse#header > #social-media, .medium-collapse#footer-container > #social-media, .medium-collapse#article-container > #social-media,
-  .row.medium-collapse > #footer-save-the-date, .medium-collapse#feature-text > #footer-save-the-date, .medium-collapse#header > #footer-save-the-date, .medium-collapse#footer-container > #footer-save-the-date, .medium-collapse#article-container > #footer-save-the-date,
-  .row.medium-collapse > #footer-about-barcamp, .medium-collapse#feature-text > #footer-about-barcamp, .medium-collapse#header > #footer-about-barcamp, .medium-collapse#footer-container > #footer-about-barcamp, .medium-collapse#article-container > #footer-about-barcamp,
-  .row.medium-collapse > #footer-contact, .medium-collapse#feature-text > #footer-contact, .medium-collapse#header > #footer-contact, .medium-collapse#footer-container > #footer-contact, .medium-collapse#article-container > #footer-contact,
-  .row.medium-collapse > #footer-navigation, .medium-collapse#feature-text > #footer-navigation, .medium-collapse#header > #footer-navigation, .medium-collapse#footer-container > #footer-navigation, .medium-collapse#article-container > #footer-navigation,
-  .row.medium-collapse > #footer-credits, .medium-collapse#feature-text > #footer-credits, .medium-collapse#header > #footer-credits, .medium-collapse#footer-container > #footer-credits, .medium-collapse#article-container > #footer-credits,
-  .row.medium-collapse > article, .row .medium-collapse#feature-text > article, .row .medium-collapse#header > article, .row .medium-collapse#footer-container > article, .row .medium-collapse#article-container > article, #feature-text
-  .row.medium-collapse > article, .medium-collapse#feature-text > article, #feature-text .medium-collapse#header > article, #feature-text .medium-collapse#footer-container > article, #feature-text .medium-collapse#article-container > article, #header
-  .row.medium-collapse > article, #header .medium-collapse#feature-text > article, .medium-collapse#header > article, #header .medium-collapse#footer-container > article, #header .medium-collapse#article-container > article, #footer-container
-  .row.medium-collapse > article, #footer-container .medium-collapse#feature-text > article, #footer-container .medium-collapse#header > article, .medium-collapse#footer-container > article, #footer-container .medium-collapse#article-container > article, #article-container
-  .row.medium-collapse > article, #article-container .medium-collapse#feature-text > article, #article-container .medium-collapse#header > article, #article-container .medium-collapse#footer-container > article, .medium-collapse#article-container > article {
+
+  .row.medium-collapse > .column, .medium-collapse#feature-text > .column, .medium-collapse#header > .column, .medium-collapse#article-container > .column,
+  .row.medium-collapse > .columns,
+  .medium-collapse#feature-text > .columns,
+  .medium-collapse#header > .columns,
+  .medium-collapse#article-container > .columns,
+  .row.medium-collapse > #what-is-barcamp,
+  .medium-collapse#feature-text > #what-is-barcamp,
+  .medium-collapse#header > #what-is-barcamp,
+  .medium-collapse#article-container > #what-is-barcamp,
+  .row.medium-collapse > .barcamp-information-icon,
+  .medium-collapse#feature-text > .barcamp-information-icon,
+  .medium-collapse#header > .barcamp-information-icon,
+  .medium-collapse#article-container > .barcamp-information-icon,
+  .row.medium-collapse > #logo,
+  .medium-collapse#feature-text > #logo,
+  .medium-collapse#header > #logo,
+  .medium-collapse#article-container > #logo,
+  .row.medium-collapse > #main-navigation,
+  .medium-collapse#feature-text > #main-navigation,
+  .medium-collapse#header > #main-navigation,
+  .medium-collapse#article-container > #main-navigation,
+  .row.medium-collapse > #social-media,
+  .medium-collapse#feature-text > #social-media,
+  .medium-collapse#header > #social-media,
+  .medium-collapse#article-container > #social-media,
+  .row.medium-collapse > article,
+  .row .medium-collapse#feature-text > article,
+  .row .medium-collapse#header > article,
+  .row .medium-collapse#article-container > article,
+  #feature-text .row.medium-collapse > article,
+  .medium-collapse#feature-text > article,
+  #feature-text .medium-collapse#header > article,
+  #feature-text .medium-collapse#article-container > article,
+  #header .row.medium-collapse > article,
+  #header .medium-collapse#feature-text > article,
+  .medium-collapse#header > article,
+  #header .medium-collapse#article-container > article,
+  #article-container .row.medium-collapse > article,
+  #article-container .medium-collapse#feature-text > article,
+  #article-container .medium-collapse#header > article,
+  .medium-collapse#article-container > article {
     padding-left: 0;
     padding-right: 0; }
-  .row.medium-collapse .row, .medium-collapse#feature-text .row, .medium-collapse#header .row, .medium-collapse#footer-container .row, .medium-collapse#article-container .row, .row.medium-collapse #feature-text, .medium-collapse#feature-text #feature-text, .medium-collapse#header #feature-text, .medium-collapse#footer-container #feature-text, .medium-collapse#article-container #feature-text, .row.medium-collapse #header, .medium-collapse#feature-text #header, .medium-collapse#header #header, .medium-collapse#footer-container #header, .medium-collapse#article-container #header, .row.medium-collapse #footer-container, .medium-collapse#feature-text #footer-container, .medium-collapse#header #footer-container, .medium-collapse#footer-container #footer-container, .medium-collapse#article-container #footer-container, .row.medium-collapse #article-container, .medium-collapse#feature-text #article-container, .medium-collapse#header #article-container, .medium-collapse#footer-container #article-container, .medium-collapse#article-container #article-container {
+  .row.medium-collapse .row, .medium-collapse#feature-text .row, .medium-collapse#header .row, .medium-collapse#article-container .row, .row.medium-collapse #feature-text, .medium-collapse#feature-text #feature-text, .medium-collapse#header #feature-text, .medium-collapse#article-container #feature-text, .row.medium-collapse #header, .medium-collapse#feature-text #header, .medium-collapse#header #header, .medium-collapse#article-container #header, .row.medium-collapse #article-container, .medium-collapse#feature-text #article-container, .medium-collapse#header #article-container, .medium-collapse#article-container #article-container {
     margin-left: 0;
     margin-right: 0; }
-  .row.medium-uncollapse > .column, .medium-uncollapse#feature-text > .column, .medium-uncollapse#header > .column, .medium-uncollapse#footer-container > .column, .medium-uncollapse#article-container > .column,
-  .row.medium-uncollapse > .columns, .medium-uncollapse#feature-text > .columns, .medium-uncollapse#header > .columns, .medium-uncollapse#footer-container > .columns, .medium-uncollapse#article-container > .columns,
-  .row.medium-uncollapse > #what-is-barcamp, .medium-uncollapse#feature-text > #what-is-barcamp, .medium-uncollapse#header > #what-is-barcamp, .medium-uncollapse#footer-container > #what-is-barcamp, .medium-uncollapse#article-container > #what-is-barcamp,
-  .row.medium-uncollapse > .barcamp-information-icon, .medium-uncollapse#feature-text > .barcamp-information-icon, .medium-uncollapse#header > .barcamp-information-icon, .medium-uncollapse#footer-container > .barcamp-information-icon, .medium-uncollapse#article-container > .barcamp-information-icon,
-  .row.medium-uncollapse > #logo, .medium-uncollapse#feature-text > #logo, .medium-uncollapse#header > #logo, .medium-uncollapse#footer-container > #logo, .medium-uncollapse#article-container > #logo,
-  .row.medium-uncollapse > #main-navigation, .medium-uncollapse#feature-text > #main-navigation, .medium-uncollapse#header > #main-navigation, .medium-uncollapse#footer-container > #main-navigation, .medium-uncollapse#article-container > #main-navigation,
-  .row.medium-uncollapse > #social-media, .medium-uncollapse#feature-text > #social-media, .medium-uncollapse#header > #social-media, .medium-uncollapse#footer-container > #social-media, .medium-uncollapse#article-container > #social-media,
-  .row.medium-uncollapse > #footer-save-the-date, .medium-uncollapse#feature-text > #footer-save-the-date, .medium-uncollapse#header > #footer-save-the-date, .medium-uncollapse#footer-container > #footer-save-the-date, .medium-uncollapse#article-container > #footer-save-the-date,
-  .row.medium-uncollapse > #footer-about-barcamp, .medium-uncollapse#feature-text > #footer-about-barcamp, .medium-uncollapse#header > #footer-about-barcamp, .medium-uncollapse#footer-container > #footer-about-barcamp, .medium-uncollapse#article-container > #footer-about-barcamp,
-  .row.medium-uncollapse > #footer-contact, .medium-uncollapse#feature-text > #footer-contact, .medium-uncollapse#header > #footer-contact, .medium-uncollapse#footer-container > #footer-contact, .medium-uncollapse#article-container > #footer-contact,
-  .row.medium-uncollapse > #footer-navigation, .medium-uncollapse#feature-text > #footer-navigation, .medium-uncollapse#header > #footer-navigation, .medium-uncollapse#footer-container > #footer-navigation, .medium-uncollapse#article-container > #footer-navigation,
-  .row.medium-uncollapse > #footer-credits, .medium-uncollapse#feature-text > #footer-credits, .medium-uncollapse#header > #footer-credits, .medium-uncollapse#footer-container > #footer-credits, .medium-uncollapse#article-container > #footer-credits,
-  .row.medium-uncollapse > article, .row .medium-uncollapse#feature-text > article, .row .medium-uncollapse#header > article, .row .medium-uncollapse#footer-container > article, .row .medium-uncollapse#article-container > article, #feature-text
-  .row.medium-uncollapse > article, .medium-uncollapse#feature-text > article, #feature-text .medium-uncollapse#header > article, #feature-text .medium-uncollapse#footer-container > article, #feature-text .medium-uncollapse#article-container > article, #header
-  .row.medium-uncollapse > article, #header .medium-uncollapse#feature-text > article, .medium-uncollapse#header > article, #header .medium-uncollapse#footer-container > article, #header .medium-uncollapse#article-container > article, #footer-container
-  .row.medium-uncollapse > article, #footer-container .medium-uncollapse#feature-text > article, #footer-container .medium-uncollapse#header > article, .medium-uncollapse#footer-container > article, #footer-container .medium-uncollapse#article-container > article, #article-container
-  .row.medium-uncollapse > article, #article-container .medium-uncollapse#feature-text > article, #article-container .medium-uncollapse#header > article, #article-container .medium-uncollapse#footer-container > article, .medium-uncollapse#article-container > article {
+  .row.medium-uncollapse > .column, .medium-uncollapse#feature-text > .column, .medium-uncollapse#header > .column, .medium-uncollapse#article-container > .column,
+  .row.medium-uncollapse > .columns,
+  .medium-uncollapse#feature-text > .columns,
+  .medium-uncollapse#header > .columns,
+  .medium-uncollapse#article-container > .columns,
+  .row.medium-uncollapse > #what-is-barcamp,
+  .medium-uncollapse#feature-text > #what-is-barcamp,
+  .medium-uncollapse#header > #what-is-barcamp,
+  .medium-uncollapse#article-container > #what-is-barcamp,
+  .row.medium-uncollapse > .barcamp-information-icon,
+  .medium-uncollapse#feature-text > .barcamp-information-icon,
+  .medium-uncollapse#header > .barcamp-information-icon,
+  .medium-uncollapse#article-container > .barcamp-information-icon,
+  .row.medium-uncollapse > #logo,
+  .medium-uncollapse#feature-text > #logo,
+  .medium-uncollapse#header > #logo,
+  .medium-uncollapse#article-container > #logo,
+  .row.medium-uncollapse > #main-navigation,
+  .medium-uncollapse#feature-text > #main-navigation,
+  .medium-uncollapse#header > #main-navigation,
+  .medium-uncollapse#article-container > #main-navigation,
+  .row.medium-uncollapse > #social-media,
+  .medium-uncollapse#feature-text > #social-media,
+  .medium-uncollapse#header > #social-media,
+  .medium-uncollapse#article-container > #social-media,
+  .row.medium-uncollapse > article,
+  .row .medium-uncollapse#feature-text > article,
+  .row .medium-uncollapse#header > article,
+  .row .medium-uncollapse#article-container > article,
+  #feature-text .row.medium-uncollapse > article,
+  .medium-uncollapse#feature-text > article,
+  #feature-text .medium-uncollapse#header > article,
+  #feature-text .medium-uncollapse#article-container > article,
+  #header .row.medium-uncollapse > article,
+  #header .medium-uncollapse#feature-text > article,
+  .medium-uncollapse#header > article,
+  #header .medium-uncollapse#article-container > article,
+  #article-container .row.medium-uncollapse > article,
+  #article-container .medium-uncollapse#feature-text > article,
+  #article-container .medium-uncollapse#header > article,
+  .medium-uncollapse#article-container > article {
     padding-left: 1em;
     padding-right: 1em;
     float: left; }
+
   .push-0 {
     position: relative;
     left: 0;
     right: auto; }
+
   .pull-0 {
     position: relative;
     right: 0;
     left: auto; }
+
   .push-1 {
     position: relative;
     left: 8.33333%;
     right: auto; }
+
   .pull-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
+
   .push-2 {
     position: relative;
     left: 16.66667%;
     right: auto; }
+
   .pull-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
+
   .push-3 {
     position: relative;
     left: 25%;
     right: auto; }
+
   .pull-3 {
     position: relative;
     right: 25%;
     left: auto; }
+
   .push-4 {
     position: relative;
     left: 33.33333%;
     right: auto; }
+
   .pull-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
+
   .push-5 {
     position: relative;
     left: 41.66667%;
     right: auto; }
+
   .pull-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
+
   .push-6 {
     position: relative;
     left: 50%;
     right: auto; }
+
   .pull-6 {
     position: relative;
     right: 50%;
     left: auto; }
+
   .push-7 {
     position: relative;
     left: 58.33333%;
     right: auto; }
+
   .pull-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
+
   .push-8 {
     position: relative;
     left: 66.66667%;
     right: auto; }
+
   .pull-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
+
   .push-9 {
     position: relative;
     left: 75%;
     right: auto; }
+
   .pull-9 {
     position: relative;
     right: 75%;
     left: auto; }
+
   .push-10 {
     position: relative;
     left: 83.33333%;
     right: auto; }
+
   .pull-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
+
   .push-11 {
     position: relative;
     left: 91.66667%;
     right: auto; }
+
   .pull-11 {
     position: relative;
     right: 91.66667%;
     left: auto; } }
-
 @media only screen and (min-width: 64.0625em) {
   .large-push-0 {
     position: relative;
     left: 0;
     right: auto; }
+
   .large-pull-0 {
     position: relative;
     right: 0;
     left: auto; }
+
   .large-push-1 {
     position: relative;
     left: 8.33333%;
     right: auto; }
+
   .large-pull-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
+
   .large-push-2 {
     position: relative;
     left: 16.66667%;
     right: auto; }
+
   .large-pull-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
+
   .large-push-3 {
     position: relative;
     left: 25%;
     right: auto; }
+
   .large-pull-3 {
     position: relative;
     right: 25%;
     left: auto; }
+
   .large-push-4 {
     position: relative;
     left: 33.33333%;
     right: auto; }
+
   .large-pull-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
+
   .large-push-5 {
     position: relative;
     left: 41.66667%;
     right: auto; }
+
   .large-pull-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
+
   .large-push-6 {
     position: relative;
     left: 50%;
     right: auto; }
+
   .large-pull-6 {
     position: relative;
     right: 50%;
     left: auto; }
+
   .large-push-7 {
     position: relative;
     left: 58.33333%;
     right: auto; }
+
   .large-pull-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
+
   .large-push-8 {
     position: relative;
     left: 66.66667%;
     right: auto; }
+
   .large-pull-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
+
   .large-push-9 {
     position: relative;
     left: 75%;
     right: auto; }
+
   .large-pull-9 {
     position: relative;
     right: 75%;
     left: auto; }
+
   .large-push-10 {
     position: relative;
     left: 83.33333%;
     right: auto; }
+
   .large-pull-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
+
   .large-push-11 {
     position: relative;
     left: 91.66667%;
     right: auto; }
+
   .large-pull-11 {
     position: relative;
     right: 91.66667%;
     left: auto; }
+
   .column,
   .columns,
   #what-is-barcamp,
@@ -1017,74 +1214,94 @@ select {
   #logo,
   #main-navigation,
   #social-media,
-  #footer-save-the-date,
-  #footer-about-barcamp,
-  #footer-contact,
-  #footer-navigation,
-  #footer-credits,
   .row article,
   #feature-text article,
   #header article,
-  #footer-container article,
   #article-container article {
     position: relative;
     padding-left: 1em;
     padding-right: 1em;
     float: left; }
+
   .large-1, #social-media {
     width: 8.33333%; }
+
   .large-2, #logo {
     width: 16.66667%; }
-  .large-3, #footer-save-the-date, #footer-contact {
+
+  .large-3 {
     width: 25%; }
+
   .large-4, .barcamp-information-icon {
     width: 33.33333%; }
+
   .large-5 {
     width: 41.66667%; }
-  .large-6, #footer-about-barcamp {
+
+  .large-6 {
     width: 50%; }
+
   .large-7 {
     width: 58.33333%; }
+
   .large-8 {
     width: 66.66667%; }
-  .large-9, #main-navigation, #footer-navigation, .row article, #feature-text article, #header article, #footer-container article, #article-container article {
+
+  .large-9, #main-navigation, .row article, #feature-text article, #header article, #article-container article {
     width: 75%; }
+
   .large-10 {
     width: 83.33333%; }
+
   .large-11 {
     width: 91.66667%; }
-  .large-12, #what-is-barcamp, #footer-credits {
+
+  .large-12, #what-is-barcamp {
     width: 100%; }
+
   .large-offset-0 {
     margin-left: 0 !important; }
+
   .large-offset-1 {
     margin-left: 8.33333% !important; }
+
   .large-offset-2 {
     margin-left: 16.66667% !important; }
+
   .large-offset-3 {
     margin-left: 25% !important; }
+
   .large-offset-4 {
     margin-left: 33.33333% !important; }
+
   .large-offset-5 {
     margin-left: 41.66667% !important; }
+
   .large-offset-6 {
     margin-left: 50% !important; }
+
   .large-offset-7 {
     margin-left: 58.33333% !important; }
+
   .large-offset-8 {
     margin-left: 66.66667% !important; }
+
   .large-offset-9 {
     margin-left: 75% !important; }
+
   .large-offset-10 {
     margin-left: 83.33333% !important; }
+
   .large-offset-11 {
     margin-left: 91.66667% !important; }
+
   .large-reset-order {
     margin-left: 0;
     margin-right: 0;
     left: auto;
     right: auto;
     float: left; }
+
   .column.large-centered,
   .columns.large-centered,
   .large-centered#what-is-barcamp,
@@ -1092,19 +1309,14 @@ select {
   .large-centered#logo,
   .large-centered#main-navigation,
   .large-centered#social-media,
-  .large-centered#footer-save-the-date,
-  .large-centered#footer-about-barcamp,
-  .large-centered#footer-contact,
-  .large-centered#footer-navigation,
-  .large-centered#footer-credits,
   .row article.large-centered,
   #feature-text article.large-centered,
   #header article.large-centered,
-  #footer-container article.large-centered,
   #article-container article.large-centered {
     margin-left: auto;
     margin-right: auto;
     float: none; }
+
   .column.large-uncentered,
   .columns.large-uncentered,
   .large-uncentered#what-is-barcamp,
@@ -1112,19 +1324,14 @@ select {
   .large-uncentered#logo,
   .large-uncentered#main-navigation,
   .large-uncentered#social-media,
-  .large-uncentered#footer-save-the-date,
-  .large-uncentered#footer-about-barcamp,
-  .large-uncentered#footer-contact,
-  .large-uncentered#footer-navigation,
-  .large-uncentered#footer-credits,
   .row article.large-uncentered,
   #feature-text article.large-uncentered,
   #header article.large-uncentered,
-  #footer-container article.large-uncentered,
   #article-container article.large-uncentered {
     margin-left: 0;
     margin-right: 0;
     float: left; }
+
   .column.large-centered:last-child,
   .columns.large-centered:last-child,
   .large-centered#what-is-barcamp:last-child,
@@ -1132,17 +1339,12 @@ select {
   .large-centered#logo:last-child,
   .large-centered#main-navigation:last-child,
   .large-centered#social-media:last-child,
-  .large-centered#footer-save-the-date:last-child,
-  .large-centered#footer-about-barcamp:last-child,
-  .large-centered#footer-contact:last-child,
-  .large-centered#footer-navigation:last-child,
-  .large-centered#footer-credits:last-child,
   .row article.large-centered:last-child,
   #feature-text article.large-centered:last-child,
   #header article.large-centered:last-child,
-  #footer-container article.large-centered:last-child,
   #article-container article.large-centered:last-child {
     float: none; }
+
   .column.large-uncentered:last-child,
   .columns.large-uncentered:last-child,
   .large-uncentered#what-is-barcamp:last-child,
@@ -1150,17 +1352,12 @@ select {
   .large-uncentered#logo:last-child,
   .large-uncentered#main-navigation:last-child,
   .large-uncentered#social-media:last-child,
-  .large-uncentered#footer-save-the-date:last-child,
-  .large-uncentered#footer-about-barcamp:last-child,
-  .large-uncentered#footer-contact:last-child,
-  .large-uncentered#footer-navigation:last-child,
-  .large-uncentered#footer-credits:last-child,
   .row article.large-uncentered:last-child,
   #feature-text article.large-uncentered:last-child,
   #header article.large-uncentered:last-child,
-  #footer-container article.large-uncentered:last-child,
   #article-container article.large-uncentered:last-child {
     float: left; }
+
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite,
   .large-uncentered.opposite#what-is-barcamp,
@@ -1168,156 +1365,222 @@ select {
   .large-uncentered.opposite#logo,
   .large-uncentered.opposite#main-navigation,
   .large-uncentered.opposite#social-media,
-  .large-uncentered.opposite#footer-save-the-date,
-  .large-uncentered.opposite#footer-about-barcamp,
-  .large-uncentered.opposite#footer-contact,
-  .large-uncentered.opposite#footer-navigation,
-  .large-uncentered.opposite#footer-credits,
   .row article.large-uncentered.opposite,
   #feature-text article.large-uncentered.opposite,
   #header article.large-uncentered.opposite,
-  #footer-container article.large-uncentered.opposite,
   #article-container article.large-uncentered.opposite {
     float: right; }
-  .row.large-collapse > .column, .large-collapse#feature-text > .column, .large-collapse#header > .column, .large-collapse#footer-container > .column, .large-collapse#article-container > .column,
-  .row.large-collapse > .columns, .large-collapse#feature-text > .columns, .large-collapse#header > .columns, .large-collapse#footer-container > .columns, .large-collapse#article-container > .columns,
-  .row.large-collapse > #what-is-barcamp, .large-collapse#feature-text > #what-is-barcamp, .large-collapse#header > #what-is-barcamp, .large-collapse#footer-container > #what-is-barcamp, .large-collapse#article-container > #what-is-barcamp,
-  .row.large-collapse > .barcamp-information-icon, .large-collapse#feature-text > .barcamp-information-icon, .large-collapse#header > .barcamp-information-icon, .large-collapse#footer-container > .barcamp-information-icon, .large-collapse#article-container > .barcamp-information-icon,
-  .row.large-collapse > #logo, .large-collapse#feature-text > #logo, .large-collapse#header > #logo, .large-collapse#footer-container > #logo, .large-collapse#article-container > #logo,
-  .row.large-collapse > #main-navigation, .large-collapse#feature-text > #main-navigation, .large-collapse#header > #main-navigation, .large-collapse#footer-container > #main-navigation, .large-collapse#article-container > #main-navigation,
-  .row.large-collapse > #social-media, .large-collapse#feature-text > #social-media, .large-collapse#header > #social-media, .large-collapse#footer-container > #social-media, .large-collapse#article-container > #social-media,
-  .row.large-collapse > #footer-save-the-date, .large-collapse#feature-text > #footer-save-the-date, .large-collapse#header > #footer-save-the-date, .large-collapse#footer-container > #footer-save-the-date, .large-collapse#article-container > #footer-save-the-date,
-  .row.large-collapse > #footer-about-barcamp, .large-collapse#feature-text > #footer-about-barcamp, .large-collapse#header > #footer-about-barcamp, .large-collapse#footer-container > #footer-about-barcamp, .large-collapse#article-container > #footer-about-barcamp,
-  .row.large-collapse > #footer-contact, .large-collapse#feature-text > #footer-contact, .large-collapse#header > #footer-contact, .large-collapse#footer-container > #footer-contact, .large-collapse#article-container > #footer-contact,
-  .row.large-collapse > #footer-navigation, .large-collapse#feature-text > #footer-navigation, .large-collapse#header > #footer-navigation, .large-collapse#footer-container > #footer-navigation, .large-collapse#article-container > #footer-navigation,
-  .row.large-collapse > #footer-credits, .large-collapse#feature-text > #footer-credits, .large-collapse#header > #footer-credits, .large-collapse#footer-container > #footer-credits, .large-collapse#article-container > #footer-credits,
-  .row.large-collapse > article, .row .large-collapse#feature-text > article, .row .large-collapse#header > article, .row .large-collapse#footer-container > article, .row .large-collapse#article-container > article, #feature-text
-  .row.large-collapse > article, .large-collapse#feature-text > article, #feature-text .large-collapse#header > article, #feature-text .large-collapse#footer-container > article, #feature-text .large-collapse#article-container > article, #header
-  .row.large-collapse > article, #header .large-collapse#feature-text > article, .large-collapse#header > article, #header .large-collapse#footer-container > article, #header .large-collapse#article-container > article, #footer-container
-  .row.large-collapse > article, #footer-container .large-collapse#feature-text > article, #footer-container .large-collapse#header > article, .large-collapse#footer-container > article, #footer-container .large-collapse#article-container > article, #article-container
-  .row.large-collapse > article, #article-container .large-collapse#feature-text > article, #article-container .large-collapse#header > article, #article-container .large-collapse#footer-container > article, .large-collapse#article-container > article {
+
+  .row.large-collapse > .column, .large-collapse#feature-text > .column, .large-collapse#header > .column, .large-collapse#article-container > .column,
+  .row.large-collapse > .columns,
+  .large-collapse#feature-text > .columns,
+  .large-collapse#header > .columns,
+  .large-collapse#article-container > .columns,
+  .row.large-collapse > #what-is-barcamp,
+  .large-collapse#feature-text > #what-is-barcamp,
+  .large-collapse#header > #what-is-barcamp,
+  .large-collapse#article-container > #what-is-barcamp,
+  .row.large-collapse > .barcamp-information-icon,
+  .large-collapse#feature-text > .barcamp-information-icon,
+  .large-collapse#header > .barcamp-information-icon,
+  .large-collapse#article-container > .barcamp-information-icon,
+  .row.large-collapse > #logo,
+  .large-collapse#feature-text > #logo,
+  .large-collapse#header > #logo,
+  .large-collapse#article-container > #logo,
+  .row.large-collapse > #main-navigation,
+  .large-collapse#feature-text > #main-navigation,
+  .large-collapse#header > #main-navigation,
+  .large-collapse#article-container > #main-navigation,
+  .row.large-collapse > #social-media,
+  .large-collapse#feature-text > #social-media,
+  .large-collapse#header > #social-media,
+  .large-collapse#article-container > #social-media,
+  .row.large-collapse > article,
+  .row .large-collapse#feature-text > article,
+  .row .large-collapse#header > article,
+  .row .large-collapse#article-container > article,
+  #feature-text .row.large-collapse > article,
+  .large-collapse#feature-text > article,
+  #feature-text .large-collapse#header > article,
+  #feature-text .large-collapse#article-container > article,
+  #header .row.large-collapse > article,
+  #header .large-collapse#feature-text > article,
+  .large-collapse#header > article,
+  #header .large-collapse#article-container > article,
+  #article-container .row.large-collapse > article,
+  #article-container .large-collapse#feature-text > article,
+  #article-container .large-collapse#header > article,
+  .large-collapse#article-container > article {
     padding-left: 0;
     padding-right: 0; }
-  .row.large-collapse .row, .large-collapse#feature-text .row, .large-collapse#header .row, .large-collapse#footer-container .row, .large-collapse#article-container .row, .row.large-collapse #feature-text, .large-collapse#feature-text #feature-text, .large-collapse#header #feature-text, .large-collapse#footer-container #feature-text, .large-collapse#article-container #feature-text, .row.large-collapse #header, .large-collapse#feature-text #header, .large-collapse#header #header, .large-collapse#footer-container #header, .large-collapse#article-container #header, .row.large-collapse #footer-container, .large-collapse#feature-text #footer-container, .large-collapse#header #footer-container, .large-collapse#footer-container #footer-container, .large-collapse#article-container #footer-container, .row.large-collapse #article-container, .large-collapse#feature-text #article-container, .large-collapse#header #article-container, .large-collapse#footer-container #article-container, .large-collapse#article-container #article-container {
+  .row.large-collapse .row, .large-collapse#feature-text .row, .large-collapse#header .row, .large-collapse#article-container .row, .row.large-collapse #feature-text, .large-collapse#feature-text #feature-text, .large-collapse#header #feature-text, .large-collapse#article-container #feature-text, .row.large-collapse #header, .large-collapse#feature-text #header, .large-collapse#header #header, .large-collapse#article-container #header, .row.large-collapse #article-container, .large-collapse#feature-text #article-container, .large-collapse#header #article-container, .large-collapse#article-container #article-container {
     margin-left: 0;
     margin-right: 0; }
-  .row.large-uncollapse > .column, .large-uncollapse#feature-text > .column, .large-uncollapse#header > .column, .large-uncollapse#footer-container > .column, .large-uncollapse#article-container > .column,
-  .row.large-uncollapse > .columns, .large-uncollapse#feature-text > .columns, .large-uncollapse#header > .columns, .large-uncollapse#footer-container > .columns, .large-uncollapse#article-container > .columns,
-  .row.large-uncollapse > #what-is-barcamp, .large-uncollapse#feature-text > #what-is-barcamp, .large-uncollapse#header > #what-is-barcamp, .large-uncollapse#footer-container > #what-is-barcamp, .large-uncollapse#article-container > #what-is-barcamp,
-  .row.large-uncollapse > .barcamp-information-icon, .large-uncollapse#feature-text > .barcamp-information-icon, .large-uncollapse#header > .barcamp-information-icon, .large-uncollapse#footer-container > .barcamp-information-icon, .large-uncollapse#article-container > .barcamp-information-icon,
-  .row.large-uncollapse > #logo, .large-uncollapse#feature-text > #logo, .large-uncollapse#header > #logo, .large-uncollapse#footer-container > #logo, .large-uncollapse#article-container > #logo,
-  .row.large-uncollapse > #main-navigation, .large-uncollapse#feature-text > #main-navigation, .large-uncollapse#header > #main-navigation, .large-uncollapse#footer-container > #main-navigation, .large-uncollapse#article-container > #main-navigation,
-  .row.large-uncollapse > #social-media, .large-uncollapse#feature-text > #social-media, .large-uncollapse#header > #social-media, .large-uncollapse#footer-container > #social-media, .large-uncollapse#article-container > #social-media,
-  .row.large-uncollapse > #footer-save-the-date, .large-uncollapse#feature-text > #footer-save-the-date, .large-uncollapse#header > #footer-save-the-date, .large-uncollapse#footer-container > #footer-save-the-date, .large-uncollapse#article-container > #footer-save-the-date,
-  .row.large-uncollapse > #footer-about-barcamp, .large-uncollapse#feature-text > #footer-about-barcamp, .large-uncollapse#header > #footer-about-barcamp, .large-uncollapse#footer-container > #footer-about-barcamp, .large-uncollapse#article-container > #footer-about-barcamp,
-  .row.large-uncollapse > #footer-contact, .large-uncollapse#feature-text > #footer-contact, .large-uncollapse#header > #footer-contact, .large-uncollapse#footer-container > #footer-contact, .large-uncollapse#article-container > #footer-contact,
-  .row.large-uncollapse > #footer-navigation, .large-uncollapse#feature-text > #footer-navigation, .large-uncollapse#header > #footer-navigation, .large-uncollapse#footer-container > #footer-navigation, .large-uncollapse#article-container > #footer-navigation,
-  .row.large-uncollapse > #footer-credits, .large-uncollapse#feature-text > #footer-credits, .large-uncollapse#header > #footer-credits, .large-uncollapse#footer-container > #footer-credits, .large-uncollapse#article-container > #footer-credits,
-  .row.large-uncollapse > article, .row .large-uncollapse#feature-text > article, .row .large-uncollapse#header > article, .row .large-uncollapse#footer-container > article, .row .large-uncollapse#article-container > article, #feature-text
-  .row.large-uncollapse > article, .large-uncollapse#feature-text > article, #feature-text .large-uncollapse#header > article, #feature-text .large-uncollapse#footer-container > article, #feature-text .large-uncollapse#article-container > article, #header
-  .row.large-uncollapse > article, #header .large-uncollapse#feature-text > article, .large-uncollapse#header > article, #header .large-uncollapse#footer-container > article, #header .large-uncollapse#article-container > article, #footer-container
-  .row.large-uncollapse > article, #footer-container .large-uncollapse#feature-text > article, #footer-container .large-uncollapse#header > article, .large-uncollapse#footer-container > article, #footer-container .large-uncollapse#article-container > article, #article-container
-  .row.large-uncollapse > article, #article-container .large-uncollapse#feature-text > article, #article-container .large-uncollapse#header > article, #article-container .large-uncollapse#footer-container > article, .large-uncollapse#article-container > article {
+  .row.large-uncollapse > .column, .large-uncollapse#feature-text > .column, .large-uncollapse#header > .column, .large-uncollapse#article-container > .column,
+  .row.large-uncollapse > .columns,
+  .large-uncollapse#feature-text > .columns,
+  .large-uncollapse#header > .columns,
+  .large-uncollapse#article-container > .columns,
+  .row.large-uncollapse > #what-is-barcamp,
+  .large-uncollapse#feature-text > #what-is-barcamp,
+  .large-uncollapse#header > #what-is-barcamp,
+  .large-uncollapse#article-container > #what-is-barcamp,
+  .row.large-uncollapse > .barcamp-information-icon,
+  .large-uncollapse#feature-text > .barcamp-information-icon,
+  .large-uncollapse#header > .barcamp-information-icon,
+  .large-uncollapse#article-container > .barcamp-information-icon,
+  .row.large-uncollapse > #logo,
+  .large-uncollapse#feature-text > #logo,
+  .large-uncollapse#header > #logo,
+  .large-uncollapse#article-container > #logo,
+  .row.large-uncollapse > #main-navigation,
+  .large-uncollapse#feature-text > #main-navigation,
+  .large-uncollapse#header > #main-navigation,
+  .large-uncollapse#article-container > #main-navigation,
+  .row.large-uncollapse > #social-media,
+  .large-uncollapse#feature-text > #social-media,
+  .large-uncollapse#header > #social-media,
+  .large-uncollapse#article-container > #social-media,
+  .row.large-uncollapse > article,
+  .row .large-uncollapse#feature-text > article,
+  .row .large-uncollapse#header > article,
+  .row .large-uncollapse#article-container > article,
+  #feature-text .row.large-uncollapse > article,
+  .large-uncollapse#feature-text > article,
+  #feature-text .large-uncollapse#header > article,
+  #feature-text .large-uncollapse#article-container > article,
+  #header .row.large-uncollapse > article,
+  #header .large-uncollapse#feature-text > article,
+  .large-uncollapse#header > article,
+  #header .large-uncollapse#article-container > article,
+  #article-container .row.large-uncollapse > article,
+  #article-container .large-uncollapse#feature-text > article,
+  #article-container .large-uncollapse#header > article,
+  .large-uncollapse#article-container > article {
     padding-left: 1em;
     padding-right: 1em;
     float: left; }
+
   .push-0 {
     position: relative;
     left: 0;
     right: auto; }
+
   .pull-0 {
     position: relative;
     right: 0;
     left: auto; }
+
   .push-1 {
     position: relative;
     left: 8.33333%;
     right: auto; }
+
   .pull-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
+
   .push-2 {
     position: relative;
     left: 16.66667%;
     right: auto; }
+
   .pull-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
+
   .push-3 {
     position: relative;
     left: 25%;
     right: auto; }
+
   .pull-3 {
     position: relative;
     right: 25%;
     left: auto; }
+
   .push-4 {
     position: relative;
     left: 33.33333%;
     right: auto; }
+
   .pull-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
+
   .push-5 {
     position: relative;
     left: 41.66667%;
     right: auto; }
+
   .pull-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
+
   .push-6 {
     position: relative;
     left: 50%;
     right: auto; }
+
   .pull-6 {
     position: relative;
     right: 50%;
     left: auto; }
+
   .push-7 {
     position: relative;
     left: 58.33333%;
     right: auto; }
+
   .pull-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
+
   .push-8 {
     position: relative;
     left: 66.66667%;
     right: auto; }
+
   .pull-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
+
   .push-9 {
     position: relative;
     left: 75%;
     right: auto; }
+
   .pull-9 {
     position: relative;
     right: 75%;
     left: auto; }
+
   .push-10 {
     position: relative;
     left: 83.33333%;
     right: auto; }
+
   .pull-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
+
   .push-11 {
     position: relative;
     left: 91.66667%;
     right: auto; }
+
   .pull-11 {
     position: relative;
     right: 91.66667%;
     left: auto; } }
-
 .text-left {
   text-align: left !important; }
 
@@ -1333,103 +1596,123 @@ select {
 @media only screen and (max-width: 40em) {
   .small-only-text-left {
     text-align: left !important; }
+
   .small-only-text-right {
     text-align: right !important; }
+
   .small-only-text-center {
     text-align: center !important; }
+
   .small-only-text-justify {
     text-align: justify !important; } }
-
 @media only screen {
   .small-text-left {
     text-align: left !important; }
+
   .small-text-right {
     text-align: right !important; }
+
   .small-text-center {
     text-align: center !important; }
+
   .small-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   .medium-only-text-left {
     text-align: left !important; }
+
   .medium-only-text-right {
     text-align: right !important; }
+
   .medium-only-text-center {
     text-align: center !important; }
+
   .medium-only-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 40.0625em) {
   .medium-text-left {
     text-align: left !important; }
+
   .medium-text-right {
     text-align: right !important; }
+
   .medium-text-center {
     text-align: center !important; }
+
   .medium-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 64.0625em) and (max-width: 90em) {
   .large-only-text-left {
     text-align: left !important; }
+
   .large-only-text-right {
     text-align: right !important; }
+
   .large-only-text-center {
     text-align: center !important; }
+
   .large-only-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 64.0625em) {
   .large-text-left {
     text-align: left !important; }
+
   .large-text-right {
     text-align: right !important; }
+
   .large-text-center {
     text-align: center !important; }
+
   .large-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 90.0625em) and (max-width: 120em) {
   .xlarge-only-text-left {
     text-align: left !important; }
+
   .xlarge-only-text-right {
     text-align: right !important; }
+
   .xlarge-only-text-center {
     text-align: center !important; }
+
   .xlarge-only-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 90.0625em) {
   .xlarge-text-left {
     text-align: left !important; }
+
   .xlarge-text-right {
     text-align: right !important; }
+
   .xlarge-text-center {
     text-align: center !important; }
+
   .xlarge-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 120.0625em) and (max-width: 99999999em) {
   .xxlarge-only-text-left {
     text-align: left !important; }
+
   .xxlarge-only-text-right {
     text-align: right !important; }
+
   .xxlarge-only-text-center {
     text-align: center !important; }
+
   .xxlarge-only-text-justify {
     text-align: justify !important; } }
-
 @media only screen and (min-width: 120.0625em) {
   .xxlarge-text-left {
     text-align: left !important; }
+
   .xxlarge-text-right {
     text-align: right !important; }
+
   .xxlarge-text-center {
     text-align: center !important; }
+
   .xxlarge-text-justify {
     text-align: justify !important; } }
-
 /* Typography resets */
 div,
 dl,
@@ -1576,22 +1859,17 @@ ul li ul,
 ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0; }
-
 ul.square li ul, ul.circle li ul, ul.disc li ul {
   list-style: inherit; }
-
 ul.square {
   list-style-type: square;
   margin-left: 1.1rem; }
-
 ul.circle {
   list-style-type: circle;
   margin-left: 1.1rem; }
-
 ul.disc {
   list-style-type: disc;
   margin-left: 1.1rem; }
-
 ul.no-bullet {
   list-style: none; }
 
@@ -1607,7 +1885,6 @@ ol {
 dl dt {
   margin-bottom: 0.3rem;
   font-weight: bold; }
-
 dl dd {
   margin-bottom: 0.75rem; }
 
@@ -1659,7 +1936,6 @@ blockquote p {
 
 .vevent .summary {
   font-weight: bold; }
-
 .vevent abbr {
   cursor: default;
   text-decoration: none;
@@ -1670,20 +1946,25 @@ blockquote p {
 @media only screen and (min-width: 40.0625em) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
+
   h1 {
     font-size: 2.75rem; }
+
   h2 {
     font-size: 2.3125rem; }
+
   h3 {
     font-size: 1.6875rem; }
+
   h4 {
     font-size: 1.4375rem; }
+
   h5 {
     font-size: 1.125rem; }
+
   h6 {
     font-size: 1rem; } }
-
-button, .button, #register-button, #footer-register-button {
+button, .button, #register-button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
@@ -1704,150 +1985,150 @@ button, .button, #register-button, #footer-register-button {
   border-color: #c5480f;
   color: #FFFFFF;
   transition: background-color 300ms ease-out; }
-  button:hover, button:focus, .button:hover, #register-button:hover, #footer-register-button:hover, .button:focus, #register-button:focus, #footer-register-button:focus {
+  button:hover, button:focus, .button:hover, #register-button:hover, .button:focus, #register-button:focus {
     background-color: #c5480f; }
-  button:hover, button:focus, .button:hover, #register-button:hover, #footer-register-button:hover, .button:focus, #register-button:focus, #footer-register-button:focus {
+  button:hover, button:focus, .button:hover, #register-button:hover, .button:focus, #register-button:focus {
     color: #FFFFFF; }
-  button.secondary, .button.secondary, .secondary#register-button, .secondary#footer-register-button {
+  button.secondary, .button.secondary, .secondary#register-button {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
     color: #333333; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .secondary#register-button:hover, .secondary#footer-register-button:hover, .button.secondary:focus, .secondary#register-button:focus, .secondary#footer-register-button:focus {
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .secondary#register-button:hover, .button.secondary:focus, .secondary#register-button:focus {
       background-color: #b9b9b9; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .secondary#register-button:hover, .secondary#footer-register-button:hover, .button.secondary:focus, .secondary#register-button:focus, .secondary#footer-register-button:focus {
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .secondary#register-button:hover, .button.secondary:focus, .secondary#register-button:focus {
       color: #333333; }
-  button.success, .button.success, .success#register-button, .success#footer-register-button {
+  button.success, .button.success, .success#register-button {
     background-color: #43AC6A;
     border-color: #368a55;
     color: #FFFFFF; }
-    button.success:hover, button.success:focus, .button.success:hover, .success#register-button:hover, .success#footer-register-button:hover, .button.success:focus, .success#register-button:focus, .success#footer-register-button:focus {
+    button.success:hover, button.success:focus, .button.success:hover, .success#register-button:hover, .button.success:focus, .success#register-button:focus {
       background-color: #368a55; }
-    button.success:hover, button.success:focus, .button.success:hover, .success#register-button:hover, .success#footer-register-button:hover, .button.success:focus, .success#register-button:focus, .success#footer-register-button:focus {
+    button.success:hover, button.success:focus, .button.success:hover, .success#register-button:hover, .button.success:focus, .success#register-button:focus {
       color: #FFFFFF; }
-  button.alert, .button.alert, .alert#register-button, .alert#footer-register-button {
+  button.alert, .button.alert, .alert#register-button {
     background-color: #f04124;
     border-color: #cf2a0e;
     color: #FFFFFF; }
-    button.alert:hover, button.alert:focus, .button.alert:hover, .alert#register-button:hover, .alert#footer-register-button:hover, .button.alert:focus, .alert#register-button:focus, .alert#footer-register-button:focus {
+    button.alert:hover, button.alert:focus, .button.alert:hover, .alert#register-button:hover, .button.alert:focus, .alert#register-button:focus {
       background-color: #cf2a0e; }
-    button.alert:hover, button.alert:focus, .button.alert:hover, .alert#register-button:hover, .alert#footer-register-button:hover, .button.alert:focus, .alert#register-button:focus, .alert#footer-register-button:focus {
+    button.alert:hover, button.alert:focus, .button.alert:hover, .alert#register-button:hover, .button.alert:focus, .alert#register-button:focus {
       color: #FFFFFF; }
-  button.warning, .button.warning, .warning#register-button, .warning#footer-register-button {
+  button.warning, .button.warning, .warning#register-button {
     background-color: #f08a24;
     border-color: #cf6e0e;
     color: #FFFFFF; }
-    button.warning:hover, button.warning:focus, .button.warning:hover, .warning#register-button:hover, .warning#footer-register-button:hover, .button.warning:focus, .warning#register-button:focus, .warning#footer-register-button:focus {
+    button.warning:hover, button.warning:focus, .button.warning:hover, .warning#register-button:hover, .button.warning:focus, .warning#register-button:focus {
       background-color: #cf6e0e; }
-    button.warning:hover, button.warning:focus, .button.warning:hover, .warning#register-button:hover, .warning#footer-register-button:hover, .button.warning:focus, .warning#register-button:focus, .warning#footer-register-button:focus {
+    button.warning:hover, button.warning:focus, .button.warning:hover, .warning#register-button:hover, .button.warning:focus, .warning#register-button:focus {
       color: #FFFFFF; }
-  button.info, .button.info, .info#register-button, .info#footer-register-button {
+  button.info, .button.info, .info#register-button {
     background-color: #a0d3e8;
     border-color: #61b6d9;
     color: #333333; }
-    button.info:hover, button.info:focus, .button.info:hover, .info#register-button:hover, .info#footer-register-button:hover, .button.info:focus, .info#register-button:focus, .info#footer-register-button:focus {
+    button.info:hover, button.info:focus, .button.info:hover, .info#register-button:hover, .button.info:focus, .info#register-button:focus {
       background-color: #61b6d9; }
-    button.info:hover, button.info:focus, .button.info:hover, .info#register-button:hover, .info#footer-register-button:hover, .button.info:focus, .info#register-button:focus, .info#footer-register-button:focus {
+    button.info:hover, button.info:focus, .button.info:hover, .info#register-button:hover, .button.info:focus, .info#register-button:focus {
       color: #FFFFFF; }
-  button.large, button#register-button, .button.large, #register-button, .large#footer-register-button {
+  button.large, button#register-button, .button.large, #register-button {
     padding: 1.125rem 2.25rem 1.1875rem 2.25rem;
     font-size: 1.25rem; }
-  button.small, button#footer-register-button, .button.small, .small#register-button, #footer-register-button {
+  button.small, .button.small, .small#register-button {
     padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
     font-size: 0.8125rem; }
-  button.tiny, .button.tiny, .tiny#register-button, .tiny#footer-register-button {
+  button.tiny, .button.tiny, .tiny#register-button {
     padding: 0.625rem 1.25rem 0.6875rem 1.25rem;
     font-size: 0.6875rem; }
-  button.expand, .button.expand, .expand#register-button, .expand#footer-register-button {
+  button.expand, .button.expand, .expand#register-button {
     padding-right: 0;
     padding-left: 0;
     width: 100%; }
-  button.left-align, .button.left-align, .left-align#register-button, .left-align#footer-register-button {
+  button.left-align, .button.left-align, .left-align#register-button {
     text-align: left;
     text-indent: 0.75rem; }
-  button.right-align, .button.right-align, .right-align#register-button, .right-align#footer-register-button {
+  button.right-align, .button.right-align, .right-align#register-button {
     text-align: right;
     padding-right: 0.75rem; }
-  button.radius, button#register-button, button#footer-register-button, .button.radius, #register-button, #footer-register-button {
+  button.radius, button#register-button, .button.radius, #register-button {
     border-radius: 3px; }
-  button.round, .button.round, .round#register-button, .round#footer-register-button {
+  button.round, .button.round, .round#register-button {
     border-radius: 1000px; }
-  button.disabled, button[disabled], .button.disabled, .disabled#register-button, .disabled#footer-register-button, .button[disabled], [disabled]#register-button, [disabled]#footer-register-button {
+  button.disabled, button[disabled], .button.disabled, .disabled#register-button, .button[disabled], [disabled]#register-button {
     background-color: #ee5d1a;
     border-color: #c5480f;
     color: #FFFFFF;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .disabled#register-button:hover, .disabled#footer-register-button:hover, .button.disabled:focus, .disabled#register-button:focus, .disabled#footer-register-button:focus, .button[disabled]:hover, [disabled]#register-button:hover, [disabled]#footer-register-button:hover, .button[disabled]:focus, [disabled]#register-button:focus, [disabled]#footer-register-button:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .disabled#register-button:hover, .button.disabled:focus, .disabled#register-button:focus, .button[disabled]:hover, [disabled]#register-button:hover, .button[disabled]:focus, [disabled]#register-button:focus {
       background-color: #c5480f; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .disabled#register-button:hover, .disabled#footer-register-button:hover, .button.disabled:focus, .disabled#register-button:focus, .disabled#footer-register-button:focus, .button[disabled]:hover, [disabled]#register-button:hover, [disabled]#footer-register-button:hover, .button[disabled]:focus, [disabled]#register-button:focus, [disabled]#footer-register-button:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .disabled#register-button:hover, .button.disabled:focus, .disabled#register-button:focus, .button[disabled]:hover, [disabled]#register-button:hover, .button[disabled]:focus, [disabled]#register-button:focus {
       color: #FFFFFF; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .disabled#register-button:hover, .disabled#footer-register-button:hover, .button.disabled:focus, .disabled#register-button:focus, .disabled#footer-register-button:focus, .button[disabled]:hover, [disabled]#register-button:hover, [disabled]#footer-register-button:hover, .button[disabled]:focus, [disabled]#register-button:focus, [disabled]#footer-register-button:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .disabled#register-button:hover, .button.disabled:focus, .disabled#register-button:focus, .button[disabled]:hover, [disabled]#register-button:hover, .button[disabled]:focus, [disabled]#register-button:focus {
       background-color: #ee5d1a; }
-    button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .disabled.secondary#register-button, .disabled.secondary#footer-register-button, .button[disabled].secondary, [disabled].secondary#register-button, [disabled].secondary#footer-register-button {
+    button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .disabled.secondary#register-button, .button[disabled].secondary, [disabled].secondary#register-button {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
       color: #333333;
       cursor: default;
       opacity: 0.7;
       box-shadow: none; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .disabled.secondary#register-button:hover, .disabled.secondary#footer-register-button:hover, .button.disabled.secondary:focus, .disabled.secondary#register-button:focus, .disabled.secondary#footer-register-button:focus, .button[disabled].secondary:hover, [disabled].secondary#register-button:hover, [disabled].secondary#footer-register-button:hover, .button[disabled].secondary:focus, [disabled].secondary#register-button:focus, [disabled].secondary#footer-register-button:focus {
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .disabled.secondary#register-button:hover, .button.disabled.secondary:focus, .disabled.secondary#register-button:focus, .button[disabled].secondary:hover, [disabled].secondary#register-button:hover, .button[disabled].secondary:focus, [disabled].secondary#register-button:focus {
         background-color: #b9b9b9; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .disabled.secondary#register-button:hover, .disabled.secondary#footer-register-button:hover, .button.disabled.secondary:focus, .disabled.secondary#register-button:focus, .disabled.secondary#footer-register-button:focus, .button[disabled].secondary:hover, [disabled].secondary#register-button:hover, [disabled].secondary#footer-register-button:hover, .button[disabled].secondary:focus, [disabled].secondary#register-button:focus, [disabled].secondary#footer-register-button:focus {
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .disabled.secondary#register-button:hover, .button.disabled.secondary:focus, .disabled.secondary#register-button:focus, .button[disabled].secondary:hover, [disabled].secondary#register-button:hover, .button[disabled].secondary:focus, [disabled].secondary#register-button:focus {
         color: #333333; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .disabled.secondary#register-button:hover, .disabled.secondary#footer-register-button:hover, .button.disabled.secondary:focus, .disabled.secondary#register-button:focus, .disabled.secondary#footer-register-button:focus, .button[disabled].secondary:hover, [disabled].secondary#register-button:hover, [disabled].secondary#footer-register-button:hover, .button[disabled].secondary:focus, [disabled].secondary#register-button:focus, [disabled].secondary#footer-register-button:focus {
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .disabled.secondary#register-button:hover, .button.disabled.secondary:focus, .disabled.secondary#register-button:focus, .button[disabled].secondary:hover, [disabled].secondary#register-button:hover, .button[disabled].secondary:focus, [disabled].secondary#register-button:focus {
         background-color: #e7e7e7; }
-    button.disabled.success, button[disabled].success, .button.disabled.success, .disabled.success#register-button, .disabled.success#footer-register-button, .button[disabled].success, [disabled].success#register-button, [disabled].success#footer-register-button {
+    button.disabled.success, button[disabled].success, .button.disabled.success, .disabled.success#register-button, .button[disabled].success, [disabled].success#register-button {
       background-color: #43AC6A;
       border-color: #368a55;
       color: #FFFFFF;
       cursor: default;
       opacity: 0.7;
       box-shadow: none; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .disabled.success#register-button:hover, .disabled.success#footer-register-button:hover, .button.disabled.success:focus, .disabled.success#register-button:focus, .disabled.success#footer-register-button:focus, .button[disabled].success:hover, [disabled].success#register-button:hover, [disabled].success#footer-register-button:hover, .button[disabled].success:focus, [disabled].success#register-button:focus, [disabled].success#footer-register-button:focus {
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .disabled.success#register-button:hover, .button.disabled.success:focus, .disabled.success#register-button:focus, .button[disabled].success:hover, [disabled].success#register-button:hover, .button[disabled].success:focus, [disabled].success#register-button:focus {
         background-color: #368a55; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .disabled.success#register-button:hover, .disabled.success#footer-register-button:hover, .button.disabled.success:focus, .disabled.success#register-button:focus, .disabled.success#footer-register-button:focus, .button[disabled].success:hover, [disabled].success#register-button:hover, [disabled].success#footer-register-button:hover, .button[disabled].success:focus, [disabled].success#register-button:focus, [disabled].success#footer-register-button:focus {
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .disabled.success#register-button:hover, .button.disabled.success:focus, .disabled.success#register-button:focus, .button[disabled].success:hover, [disabled].success#register-button:hover, .button[disabled].success:focus, [disabled].success#register-button:focus {
         color: #FFFFFF; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .disabled.success#register-button:hover, .disabled.success#footer-register-button:hover, .button.disabled.success:focus, .disabled.success#register-button:focus, .disabled.success#footer-register-button:focus, .button[disabled].success:hover, [disabled].success#register-button:hover, [disabled].success#footer-register-button:hover, .button[disabled].success:focus, [disabled].success#register-button:focus, [disabled].success#footer-register-button:focus {
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .disabled.success#register-button:hover, .button.disabled.success:focus, .disabled.success#register-button:focus, .button[disabled].success:hover, [disabled].success#register-button:hover, .button[disabled].success:focus, [disabled].success#register-button:focus {
         background-color: #43AC6A; }
-    button.disabled.alert, button[disabled].alert, .button.disabled.alert, .disabled.alert#register-button, .disabled.alert#footer-register-button, .button[disabled].alert, [disabled].alert#register-button, [disabled].alert#footer-register-button {
+    button.disabled.alert, button[disabled].alert, .button.disabled.alert, .disabled.alert#register-button, .button[disabled].alert, [disabled].alert#register-button {
       background-color: #f04124;
       border-color: #cf2a0e;
       color: #FFFFFF;
       cursor: default;
       opacity: 0.7;
       box-shadow: none; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .disabled.alert#register-button:hover, .disabled.alert#footer-register-button:hover, .button.disabled.alert:focus, .disabled.alert#register-button:focus, .disabled.alert#footer-register-button:focus, .button[disabled].alert:hover, [disabled].alert#register-button:hover, [disabled].alert#footer-register-button:hover, .button[disabled].alert:focus, [disabled].alert#register-button:focus, [disabled].alert#footer-register-button:focus {
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .disabled.alert#register-button:hover, .button.disabled.alert:focus, .disabled.alert#register-button:focus, .button[disabled].alert:hover, [disabled].alert#register-button:hover, .button[disabled].alert:focus, [disabled].alert#register-button:focus {
         background-color: #cf2a0e; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .disabled.alert#register-button:hover, .disabled.alert#footer-register-button:hover, .button.disabled.alert:focus, .disabled.alert#register-button:focus, .disabled.alert#footer-register-button:focus, .button[disabled].alert:hover, [disabled].alert#register-button:hover, [disabled].alert#footer-register-button:hover, .button[disabled].alert:focus, [disabled].alert#register-button:focus, [disabled].alert#footer-register-button:focus {
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .disabled.alert#register-button:hover, .button.disabled.alert:focus, .disabled.alert#register-button:focus, .button[disabled].alert:hover, [disabled].alert#register-button:hover, .button[disabled].alert:focus, [disabled].alert#register-button:focus {
         color: #FFFFFF; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .disabled.alert#register-button:hover, .disabled.alert#footer-register-button:hover, .button.disabled.alert:focus, .disabled.alert#register-button:focus, .disabled.alert#footer-register-button:focus, .button[disabled].alert:hover, [disabled].alert#register-button:hover, [disabled].alert#footer-register-button:hover, .button[disabled].alert:focus, [disabled].alert#register-button:focus, [disabled].alert#footer-register-button:focus {
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .disabled.alert#register-button:hover, .button.disabled.alert:focus, .disabled.alert#register-button:focus, .button[disabled].alert:hover, [disabled].alert#register-button:hover, .button[disabled].alert:focus, [disabled].alert#register-button:focus {
         background-color: #f04124; }
-    button.disabled.warning, button[disabled].warning, .button.disabled.warning, .disabled.warning#register-button, .disabled.warning#footer-register-button, .button[disabled].warning, [disabled].warning#register-button, [disabled].warning#footer-register-button {
+    button.disabled.warning, button[disabled].warning, .button.disabled.warning, .disabled.warning#register-button, .button[disabled].warning, [disabled].warning#register-button {
       background-color: #f08a24;
       border-color: #cf6e0e;
       color: #FFFFFF;
       cursor: default;
       opacity: 0.7;
       box-shadow: none; }
-      button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .disabled.warning#register-button:hover, .disabled.warning#footer-register-button:hover, .button.disabled.warning:focus, .disabled.warning#register-button:focus, .disabled.warning#footer-register-button:focus, .button[disabled].warning:hover, [disabled].warning#register-button:hover, [disabled].warning#footer-register-button:hover, .button[disabled].warning:focus, [disabled].warning#register-button:focus, [disabled].warning#footer-register-button:focus {
+      button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .disabled.warning#register-button:hover, .button.disabled.warning:focus, .disabled.warning#register-button:focus, .button[disabled].warning:hover, [disabled].warning#register-button:hover, .button[disabled].warning:focus, [disabled].warning#register-button:focus {
         background-color: #cf6e0e; }
-      button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .disabled.warning#register-button:hover, .disabled.warning#footer-register-button:hover, .button.disabled.warning:focus, .disabled.warning#register-button:focus, .disabled.warning#footer-register-button:focus, .button[disabled].warning:hover, [disabled].warning#register-button:hover, [disabled].warning#footer-register-button:hover, .button[disabled].warning:focus, [disabled].warning#register-button:focus, [disabled].warning#footer-register-button:focus {
+      button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .disabled.warning#register-button:hover, .button.disabled.warning:focus, .disabled.warning#register-button:focus, .button[disabled].warning:hover, [disabled].warning#register-button:hover, .button[disabled].warning:focus, [disabled].warning#register-button:focus {
         color: #FFFFFF; }
-      button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .disabled.warning#register-button:hover, .disabled.warning#footer-register-button:hover, .button.disabled.warning:focus, .disabled.warning#register-button:focus, .disabled.warning#footer-register-button:focus, .button[disabled].warning:hover, [disabled].warning#register-button:hover, [disabled].warning#footer-register-button:hover, .button[disabled].warning:focus, [disabled].warning#register-button:focus, [disabled].warning#footer-register-button:focus {
+      button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .disabled.warning#register-button:hover, .button.disabled.warning:focus, .disabled.warning#register-button:focus, .button[disabled].warning:hover, [disabled].warning#register-button:hover, .button[disabled].warning:focus, [disabled].warning#register-button:focus {
         background-color: #f08a24; }
-    button.disabled.info, button[disabled].info, .button.disabled.info, .disabled.info#register-button, .disabled.info#footer-register-button, .button[disabled].info, [disabled].info#register-button, [disabled].info#footer-register-button {
+    button.disabled.info, button[disabled].info, .button.disabled.info, .disabled.info#register-button, .button[disabled].info, [disabled].info#register-button {
       background-color: #a0d3e8;
       border-color: #61b6d9;
       color: #333333;
       cursor: default;
       opacity: 0.7;
       box-shadow: none; }
-      button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .disabled.info#register-button:hover, .disabled.info#footer-register-button:hover, .button.disabled.info:focus, .disabled.info#register-button:focus, .disabled.info#footer-register-button:focus, .button[disabled].info:hover, [disabled].info#register-button:hover, [disabled].info#footer-register-button:hover, .button[disabled].info:focus, [disabled].info#register-button:focus, [disabled].info#footer-register-button:focus {
+      button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .disabled.info#register-button:hover, .button.disabled.info:focus, .disabled.info#register-button:focus, .button[disabled].info:hover, [disabled].info#register-button:hover, .button[disabled].info:focus, [disabled].info#register-button:focus {
         background-color: #61b6d9; }
-      button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .disabled.info#register-button:hover, .disabled.info#footer-register-button:hover, .button.disabled.info:focus, .disabled.info#register-button:focus, .disabled.info#footer-register-button:focus, .button[disabled].info:hover, [disabled].info#register-button:hover, [disabled].info#footer-register-button:hover, .button[disabled].info:focus, [disabled].info#register-button:focus, [disabled].info#footer-register-button:focus {
+      button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .disabled.info#register-button:hover, .button.disabled.info:focus, .disabled.info#register-button:focus, .button[disabled].info:hover, [disabled].info#register-button:hover, .button[disabled].info:focus, [disabled].info#register-button:focus {
         color: #FFFFFF; }
-      button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .disabled.info#register-button:hover, .disabled.info#footer-register-button:hover, .button.disabled.info:focus, .disabled.info#register-button:focus, .disabled.info#footer-register-button:focus, .button[disabled].info:hover, [disabled].info#register-button:hover, [disabled].info#footer-register-button:hover, .button[disabled].info:focus, [disabled].info#register-button:focus, [disabled].info#footer-register-button:focus {
+      button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .disabled.info#register-button:hover, .button.disabled.info:focus, .disabled.info#register-button:focus, .button[disabled].info:hover, [disabled].info#register-button:hover, .button[disabled].info:focus, [disabled].info#register-button:focus {
         background-color: #a0d3e8; }
 
 button::-moz-focus-inner {
@@ -1855,9 +2136,8 @@ button::-moz-focus-inner {
   padding: 0; }
 
 @media only screen and (min-width: 40.0625em) {
-  button, .button, #register-button, #footer-register-button {
+  button, .button, #register-button {
     display: inline-block; } }
-
 table {
   background: #FFFFFF;
   margin-bottom: 1.25rem;
@@ -1902,7 +2182,13 @@ table {
     line-height: 1.125rem; }
 
 body {
-  background: #fff url("../img/pattern.gif") repeat; }
+  background: #fff url("../img/pattern.gif") repeat;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1; }
 
 h1, h2 {
   color: #000; }
@@ -1910,36 +2196,34 @@ h1, h2 {
 #feature-text {
   position: relative;
   z-index: 99;
-  margin-top: 16px;
-  margin-bottom: 330px; }
-
-#feature-text h2 {
-  font-size: 80px;
-  letter-spacing: -.03em;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0px;
-  padding: 0px;
-  color: #ee5d1a;
-  font-style: italic; }
-
-#feature-text h4 {
-  font-size: 50px;
-  color: #685040;
-  letter-spacing: -.03em;
-  line-height: 1;
-  font-weight: bold;
-  margin: 4px 0 0 0;
-  padding: 0px; }
-
-#feature-text h5 {
-  font-size: 35px;
-  color: #685040;
-  line-height: 1.2;
-  font-weight: 500;
-  margin: 4px 0 0 0;
-  padding: 0px; }
+  margin-top: 16px; }
+  #feature-text h2 {
+    font-size: 80px;
+    letter-spacing: -.03em;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0px;
+    padding: 0px;
+    color: #ee5d1a;
+    font-style: italic; }
+  #feature-text h4 {
+    font-size: 50px;
+    color: #685040;
+    letter-spacing: -.03em;
+    line-height: 1;
+    font-weight: bold;
+    margin: 4px 0 0 0;
+    padding: 0px; }
+  #feature-text h5 {
+    font-size: 35px;
+    color: #685040;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 4px 0 0 0;
+    padding: 0px; }
+  #feature-text p {
+    font-family: "Raleway","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; }
 
 .tab--tiny {
   display: inline-block;
@@ -2015,85 +2299,33 @@ h1, h2 {
   background: url("../img/footer-texture.gif") repeat #385e86;
   position: relative;
   z-index: 99;
-  margin-top: 32px;
-  padding-top: 2rem; }
-  #footer img {
-    max-width: 200px;
-    height: auto;
+  padding: 30px; }
+  #footer h3, #footer h4, #footer h5, #footer p, #footer a {
+    color: #fff; }
+  #footer a:link,
+  #footer a:active,
+  #footer a:visited {
+    color: #EE5D1A; }
+  #footer a:hover {
+    color: #fff;
+    text-decoration: underline; }
+
+#footer-sponsors {
+  max-width: 70%;
+  display: inline-block; }
+  #footer-sponsors img {
     display: inline-block;
-    padding: 10px; }
-
-#footer-container {
-  color: #fff; }
-
-#footer-container a:link,
-#footer-container a:active,
-#footer-container a:visited {
-  color: #EE5D1A; }
-
-#footer-container a:hover {
-  color: #fff;
-  text-decoration: underline; }
-
-#footer-container h5,
-#footer-container p {
-  color: #fff !important; }
-
-#footer-container h5 {
-  font-weight: normal;
-  font-size: 1.25rem; }
-
-#footer-about-barcamp {
-  width: 70%;
-  display: inline-block;
-  vertical-align: top; }
+    max-width: 400px;
+    width: 70%;
+    background: white; }
 
 #footer-contact {
-  display: inline-block;
-  vertical-align: top; }
-
-#footer-navigation h5 {
-  margin-bottom: 0px;
-  padding-top: 0px; }
-
-#footer-navigation ul {
-  padding: 0px;
-  margin: 0px;
-  display: inline; }
-
-#footer-navigation ul li {
-  margin: 20px 10px 0 0;
-  display: inline;
-  float: left; }
-
-#footer-navigation ul li a:link,
-#footer-navigation ul li a:active,
-#footer-navigation ul li a:visited {
-  font-weight: normal;
-  padding: 0.4375rem 0.875rem;
-  background: #444;
-  color: #fff;
-  border-radius: 10px; }
-
-#footer-navigation ul li a:hover {
-  background: #333;
-  text-decoration: none; }
-
-#footer-register-button {
-  font-family: "Raleway", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  text-decoration: none !important;
-  color: #fff !important;
-  margin-top: 1.5rem; }
-
-#footer-credits {
-  margin-top: 2rem; }
-
-.save-the-date {
-  font-family: "Raleway", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  display: block;
-  font-weight: normal;
-  padding-top: 0.75rem; }
+  display: inline-block; }
+  #footer-contact img {
+    max-width: 80px;
+    height: auto;
+    display: inline-block;
+    padding: 5px; }
 
 /*** Typography ***/
 ul {
@@ -2130,24 +2362,31 @@ hr {
 @media screen and (max-width: 1000px) {
   body {
     text-align: center; }
+
   #logo {
     max-width: none; }
+
   #main-navigation {
     padding: 16px 0; }
+
   #main-navigation ul {
     float: none; }
+
   #feature-text h2 {
     font-size: 3.75rem; }
+
   #feature-text h4 {
     font-size: 2rem; }
+
   #feature-text h5 {
     font-size: 1.5rem; }
+
   #beaver {
     display: none; }
+
   #beaver-small {
     display: block;
     margin: 2rem 0; } }
-
 /*Stylings for lightbox for comic on about page*/
 /* Styles the thumbnail */
 a.lightbox img {
@@ -2239,3 +2478,4 @@ a.lightbox-close:after {
   float: left;
   margin: 10px; }
 
+/*# sourceMappingURL=style.css.map */

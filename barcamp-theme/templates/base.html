@@ -1,117 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	<title>{% block title %}{{ SITENAME }}{%endblock%}</title>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
-	{% if FEED_RSS %}
-	<link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
-	{% endif %}
+	<head>
+		<title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
+		{% if FEED_RSS %}
+		<link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+		{% endif %}
+		<!-- Set the viewport width to device width for mobile -->
+		<meta name="viewport" content="width=device-width" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.png" />
+		<link href="{{ SITEURL }}/theme/css/lightbox.css" rel="stylesheet"/>
+		<script src="/theme/js/jquery-1.11.0.min.js"></script>
+		<script src="/theme/js/ligthbox.min.js"></script>
+		<!--Lightbox files which may help debug-->
+		<script src="/theme/js/lightbox.js"></script>
+	</head>
 
-	<!-- Set the viewport width to device width for mobile -->
-	<meta name="viewport" content="width=device-width" />
-
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
-
-	<link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.png" />
-	<link href="{{ SITEURL }}/theme/css/lightbox.css" rel="stylesheet"/>
-	<script src="/theme/js/jquery-1.11.0.min.js"></script>
-	<script src="/theme/js/ligthbox.min.js"></script>
-	<!--Lightbox files which may help debug-->
-	<script src="/theme/js/lightbox.js"></script>
-
-    </head>
-
-    <body>
-	<div id="header">
-	    <div id="logo">
-		<a href="/"><img src="{{ SITEURL }}/theme/img/logo.png" alt="{{ SITENAME }} logo" /></a>
-	    </div>
-
-	    <nav id="main-navigation">
-	    <ul><li><a href="{{ SITEURL }}/">Home</a></li>
-		<li><a href="{{ SITEURL }}/archives.html">Blog</a></li>
-		{% for page in PAGES %}
-		<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
-	    </ul>
-	    </nav>
-
-	    <div id="social-media">
-		<a href="http://twitter.com/beaverbarcamp"><img src="{{ SITEURL }}/theme/img/twitter-icon.gif" alt="Twitter Icon"></a>
-	    </div>
-	</div>
-
-	{% block content %}
-	{% endblock %}
-	<div id="footer">
-	    <div id="footer-container">
-		<!--<div id="footer-save-the-date">
-		    <h5>{{ SITENAME }}</h5>
-		    <span class="save-the-date" id="time">9:00 a.m. - 6:30 p.m.</span>
-		    <span class="save-the-date" id="location"> Kelley Engineering Center</span>
-		    <span class="save-the-date" id="date"> April 12, 2014</span>
-		    <span class="save-the-date" id="price"> FREE</span>
-		    <a href="http://www.eventbrite.com/event/7825611615" id="footer-register-button">Register</a>
-		</div>-->
-
-
-		<div id="footer-about-barcamp">
-		    <!--<h5>About Beaver Barcamp</h5>
-
-		    <p class="lead">Beaver BarCamp is an informal conference where everyone is encouraged to participate and the sessions are not predetermined. <a href="/pages/about.html"><em>Learn more</em></a></p>-->
-		    <!--
-        <h5>Event Sponsors</h5>
-            <img class='sponsor' src='../theme/img/osu-tag.png' />
-            <img class='sponsor' src='../theme/img/mozilla.png' />
-            <img class='sponsor' src='../theme/img/Acquia_no_tagline.png' />
-            <img class='sponsor' src='../theme/img/hp.png' />
-		    </div>
-      -->
-		    <div id="footer-contact">
-			<h5>Mailing List</h5>
-			<p>Want to recieve updates on the event? Join the <a href="https://groups.google.com/forum/#!forum/beaverbarcamp">Beaver BarCamp Google Group</a>.
-			</p>
-
-		    </div>
-
-		    <!--<div id="footer-navigation">
-			<hr />
-			<h5>Navigation</h5>
-			<ul><li><a href="/">Home</a></li>
-			    <li><a href="/archives.html">Blog</a></li>
-			    {% for page in PAGES %}
-			    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-			    {% endfor %}
-			</ul>
-		    </div>-->
-
-		    <div id="footer-credits">
-			<hr />
-			<p class="byline">{{ SITENAME }} is hosted by the <a href="https://osuosl.org">OSL</a>. The website was created using Zurb Foundation and Pelican Static Site Generator. Source info on <a href="http://github.com/osuosl/beaver-barcamp-pelican">Github</a>.</p>
-		    </div>
-
+	<body>
+		<main>
+		<div id="header">
+			<div id="logo">
+				<a href="/"><img src="{{ SITEURL }}/theme/img/logo.png" alt="{{ SITENAME }} logo" /></a>
+			</div>
+			<nav id="main-navigation">
+				<ul><li><a href="{{ SITEURL }}/">Home</a></li>
+					<li><a href="{{ SITEURL }}/archives.html">Blog</a></li>
+					{% for page in PAGES %}
+					<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
 		</div>
-	    </div>
 
-	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	    <script type="text/javascript">
-		$(document).ready(function(){
-			$('a[href^="#"]').on('click',function (e) {
-			    e.preventDefault();
+		{% block content %}
+		{% endblock %}
+		</main>
 
-			    var target = this.hash,
-			    $target = $(target);
+		<div id="footer">
+			<div id='footer-sponsors'>
+				<h5>Sponsored by:</h5>
+				<a href='https://coreos.com'><img src='{{ SITEURL }}/theme/img/coreos-logo.png' alt='CoreOS Logo'></a>
+			</div>
+			<div id="footer-contact">
+				<h5>Want BBC updates?  Follow us!</h5><br>
+				<a href="https://groups.google.com/forum/#!forum/beaverbarcamp"><img src='{{ SITEURL }}/theme/img/google-plus-icon.png'></a>
+				<a href="http://twitter.com/beaverbarcamp"><img src="{{ SITEURL }}/theme/img/twitter-icon.png" alt="Twitter Icon"></a>
+				<a href="http://facebook.com/OSUOSL"><img src="{{ SITEURL }}/theme/img/facebook-icon.png" alt="Facebook icon"></a>
+			</div>
+			<div id="footer-credits">
+				<hr />
+				<p class="byline">{{ SITENAME }} is hosted by the <a
+	   href="https://osuosl.org">OSL</a>. The website was
+   created using Zurb Foundation and Pelican Static Site
+   Generator. Source info on <a href="http://github.com/osuosl/beaver-barcamp-pelican">Github</a>.</p>
+			</div>
+		</div>
 
-			    $('html, body').stop().animate({
-				'scrollTop': $target.offset().top
-				}, 900, 'swing', function () {
-				window.location.hash = target;
-				});
-			    });
-			});
-</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript">
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+		e.preventDefault();
 
-{% include 'analytics.html' %}
-</body>
+		var target = this.hash,
+		$target = $(target);
+
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 900, 'swing', function () {
+			window.location.hash = target;
+		});
+	});
+});
+		</script>
+
+		{% include 'analytics.html' %}
+	</body>
 </html>
