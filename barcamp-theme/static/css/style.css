@@ -2181,6 +2181,9 @@ table {
     display: table-cell;
     line-height: 1.125rem; }
 
+html {
+  height: 100%; }
+
 body {
   background: #fff url("../img/pattern.gif") repeat;
   display: flex;
@@ -2299,7 +2302,8 @@ h1, h2 {
   background: url("../img/footer-texture.gif") repeat #385e86;
   position: relative;
   z-index: 99;
-  padding: 30px; }
+  padding: 30px;
+  min-height: 300px; }
   #footer h3, #footer h4, #footer h5, #footer p, #footer a {
     color: #fff; }
   #footer a:link,
@@ -2312,7 +2316,8 @@ h1, h2 {
 
 #footer-sponsors {
   max-width: 70%;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top; }
   #footer-sponsors img {
     display: inline-block;
     max-width: 400px;

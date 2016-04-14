@@ -7,6 +7,10 @@
 @import "foundation/components/buttons";
 @import "foundation/components/tables";
 
+html {
+	height: 100%;
+}
+
 body {
 	background:#fff url('../img/pattern.gif') repeat;
 	display:flex;
@@ -164,6 +168,7 @@ h1, h2 {
 	position:relative;
 	z-index:99;
 	padding: 30px;
+	min-height: 300px;
 
 	h3, h4, h5, p, a {
 		color:#fff;
@@ -182,6 +187,7 @@ h1, h2 {
 #footer-sponsors {
 	max-width: 70%;
 	display: inline-block;
+	vertical-align: top;
 
 	img{
 		display: inline-block;
