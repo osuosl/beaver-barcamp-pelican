@@ -1,8 +1,5 @@
 #! /bin/bash
 
-# make sure theme submodule is initialized
-git submodule update --init --recursive
-
 # Enable venv
 if [ ! -d venv ]; then
     virtualenv venv
