@@ -1,3 +1,4 @@
+PY?=python
 PELICAN=pelican
 PELICANOPTS=
 
@@ -6,6 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+RSYNC_TARGET_DIR?=$(BASEDIR)/htdocs
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -26,8 +28,9 @@ help:
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make regenerate                  regenerate files upon modification '
 	@echo '   make publish                     generate using production settings '
-	@echo '   make serve                       serve site at http://localhost:8000'
-	@echo '   make devserver                   start/restart develop_server.sh    '
+	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
+	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh    '
+	@echo '   make rsync_copy                  copy the web site locally via rsync'
 	@echo '   ssh_upload                       upload the web site via SSH        '
 	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
 	@echo '   dropbox_upload                   upload the web site via Dropbox    '
@@ -59,6 +62,9 @@ publish:
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+
+rsync_copy: publish
+	rsync -acq --delete-after --force --cvs-exclude $(OUTPUTDIR)/ $(RSYNC_TARGET_DIR)
 
 rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
