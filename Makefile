@@ -38,7 +38,6 @@ help:
 	@echo '   github                           upload the web site via gh-pages   '
 	@echo '                                                                       '
 
-
 html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
 
