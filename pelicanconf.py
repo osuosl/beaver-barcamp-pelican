@@ -4,7 +4,7 @@
 PATH = 'content'
 AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Beaver Barcamp 17'
-SITEURL = 'http://beaverbarcamp.org'
+SITEURL = ''
 
 TIMEZONE = 'US/Pacific'
 
