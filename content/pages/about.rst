@@ -88,11 +88,11 @@ on the same day as Barcamp.  We recommend you park in the
 highlighted parking lots close to Kelley on the map below! Parking
 is free everywhere, so if you find a space go ahead and take it.
 
-.. image:: /images/BBCParkingMap.png
+.. image:: /theme/img/BBCParkingMap.png
   :width: 90%
   :align: center
   :alt: Parking Map
-	
+
 .. _Coming from I5 south: https://maps.google.com/maps?saddr=I-5+S&daddr=Kelly+engineering+center+corvallis&hl=en&sll=44.587533,-123.09082&sspn=0.428377,0.614548&geocode=FTZBqAIduDiq-A%3BFZsKqAIdv-qm-Cm5qI1uvEDAVDFGFVZKeT-O4Q&oq=Portland&mra=dme&mrsp=0&sz=11&t=m&z=11
 
 .. _Coming from I5 north: https://maps.google.com/maps?saddr=I-5+N&daddr=Kelly+engineering+center+corvallis&hl=en&sll=44.587533,-123.09082&sspn=0.428377,0.614548&geocode=FfFZpwId8zqq-A%3BFZsKqAIdv-qm-Cm5qI1uvEDAVDFGFVZKeT-O4Q&oq=Portland&mra=dme&mrsp=0&sz=11&t=m&z=11
