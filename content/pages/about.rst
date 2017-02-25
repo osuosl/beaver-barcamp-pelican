@@ -84,7 +84,7 @@ Parking
 Oregon State provides many parking lots, all of which are free to use on the
 weekend. The image below provides a map of the lots closest to Kelley
 Engineering Center. OSU also hosts many other events on campus so we recommend
-visiting the `university calendar`_ prior to check possible conflicts.
+visiting the `university calendar`_ to check for possible conflicts.
 
 .. image:: /theme/img/BBCParkingMap.png
   :width: 90%
