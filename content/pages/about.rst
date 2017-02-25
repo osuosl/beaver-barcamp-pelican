@@ -81,12 +81,10 @@ Arrive at Kelley Engineering Center! Hope you enjoy your visit.
 
 Parking
 ~~~~~~~
-
-Parking may be a little bit tricky this year, as the parking lot
-just north of Kelley is closed, and there is a footbal scrimmage
-on the same day as Barcamp.  We recommend you park in the
-highlighted parking lots close to Kelley on the map below! Parking
-is free everywhere, so if you find a space go ahead and take it.
+Oregon State provides many parking lots, all of which are free to use on the
+weekend. The image below provides a map of the lots closest to Kelley
+Engineering Center. OSU also hosts many other events on campus so we recommend
+visiting the `university calendar`_ prior to check possible conflicts.
 
 .. image:: /theme/img/BBCParkingMap.png
   :width: 90%
@@ -98,3 +96,5 @@ is free everywhere, so if you find a space go ahead and take it.
 .. _Coming from I5 north: https://maps.google.com/maps?saddr=I-5+N&daddr=Kelly+engineering+center+corvallis&hl=en&sll=44.587533,-123.09082&sspn=0.428377,0.614548&geocode=FfFZpwId8zqq-A%3BFZsKqAIdv-qm-Cm5qI1uvEDAVDFGFVZKeT-O4Q&oq=Portland&mra=dme&mrsp=0&sz=11&t=m&z=11
 
 .. _Kelley Engineering Center: https://maps.google.com/maps?q=kelley+engineering+center&oe=utf-8&aq=t&client=firefox-a&ie=UTF8&hl=en&hq=&hnear=Kelley+Engineering+Center,+2500+NW+Monroe+Ave,+Corvallis,+Benton,+Oregon+97331&t=h&z=16&vpsrc=0&iwloc=A
+
+.. _university calendar: http://calendar.oregonstate.edu/
