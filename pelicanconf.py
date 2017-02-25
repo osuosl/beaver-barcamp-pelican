@@ -29,3 +29,5 @@ FEED_RSS = 'rss20.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 #RELATIVE_URLS = True
+
+STATIC_PATHS = ['images']

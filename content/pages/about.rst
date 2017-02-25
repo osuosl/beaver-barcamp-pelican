@@ -62,7 +62,7 @@ Directions
 
 1. Take exit 228 for OR-34 towards Lebanon/Corvallis.
 2. At the end of the off-ramp, turn right onto OR-34 W/Corvallis-Lebanon Hwy 210.
-   
+
 `Coming from I5 north`_
 
 1. Take exit 228 for OR-34 toward Lebanon/Corvallis.
@@ -76,20 +76,21 @@ Directions
 6. Turn right onto SW 26th.
 7. Turn right onto SW Campus Way.
 
-Arrive at Kelley Engineering Center! Hope you enjoy your visit. 
+Arrive at Kelley Engineering Center! Hope you enjoy your visit.
 
 
 Parking
 ~~~~~~~
 
-Parking may be a little bit tricky this year, as the parking lot 
+Parking may be a little bit tricky this year, as the parking lot
 just north of Kelley is closed, and there is a footbal scrimmage
-on the same day as Barcamp.  We recommend you park in the 
+on the same day as Barcamp.  We recommend you park in the
 highlighted parking lots close to Kelley on the map below! Parking
 is free everywhere, so if you find a space go ahead and take it.
 
-.. figure:: ../theme/img/parking2.png
+.. image:: /images/BBCParkingMap.png
     :align: center
+		:alt: Parking Map
 
 .. _Coming from I5 south: https://maps.google.com/maps?saddr=I-5+S&daddr=Kelly+engineering+center+corvallis&hl=en&sll=44.587533,-123.09082&sspn=0.428377,0.614548&geocode=FTZBqAIduDiq-A%3BFZsKqAIdv-qm-Cm5qI1uvEDAVDFGFVZKeT-O4Q&oq=Portland&mra=dme&mrsp=0&sz=11&t=m&z=11
 
