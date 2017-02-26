@@ -19,7 +19,7 @@ What are Lightning Talks?
 
 Lightning talks are five minute presentations on any topic. At barcamp,
 the first session will include lightning talks in the barcamp style;
-anyone can sign up beforehand and present on any topic for up to 
+anyone can sign up beforehand and present on any topic for up to
 five minutes instead of the full hour. We will still have full-length
 barcamp talks available during that session, but lightning talks will
 be an option.
@@ -57,7 +57,7 @@ RSVP is not required, but we would love if you registered for the event on
 `EventBrite`_. This helps us plan for enough food and accommodate dietary
 restrictions.
 
-.. _EventBrite: http://beaverbarcamp15.eventbrite.com 
+.. _EventBrite: https://beaverbarcamp.eventbrite.com 
 
 
 Who should I contact to receive accommodations related to a disability?
