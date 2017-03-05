@@ -60,24 +60,36 @@ Directions
 ~~~~~~~~~~
 `Coming from I5 south`_
 
-1. Take exit 228 for OR-34 towards Lebanon/Corvallis.
-2. At the end of the off-ramp, turn right onto OR-34 W/Corvallis-Lebanon Hwy 210.
+1. Take exit 228 for OR-34 towards Lebanon/Corvallis
+2. At the end of the off-ramp, turn right onto OR-34 W/Corvallis-Lebanon Hwy 210
 
 `Coming from I5 north`_
 
-1. Take exit 228 for OR-34 toward Lebanon/Corvallis.
-2. At the end of the off-ramp, turn left onto OR-34 W/Corvallis-Lebanon Hwy 210.
+1. Take exit 228 for OR-34 toward Lebanon/Corvallis
+2. At the end of the off-ramp, turn left onto OR-34 W/Corvallis-Lebanon Hwy 210
 
 **From there:**
 
-3. Drive for 9.6 miles, then turn left onto OR-34 Bypass W/Corvallis-Newport Hwy.
-4. Drive for 1.3 miles, then turn right onto SW 15th st.
+3. Drive for 9.6 miles, then turn left onto OR-34 Bypass W/Corvallis-Newport Hwy
+4. Drive for 1.3 miles, then turn right onto SW 15th St
 5. Turn left onto SW Washington Way
-6. Turn right onto SW 26th.
-7. Turn right onto SW Campus Way.
+6. Turn right onto SW 26th
+7. Turn right onto SW Campus Way
 
-Arrive at Kelley Engineering Center! Hope you enjoy your visit.
+`From OR-99W S/Pacific Hwy W`_
 
+1. Turn right onto NW Harrison Blvd
+2. Turn left on NW 25th St
+3. Continue straight onto SW Park Terrace Pl
+
+`From OR-99W N/Pacific Hwy W`_
+
+1. Turn left onto SW Western Blvd
+2. Turn right onto SW 15th St
+3. Turn left onto NW Monroe Ave
+4. Turn left onto SW Park Terrace Pl
+
+Arrive at Kelley Engineering Center! Enjoy your visit!
 
 Parking
 ~~~~~~~
@@ -98,3 +110,7 @@ visiting the `university calendar`_ to check for possible conflicts.
 .. _Kelley Engineering Center: https://maps.google.com/maps?q=kelley+engineering+center&oe=utf-8&aq=t&client=firefox-a&ie=UTF8&hl=en&hq=&hnear=Kelley+Engineering+Center,+2500+NW+Monroe+Ave,+Corvallis,+Benton,+Oregon+97331&t=h&z=16&vpsrc=0&iwloc=A
 
 .. _university calendar: http://calendar.oregonstate.edu/
+
+.. _From OR-99W S/Pacific Hwy W: https://www.google.com/maps/dir/OR-99W,+Portland,+OR/Kelley+Engineering+Center,+Northwest+Monroe+Avenue,+Corvallis,+OR/@44.5980445,-123.2975416,13z/am=t/data=!4m14!4m13!1m5!1m1!1s0x54c0078908a8251f:0xa81eaf81484471d0!2m2!1d-123.2414648!2d44.6287827!1m5!1m1!1s0x54c040bc6e8da8b9:0xe18e3f794a561546!2m2!1d-123.2786573!2d44.5671949!3e0
+
+.. _From OR-99W N/Pacific Hwy W: https://www.google.com/maps/dir/44.5483878,-123.2655407/Kelley+Engineering+Center,+Northwest+Monroe+Avenue,+Corvallis,+OR/@44.5586016,-123.2799854,15z/am=t/data=!3m1!4b1!4m14!4m13!1m5!3m4!1m2!1d-123.2742592!2d44.5611443!3s0x54c040c742f29eed:0x7a25dac43fe39b75!1m5!1m1!1s0x54c040bc6e8da8b9:0xe18e3f794a561546!2m2!1d-123.2786573!2d44.5671949!3e0
