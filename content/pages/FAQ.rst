@@ -21,8 +21,7 @@ Lightning talks are five minute presentations on any topic. At barcamp,
 the first session will include lightning talks in the barcamp style;
 anyone can sign up beforehand and present on any topic for up to
 five minutes instead of the full hour. We will still have full-length
-barcamp talks available during that session, but lightning talks will
-be an option.
+barcamp talks available in other rooms at that time.
 
 Who should present?
 ~~~~~~~~~~~~~~~~~~~
@@ -57,7 +56,7 @@ RSVP is not required, but we would love if you registered for the event on
 `EventBrite`_. This helps us plan for enough food and accommodate dietary
 restrictions.
 
-.. _EventBrite: https://beaverbarcamp.eventbrite.com 
+.. _EventBrite: https://beaverbarcamp.eventbrite.com
 
 
 Who should I contact to receive accommodations related to a disability?
@@ -85,7 +84,9 @@ Where do I park?
 Free parking is widely available on campus on Saturdays, with the
 exception of reserved and metered stalls. There is a large parking lot
 to the north of Kelly Engineering that should have enough room for
-everyone.
+everyone. A detailed map can be found on the `About page`_.
+
+.. _About page: http://beaverbarcamp.org/pages/about.html
 
 
 What will the session topics be?
