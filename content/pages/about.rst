@@ -58,6 +58,12 @@ spawn other sessions randomly.
 
 Directions
 ~~~~~~~~~~
+
+Beaver BarCamp takes place at `Kelley Engineering Center`_ on the Corvallis
+campus at Oregon State University. Please note, Google maps does not show
+Johnson Hall just northwest of Kelley. The parking lot displayed is smaller as a
+result.
+
 `Coming from I5 south`_
 
 1. Take exit 228 for OR-34 towards Lebanon/Corvallis
