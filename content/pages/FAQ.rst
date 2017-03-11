@@ -21,12 +21,11 @@ Lightning talks are five minute presentations on any topic. At barcamp,
 the first session will include lightning talks in the barcamp style;
 anyone can sign up beforehand and present on any topic for up to
 five minutes instead of the full hour. We will still have full-length
-barcamp talks available in other rooms at that time.
-
-We only accept .pdf presentations which can be emailed to
-lightning@beaverbarcamp.org or you can bring a flashdrive. We do not guarentee a
-presentation will work and reserve the right to ask presenters to speak without
-a visual aid or give the floor to another speaker.
+barcamp talks available in other rooms at that time. We only accept .pdf
+presentations which can be emailed to lightning@beaverbarcamp.org or you can
+bring a flashdrive. We do not guarentee a presentation will work and reserve the
+right to ask presenters to speak without a visual aid or give the floor to
+another speaker.
 
 Who should present?
 ~~~~~~~~~~~~~~~~~~~
