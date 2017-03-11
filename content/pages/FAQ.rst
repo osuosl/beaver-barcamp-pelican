@@ -37,7 +37,7 @@ schedule, allowing for greater flexibility and fun.
 Do I have to present?
 ~~~~~~~~~~~~~~~~~~~~~
 
-Nope. You are welcome to participate however you are most comfortable.  Come and
+Nope. You are welcome to participate however you are most comfortable. Come and
 meet new people, learn something new, or participate in a discussion.
 
 
@@ -68,8 +68,8 @@ Please contact the Open Source Lab at info@beaverbarcamp.org.
 Wi-Fi?
 ~~~~~~
 
-Wi-Fi will be available and free to use while at the conference. An account and
-password will be provided at the event.
+Oregon State provides a "Visitors" wi-fi that requires no username or password
+to access.
 
 
 Are food and drinks provided?
@@ -86,7 +86,7 @@ exception of reserved and metered stalls. There is a large parking lot
 to the north of Kelly Engineering that should have enough room for
 everyone. A detailed map can be found on the `About page`_.
 
-.. _About page: http://beaverbarcamp.org/pages/about.html
+.. _About page: .../pages/about.html
 
 
 What will the session topics be?
