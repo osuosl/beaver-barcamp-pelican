@@ -12,11 +12,12 @@ Time              Event
 10:00am - 11:00am Session 1
 11:00am - 12:00pm Session 2
 12:00pm - 1:30pm  Lunch / Lightning Talks
-1:30pm - 2:20pm   Session 3
-2:30pm - 3:20pm   Session 4
+1:30pm - 2:00pm   Session 3 (30 minutes)
+2:00pm - 2:30pm   Session 4 (30 minutes)
+2:30pm - 3:20pm   Session 5
 3:30pm - 4:00pm   Snack Break
-4:00pm - 4:50pm   Session 5
-5:00pm - 5:50pm   Session 6
+4:00pm - 4:50pm   Session 6
+5:00pm - 5:50pm   Session 7
 ================= =======================
 
 Sessions
