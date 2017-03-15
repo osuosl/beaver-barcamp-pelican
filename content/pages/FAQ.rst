@@ -21,8 +21,11 @@ Lightning talks are five minute presentations on any topic. At barcamp,
 the first session will include lightning talks in the barcamp style;
 anyone can sign up beforehand and present on any topic for up to
 five minutes instead of the full hour. We will still have full-length
-barcamp talks available during that session, but lightning talks will
-be an option.
+barcamp talks available in other rooms at that time. We only accept .pdf
+presentations which can be emailed to lightning@beaverbarcamp.org or you can
+bring a flashdrive. We do not guarantee a presentation will work and reserve the
+right to ask presenters to speak without a visual aid or give the floor to
+another speaker.
 
 Who should present?
 ~~~~~~~~~~~~~~~~~~~
@@ -38,7 +41,7 @@ schedule, allowing for greater flexibility and fun.
 Do I have to present?
 ~~~~~~~~~~~~~~~~~~~~~
 
-Nope. You are welcome to participate however you are most comfortable.  Come and
+Nope. You are welcome to participate however you are most comfortable. Come and
 meet new people, learn something new, or participate in a discussion.
 
 
@@ -57,7 +60,7 @@ RSVP is not required, but we would love if you registered for the event on
 `EventBrite`_. This helps us plan for enough food and accommodate dietary
 restrictions.
 
-.. _EventBrite: https://beaverbarcamp.eventbrite.com 
+.. _EventBrite: https://beaverbarcamp.eventbrite.com
 
 
 Who should I contact to receive accommodations related to a disability?
@@ -69,8 +72,8 @@ Please contact the Open Source Lab at info@beaverbarcamp.org.
 Wi-Fi?
 ~~~~~~
 
-Wi-Fi will be available and free to use while at the conference. An account and
-password will be provided at the event.
+Oregon State provides a "Visitors" wi-fi that requires no username or password
+to access.
 
 
 Are food and drinks provided?
@@ -85,7 +88,9 @@ Where do I park?
 Free parking is widely available on campus on Saturdays, with the
 exception of reserved and metered stalls. There is a large parking lot
 to the north of Kelly Engineering that should have enough room for
-everyone.
+everyone. A detailed map can be found on the `About page`_.
+
+.. _About page: .../pages/about.html
 
 
 What will the session topics be?
