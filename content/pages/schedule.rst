@@ -26,3 +26,18 @@ Sessions
 .. raw:: html
 
      <iframe width='800' height='450' frameborder='0' src='https://docs.google.com/spreadsheets/d/1jMR61C1wbPEMAg95cL5rjKrUOQgVkI0iuCpjo_xYLSY/pubhtml?gid=203045195&amp;single=true&amp;widget=true&amp;headers=false'></iframe>
+
+Floor Plans
+-----------
+
+.. image:: /theme/img/kec1.png
+  :width: 90%
+  :align: center
+  :alt: Kelley Engineering Center
+
+----
+
+.. image:: /theme/img/kec2.png
+  :width: 90%
+  :align: center
+  :alt: Kelley Engineering Center
