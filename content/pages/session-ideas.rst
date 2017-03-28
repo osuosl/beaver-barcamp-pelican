@@ -9,7 +9,7 @@ of topics. BarCamp is an excellent way to test out your public speaking skills.
 Here are some session ideas to inspire:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-=========================================================     ===========================================================================
+============================================================= ===========================================================================
  -Mead Brewing                                                -Let's build a NING website
  -Google App Engine                                           -Benefits of Learning Another Language
  -Queer Q & A                                                 -Play with Yarn and Needles: Crochet and Knitting
@@ -21,4 +21,5 @@ Here are some session ideas to inspire:
  -Introduction to the study of Martial Arts                   -USB Microscope
  -Hack your Face! Makeup 101                                  -Awful Interview Stories
  -Intro to SELinux                                            -Functional Programming
-=========================================================     ===========================================================================
+ -Introduction to Lojban: The Logical Language                -Improv Games!
+============================================================= ===========================================================================
