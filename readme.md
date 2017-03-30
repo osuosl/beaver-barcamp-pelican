@@ -13,6 +13,3 @@ Cleaner build process with NPM! To install node-sass, run:
 Then, to actually run the script to compile the sass, run:
 
 	npm run-script build-css
-
-
-(test)
