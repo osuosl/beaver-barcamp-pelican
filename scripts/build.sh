@@ -14,7 +14,7 @@ pip install -r requirements.txt
 # make rsync_copy first calls make publish, which builds using publishconf.py
 make rsync_copy
 
-# make sure the build succeeded before continuing
+# make sure the build succeeded before continuing, otherwise script exits 0
 
 if [ $? -eq 0 ]
 then
