@@ -14,6 +14,9 @@ pip install -r requirements.txt
 # make rsync_copy first calls make publish, which builds using publishconf.py
 make rsync_copy
 
+# if we don't exit here, this script exits with status 0, even if the build
+# had failures or warnings
+
 if [ $? -eq 0 ]
 then
   deactivate
