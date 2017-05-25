@@ -19,7 +19,7 @@ there, an unconference is an event in which the attendees decide the topics of
 presentation and discussion the day of, rather than determining these topics
 ahead of time. This year, we tried a few new things.
 
-.. image:: /images/BBC17_img_2.jpg
+.. image:: /theme/img/BBC17_1.jpg
     :scale: 100%
     :align: right
     :alt: Beaver BarCamp 17 Main Lobby
@@ -52,7 +52,7 @@ unconference and from Beaver BarCamp. Attendees were excited about this new
 offer because it they could reach a broader audience and circulate their ideas
 beyond this one-day event.
 
-.. image:: /images/BBC17_img_3.jpg
+.. image:: /theme/img/BBC17_img_3.jpg
     :scale: 100%
     :align: center
     :alt: Caleb Boylan presenting on Ceph
