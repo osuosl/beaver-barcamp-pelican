@@ -21,7 +21,7 @@ ahead of time. This year, we tried a few new things.
 
 .. image:: /theme/img/BBC17_1.jpg
     :scale: 100%
-    :align: right
+    :align: center
     :alt: Beaver BarCamp 17 Main Lobby
 
 Beaver BarCamp is usually more computer science oriented. This year, we wanted
