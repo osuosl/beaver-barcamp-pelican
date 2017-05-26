@@ -19,9 +19,9 @@ there, an unconference is an event in which the attendees decide the topics of
 presentation and discussion the day of, rather than determining these topics
 ahead of time. This year, we tried a few new things.
 
-.. image:: /theme/img/BBC17_1.jpg
+.. image:: /theme/img/BBC17_img_2.jpg
     :scale: 100%
-    :align: center
+    :align: right
     :alt: Beaver BarCamp 17 Main Lobby
 
 Beaver BarCamp is usually more computer science oriented. This year, we wanted
