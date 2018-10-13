@@ -7,7 +7,7 @@ sys.path.append('.')
 from pelicanconf import *
 
 DELETE_OUTPUT_DIRECTORY = True
-SITEURL = os.getenv('PELICAN_SITE_URL', 'http://beaverbarcamp.org')
+SITEURL = ''
 
 # Following items are often useful when publishing
 
