@@ -29,6 +29,7 @@ help:
 	@echo '   make publish                     generate using production settings '
 	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
 	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh    '
+	@echo '   make stopserver                  stop local server                  '
 	@echo '   make rsync_copy                  copy the web site locally via rsync'
 	@echo '   ssh_upload                       upload the web site via SSH        '
 	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
@@ -57,6 +58,11 @@ serve: make_outputdir
 
 devserver: make_outputdir
 	$(BASEDIR)/develop_server.sh restart
+
+stopserver:
+	kill -9 `cat pelican.pid`
+	kill -9 `cat srv.pid`
+	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
