@@ -37,6 +37,9 @@ help:
 	@echo '   github                           upload the web site via gh-pages   '
 	@echo '                                                                       '
 
+make_outputdir:
+	if [ ! -d $(OUTPUTDIR) ]; then mkdir $(OUTPUTDIR); fi
+
 html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
 
@@ -44,15 +47,15 @@ $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
-	find $(OUTPUTDIR) -mindepth 1 -delete
+	if [ -d $(OUTPUTDIR) ]; then find $(OUTPUTDIR) -mindepth 1 -delete; fi
 
 regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
+serve: make_outputdir
 	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
 
-devserver:
+devserver: make_outputdir
 	$(BASEDIR)/develop_server.sh restart
 
 publish:
