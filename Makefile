@@ -65,7 +65,7 @@ ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_copy: publish
-	rsync -acq --delete-after --force --cvs-exclude $(OUTPUTDIR)/ $(RSYNC_TARGET_DIR)
+	rsync -acq --delete-after --exclude=.well-known/* --force --cvs-exclude $(OUTPUTDIR)/ $(RSYNC_TARGET_DIR)
 
 rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
