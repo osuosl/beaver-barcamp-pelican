@@ -31,8 +31,7 @@ What is a BarCamp?
       <p>Sessions often include demos, discussions or projects, fostering audience participation.</p>
   </div>
 
-
---------------
+--------------------------------------
 
 Beaver BarCamp is an informal conference where everyone is encouraged to
 participate and the sessions are not predetermined. It provides a collaborative
@@ -40,6 +39,17 @@ environment that promotes the sharing of ideas and projects and is a fun, casual
 event filled with discussions, demos and interaction with attendees. One of the
 best aspects of BarCamp is that attendees both provide the sessions and choose
 the schedule, allowing for greater flexibility and freedom.
+
+Introduction to Beaver BarCamp by Oregon State EECS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+  <div style="position:relative;padding-top:56.25%;">
+      <iframe src="https://www.youtube-nocookie.com/embed/2Bh9HyCo9Ik" frameborder="0"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="accelerometer; autoplay; encrypted-media;
+      gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
 What kind of sessions happen at Beaver BarCamp?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
