@@ -2,7 +2,7 @@ Schedule
 ########
 :slug: schedule
 
-(NOTE: each session is either 25 or 50 minutes long – please don’t run over)
+NOTE: Outdated - for reference only - this schedule was Beaver Barcamp 19 in 2019
 
 ================= =======================
 Time              Event
