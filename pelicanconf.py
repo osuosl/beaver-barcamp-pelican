@@ -3,7 +3,7 @@
 
 PATH = 'content'
 AUTHOR = u'OSU Open Source Lab'
-SITENAME = u'Beaver Barcamp 20'
+SITENAME = u'Beaver Barcamp 21'
 SITEURL = ''
 
 TIMEZONE = 'US/Pacific'
