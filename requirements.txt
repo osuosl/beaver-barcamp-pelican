@@ -4,7 +4,7 @@ feedgenerator==1.9.1
 importlib-metadata==4.8.3
 Jinja2==2.11.3
 Markdown==3.3.4
-MarkupSafe==1.1.1
+MarkupSafe==2.0.1
 pelican==4.7.1
 Pygments==2.7.4
 python-dateutil==2.8.1
