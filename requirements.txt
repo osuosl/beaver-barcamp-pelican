@@ -1,6 +1,6 @@
 blinker==1.4
 docutils==0.18.1
-feedgenerator==1.9.1
+feedgenerator==2.0.0
 importlib-metadata==4.8.3
 Jinja2==2.11.3
 Markdown==3.3.4
