@@ -1,5 +1,5 @@
 blinker==1.4
-colorama==0.4.4
+colorama==0.4.5
 commonmark==0.9.1
 docutils==0.18.1
 feedgenerator==2.0.0
