@@ -1,4 +1,4 @@
-blinker==1.4
+blinker==1.5
 colorama==0.4.5
 commonmark==0.9.1
 docutils==0.18.1
