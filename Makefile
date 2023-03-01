@@ -37,6 +37,10 @@ help:
 	@echo '   ftp_upload                       upload the web site via FTP        '
 	@echo '   github                           upload the web site via gh-pages   '
 	@echo '                                                                       '
+	@echo "OSL specific targets:"
+	@echo "lint     Run doc8 on all files"
+	@echo "lint_changed Run doc8 only on changed RST files from master branch"
+
 
 make_outputdir:
 	if [ ! -d $(OUTPUTDIR) ]; then mkdir $(OUTPUTDIR); fi
@@ -85,5 +89,13 @@ ftp_upload: publish
 github: publish
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
+
+lint:
+	@echo "Running doc8"
+	doc8
+
+lint_changed:
+	@echo "Running doc8 on changed files RST from master branch"
+	git diff master --stat --name-only | grep rst$$ | xargs -r doc8
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
