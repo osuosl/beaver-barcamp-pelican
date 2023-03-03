@@ -1,0 +1,20 @@
+Beaver BarCamp 2023
+===================
+:date: 2023-03-02
+:category: announcements
+:author: Lance Albertson
+:slug: bbc2023
+:summary: BBC2023
+
+Hello everyone,
+
+I'm pleased to announce that Beaver BarCamp is coming back on April 22, 2023! This year will be a little different for
+a variety of reasons:
+
+- No lunch or shirts will be provided
+- Limited drink and snack services `will` be provided
+
+These changes were made to reduce cost and complexity of our administrative staff of getting this event going. We feel
+it's more important to have an event than to coordinate food, t-shirts and fund raising.
+
+We hope to see you in a month and a half!
