@@ -11,7 +11,7 @@ Time              Event
 9:50am - 10:00am  Session Scheduling
 10:00am - 11:00am Session 1
 11:00am - 12:00pm Session 2
-12:00pm - 1:30pm  Lunch / Lightning Talks
+12:00pm - 1:30pm  Lunch (On your own)
 1:30pm - 2:00pm   Session 3 (30 minutes)
 2:00pm - 2:30pm   Session 4 (30 minutes)
 2:30pm - 3:20pm   Session 5

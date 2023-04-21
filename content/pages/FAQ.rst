@@ -14,19 +14,6 @@ How are topics chosen?
 Most session topics are scheduled the morning of the event and are provided by
 the attendees.
 
-What are Lightning Talks?
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lightning talks are five minute presentations on any topic. At barcamp,
-the first session will include lightning talks in the barcamp style;
-anyone can sign up beforehand and present on any topic for up to
-five minutes instead of the full hour. We will still have full-length
-barcamp talks available in other rooms at that time. We only accept .pdf
-presentations which can be emailed to lightning@beaverbarcamp.org or you can
-bring a flashdrive. We do not guarantee a presentation will work and reserve the
-right to ask presenters to speak without a visual aid or give the floor to
-another speaker.
-
 Who should present?
 ~~~~~~~~~~~~~~~~~~~
 
@@ -60,7 +47,7 @@ RSVP is not required, but we would love if you registered for the event on
 `EventBrite`_. This helps us plan for enough food and accommodate dietary
 restrictions.
 
-.. _EventBrite: https://beaverbarcamp.eventbrite.com
+.. _EventBrite: https://beaverbarcamp2023.eventbrite.com
 
 
 Who should I contact to receive accommodations related to a disability?
@@ -79,8 +66,9 @@ to access.
 Are food and drinks provided?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes, there will be continental breakfast, lunch and afternoon snack.
-
+We will provide cold/hot water, coffee and a selection of teas throughout the day. In addition, we will have a limited
+amount of snacks. We will not be providing lunch however there are numerous food vendors near Kelly Engineering along
+Monroe Ave.
 
 Where do I park?
 ~~~~~~~~~~~~~~~~
