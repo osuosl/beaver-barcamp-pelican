@@ -45,7 +45,7 @@ interest, so watch the board. Similarly, we might combine two similar topics
 into one session, or split a session into two.
 
 Always check the board before going to a session to see if the time or room
-has changed. You can also check the schedule online here: http://goo.gl/uyaAr
+has changed. You can also check the schedule online here: https://osl.io/bbcsessions
 
 General Rules of conduct
 ------------------------
