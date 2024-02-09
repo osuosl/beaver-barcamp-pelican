@@ -43,11 +43,10 @@ camera.
 Do I Need To RSVP?
 ~~~~~~~~~~~~~~~~~~
 
-RSVP is not required, but we would love if you registered for the event on
-`EventBrite`_. This helps us plan for enough food and accommodate dietary
-restrictions.
+RSVP is not required, but we would love if you registered for the event on a `Google Form`_. This helps us plan for
+enough food and accommodate dietary restrictions.
 
-.. _EventBrite: https://beaverbarcamp2023.eventbrite.com
+.. _Google Form: https://osl.io/regist
 
 
 Who should I contact to receive accommodations related to a disability?
