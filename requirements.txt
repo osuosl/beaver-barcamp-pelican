@@ -1,5 +1,5 @@
 anyio==4.6.2.post1
-blinker==1.8.2
+blinker==1.9.0
 colorama==0.4.6
 commonmark==0.9.1
 docutils==0.21.2
