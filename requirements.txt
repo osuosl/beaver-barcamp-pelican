@@ -1,4 +1,4 @@
-anyio==4.6.2.post1
+anyio==4.7.0
 blinker==1.9.0
 colorama==0.4.6
 commonmark==0.9.1
