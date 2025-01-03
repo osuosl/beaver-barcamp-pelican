@@ -72,10 +72,8 @@ Monroe Ave.
 Where do I park?
 ~~~~~~~~~~~~~~~~
 
-Free parking is widely available on campus on Saturdays, with the
-exception of reserved and metered stalls. There is a large parking lot
-to the north of Kelly Engineering that should have enough room for
-everyone. A detailed map can be found on the `About page`_.
+Free parking is widely available on campus on Saturdays, with the exception of reserved and metered stalls. A detailed
+map can be found on the `About page`_.
 
 .. _About page: .../pages/about.html
 
