@@ -13,7 +13,7 @@ markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
 ordered-set==4.1.0
-pelican==4.10.2
+pelican==4.11.0.post0
 Pygments==2.19.2
 python-dateutil==2.9.0.post0
 pytz==2025.2
