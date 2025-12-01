@@ -2,7 +2,7 @@ anyio==4.12.0
 blinker==1.9.0
 colorama==0.4.6
 commonmark==0.9.1
-docutils==0.21.2
+docutils==0.22.3
 doc8==2.0.0
 feedgenerator==2.2.1
 idna==3.11
