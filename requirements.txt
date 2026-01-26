@@ -20,7 +20,7 @@ pydantic_core==2.41.5
 Pygments==2.19.2
 python-dateutil==2.9.0.post0
 pytz==2025.2
-rich==14.2.0
+rich==14.3.1
 rstcheck==6.2.5
 rstcheck-core==1.2.2
 shellingham==1.5.4
