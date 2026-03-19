@@ -91,5 +91,8 @@ Does BarCamp have something to do with bars and alcohol?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 No, it doesn't. It's actually a hacker reference to "FooBar," which is typically used as a placeholder name when
-describing something in software code. BarCamp arose as an open-to-the-public alternative to Foo Camp, which is an
-invitation-only conference.
+describing something in software code. `BarCamp`_ arose as an open-to-the-public alternative to `Foo Camp`_, which is
+an invitation-only conference.
+
+.. _BarCamp: https://en.wikipedia.org/wiki/BarCamp
+.. _Foo Camp: https://en.wikipedia.org/wiki/Foo_Camp
