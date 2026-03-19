@@ -66,8 +66,8 @@ Are food and drinks provided?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We will provide cold/hot water, coffee and a selection of teas throughout the day. In addition, we will have a limited
-amount of snacks. We will not be providing lunch however there are numerous food vendors near Kelly Engineering along
-Monroe Ave.
+amount of snacks. We will not be providing lunch; however, there are numerous food vendors near Kelley Engineering
+Center along Monroe Ave.
 
 Where do I park?
 ~~~~~~~~~~~~~~~~
