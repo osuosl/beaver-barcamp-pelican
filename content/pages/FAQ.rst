@@ -11,8 +11,7 @@ Everyone -- Beaver BarCamp is open to the community and is free of charge.
 How are topics chosen?
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Most session topics are scheduled the morning of the event and are provided by
-the attendees.
+Attendees choose their own topics to present. Presenters add their topics to the schedule the morning of the event.
 
 Who should present?
 ~~~~~~~~~~~~~~~~~~~
