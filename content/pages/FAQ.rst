@@ -13,6 +13,7 @@ How are topics chosen?
 
 Attendees choose their own topics to present. Presenters add their topics to the schedule the morning of the event.
 
+
 Who should present?
 ~~~~~~~~~~~~~~~~~~~
 
@@ -67,6 +68,7 @@ Are food and drinks provided?
 We will provide cold/hot water, coffee and a selection of teas throughout the day. In addition, we will have a limited
 amount of snacks. We will not be providing lunch; however, there are numerous food vendors near Kelley Engineering
 Center along Monroe Ave.
+
 
 Where do I park?
 ~~~~~~~~~~~~~~~~
