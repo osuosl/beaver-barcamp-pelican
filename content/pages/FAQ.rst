@@ -18,8 +18,8 @@ Who should present?
 ~~~~~~~~~~~~~~~~~~~
 
 We welcome presentations of all kinds, and expertise is not required. Come
-prepared to share something you are passionate about, whether its your job,
-hobby or interests. And formal Powerpoint presentations are not necessary: lead
+prepared to share something you are passionate about, whether it's your job,
+hobby, or interests. Formal Powerpoint presentations are not necessary: lead
 a discussion, demo a project, play a game, or teach a skill. One of the best
 aspects of BarCamp is that attendees both provide the sessions and choose the
 schedule, allowing for greater flexibility and fun.
@@ -40,7 +40,7 @@ device (Wi-Fi is provided), notebook and pen, reusable water bottle, and a
 camera.
 
 
-Do I Need To RSVP?
+Do I need to RSVP?
 ~~~~~~~~~~~~~~~~~~
 
 RSVP is not required, but we would love if you registered for the event on a `Google Form`_. This helps us plan for
@@ -83,14 +83,13 @@ What will the session topics be?
 
 At Beaver BarCamp, the majority of sessions are not prearranged. Attendees at
 each BarCamp propose their own session ideas on the day of the event, and the
-schedules are updated throughout  the day to make sure the most popular sessions
+schedules are updated throughout the day to make sure the most popular sessions
 get the largest rooms.
 
 
 Does BarCamp have something to do with bars and alcohol?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-No, it doesn't. Its actually a hacker reference to FooBar which is typically
-used as a placeholder name when describing something in software code. BarCamp
-arose as an open to the public alternative to Foo Camp, which is an
+No, it doesn't. It's actually a hacker reference to "FooBar," which is typically used as a placeholder name when
+describing something in software code. BarCamp arose as an open-to-the-public alternative to Foo Camp, which is an
 invitation-only conference.
