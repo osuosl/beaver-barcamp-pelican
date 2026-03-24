@@ -46,7 +46,7 @@ Do I need to RSVP?
 RSVP is not required, but we would love if you registered for the event on our `registration form`_. This helps us plan for
 enough food and accommodate dietary restrictions.
 
-.. _registration form: https://osl.io/regist
+.. _registration form: https://osl.io/barcamp2026
 
 
 Who should I contact to receive accommodations related to a disability?
