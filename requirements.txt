@@ -14,7 +14,7 @@ markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
 ordered-set==4.1.0
-pelican==4.10.2
+pelican==4.12.0
 pydantic==2.13.3
 pydantic_core==2.46.3
 Pygments==2.20.0
