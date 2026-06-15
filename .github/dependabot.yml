@@ -5,3 +5,24 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    # Cap concurrent PRs so grouped updates don't pile up.
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+    commit-message:
+      prefix: pip
+    ignore:
+      # pydantic-core is a transitive dep pinned to an exact version by
+      # pydantic; bumping it alone breaks resolution. Let pydantic carry it.
+      - dependency-name: pydantic-core
+    groups:
+      # Bundle all patch/minor bumps into a single PR.
+      python-dependencies:
+        update-types:
+          - minor
+          - patch
+      # Keep major bumps grouped but separate, since they may
+      # contain breaking changes that need a closer look.
+      python-dependencies-major:
+        update-types:
+          - major
