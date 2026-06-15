@@ -11,10 +11,6 @@ updates:
       - dependencies
     commit-message:
       prefix: pip
-    ignore:
-      # pydantic-core is a transitive dep pinned to an exact version by
-      # pydantic; bumping it alone breaks resolution. Let pydantic carry it.
-      - dependency-name: pydantic-core
     groups:
       # Bundle all patch/minor bumps into a single PR.
       python-dependencies:
