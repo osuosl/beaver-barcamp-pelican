@@ -1,7 +1,7 @@
 annotated-types==0.7.0
-anyio==4.14.0
+anyio==4.14.1
 blinker==1.9.0
-click==8.4.1
+click==8.4.2
 colorama==0.4.6
 commonmark==0.9.2
 docutils==0.23
