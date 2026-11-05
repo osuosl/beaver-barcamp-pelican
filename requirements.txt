@@ -16,7 +16,7 @@ mdurl==0.1.2
 ordered-set==4.1.0
 pelican==4.12.0
 pydantic==2.14.2
-python-dateutil==3.0.0
+python-dateutil==4.0.0
 pytz==2026.6
 rich==15.0.0
 rstcheck==6.3.0
